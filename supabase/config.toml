@@ -1,0 +1,7 @@
+project_id = "xyjuvlagrpmbqvokpzll"
+
+[functions.budget-alert-notification]
+verify_jwt = false
+
+[functions.ai-prioritize]
+verify_jwt = false

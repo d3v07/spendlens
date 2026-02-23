@@ -1,0 +1,1822 @@
+date,service,cost,usage,unit,region,team,project,environment,resource_id
+2025-12-26,EC2,109.728,29.83,Hours,us-east-1,ml,ml-pipeline,development,i-657927
+2025-12-26,EC2,47.9385,17.45,Hours,us-west-2,ml,analytics,production,i-469700
+2025-12-26,EC2,42.9094,50.68,Hours,us-west-2,frontend,mobile-api,development,i-221059
+2025-12-26,EC2,99.7181,69.2,Hours,us-east-1,frontend,mobile-api,production,i-970358
+2025-12-26,Lambda,13.6608,70.59,Requests,us-east-1,frontend,platform,staging,func-107278
+2025-12-26,Lambda,24.9926,81.75,Requests,ap-southeast-1,data,platform,development,func-816907
+2025-12-26,Lambda,23.1955,7.53,Requests,eu-west-1,infra,ml-pipeline,development,func-672219
+2025-12-26,Lambda,13.0939,36.68,Requests,us-west-2,infra,ml-pipeline,production,func-355929
+2025-12-26,S3,19.4325,71.25,GB-Month,us-west-2,backend,analytics,development,res-993847
+2025-12-26,S3,29.118,58.18,GB-Month,us-west-2,frontend,ml-pipeline,production,res-495724
+2025-12-26,S3,17.3315,84.76,GB-Month,ap-southeast-1,data,analytics,production,res-392546
+2025-12-26,S3,21.0742,20.9,GB-Month,ap-southeast-1,ml,ml-pipeline,production,res-827599
+2025-12-26,RDS,68.5039,74.32,Hours,us-east-1,backend,mobile-api,production,db-735310
+2025-12-26,RDS,120.981,8.74,Hours,ap-southeast-1,data,mobile-api,development,db-744181
+2025-12-26,RDS,41.4496,30.88,Hours,us-east-1,frontend,ml-pipeline,staging,db-146298
+2025-12-26,RDS,86.9329,2.1,Hours,ap-southeast-1,ml,platform,staging,db-466835
+2025-12-26,RDS,103.0805,83.03,Hours,ap-southeast-1,frontend,mobile-api,staging,db-299119
+2025-12-26,DynamoDB,21.3316,9.21,WCU-Hours,eu-west-1,frontend,mobile-api,development,res-125848
+2025-12-26,DynamoDB,22.622,19.66,WCU-Hours,us-west-2,data,analytics,development,res-579279
+2025-12-26,DynamoDB,18.7274,94.63,WCU-Hours,us-east-1,data,web-app,production,res-899998
+2025-12-26,DynamoDB,46.9753,18.35,WCU-Hours,us-west-2,infra,analytics,development,res-324804
+2025-12-26,DynamoDB,21.4958,8.47,WCU-Hours,ap-southeast-1,data,mobile-api,staging,res-678472
+2025-12-26,CloudWatch,14.3113,29.55,Metrics,us-east-1,infra,platform,production,res-233534
+2025-12-26,CloudWatch,15.0919,24.72,Metrics,us-east-1,data,web-app,development,res-538651
+2025-12-26,CloudWatch,8.7649,1.29,Metrics,ap-southeast-1,data,analytics,staging,res-546531
+2025-12-26,CloudFront,33.1187,17.63,GB,us-west-2,data,ml-pipeline,staging,res-604376
+2025-12-26,CloudFront,12.0544,20.46,GB,us-west-2,data,mobile-api,development,res-855013
+2025-12-26,CloudFront,22.3584,7.01,GB,eu-west-1,frontend,ml-pipeline,production,res-301307
+2025-12-26,EBS,6.7801,14.14,GB-Month,ap-southeast-1,ml,analytics,development,res-228831
+2025-12-26,EBS,16.7012,67.41,GB-Month,ap-southeast-1,backend,analytics,staging,res-931811
+2025-12-26,EBS,28.994,19.43,GB-Month,us-west-2,ml,ml-pipeline,development,res-759700
+2025-12-26,EBS,29.2921,83.55,GB-Month,eu-west-1,infra,analytics,production,res-763347
+2025-12-26,EBS,20.216,64.77,GB-Month,us-west-2,backend,ml-pipeline,staging,res-578902
+2025-12-26,EKS,138.4161,38.45,Hours,eu-west-1,infra,web-app,staging,cluster-380580
+2025-12-26,EKS,80.9185,62.33,Hours,us-west-2,ml,analytics,production,cluster-414315
+2025-12-26,EKS,129.7006,22.4,Hours,ap-southeast-1,infra,web-app,development,cluster-659226
+2025-12-26,EKS,134.72,55.07,Hours,us-east-1,frontend,platform,production,cluster-996614
+2025-12-26,ElastiCache,76.0031,45.89,Hours,us-east-1,data,platform,staging,cache-935091
+2025-12-26,ElastiCache,88.7173,61.28,Hours,us-west-2,backend,mobile-api,development,cache-235216
+2025-12-26,ElastiCache,41.1275,83.6,Hours,us-west-2,ml,analytics,staging,cache-264737
+2025-12-26,Route53,3.5284,31.95,Queries,ap-southeast-1,ml,mobile-api,development,res-526328
+2025-12-26,Route53,6.8955,46.78,Queries,ap-southeast-1,infra,analytics,production,res-568075
+2025-12-26,Route53,4.7331,35.91,Queries,ap-southeast-1,infra,mobile-api,staging,res-249132
+2025-12-26,Route53,1.7311,97.52,Queries,us-west-2,data,mobile-api,staging,res-770674
+2025-12-26,SNS,1.6093,38.04,Requests,eu-west-1,frontend,analytics,staging,res-174156
+2025-12-26,SNS,2.6593,25.25,Requests,ap-southeast-1,backend,analytics,development,res-451612
+2025-12-26,SNS,1.1702,36.46,Requests,us-east-1,data,analytics,staging,res-909977
+2025-12-26,SNS,1.0385,57.6,Requests,eu-west-1,ml,ml-pipeline,staging,res-801026
+2025-12-26,SNS,1.9702,47.36,Requests,ap-southeast-1,frontend,platform,development,res-630633
+2025-12-26,SQS,1.1931,55.43,Requests,us-west-2,infra,analytics,development,res-806390
+2025-12-26,SQS,2.8629,31.65,Requests,eu-west-1,backend,analytics,staging,res-379258
+2025-12-26,SQS,5.4311,9.71,Requests,us-east-1,backend,web-app,development,res-760788
+2025-12-26,SQS,3.0564,38.16,Requests,ap-southeast-1,frontend,web-app,staging,res-390262
+2025-12-26,API Gateway,21.8661,18.93,Requests,eu-west-1,infra,mobile-api,staging,res-986193
+2025-12-26,API Gateway,16.4692,51.71,Requests,us-west-2,frontend,platform,development,res-231592
+2025-12-26,API Gateway,15.7969,52.64,Requests,ap-southeast-1,backend,mobile-api,staging,res-331971
+2025-12-26,Secrets Manager,4.2253,34.59,Secrets,ap-southeast-1,data,ml-pipeline,production,res-317331
+2025-12-26,Secrets Manager,8.2837,57.71,Secrets,ap-southeast-1,backend,ml-pipeline,development,res-393864
+2025-12-26,Secrets Manager,6.2164,91.07,Secrets,us-east-1,ml,web-app,development,res-803114
+2025-12-27,EC2,117.8033,96.97,Hours,us-west-2,frontend,mobile-api,staging,i-378184
+2025-12-27,EC2,38.2182,70.29,Hours,us-west-2,frontend,ml-pipeline,development,i-698868
+2025-12-27,EC2,124.1056,48.54,Hours,ap-southeast-1,backend,analytics,development,i-605065
+2025-12-27,EC2,104.6408,90.1,Hours,eu-west-1,frontend,analytics,staging,i-570571
+2025-12-27,Lambda,22.5322,3.06,Requests,us-east-1,frontend,ml-pipeline,production,func-159638
+2025-12-27,Lambda,11.4415,13.99,Requests,eu-west-1,ml,ml-pipeline,development,func-835394
+2025-12-27,Lambda,26.8624,14.63,Requests,us-west-2,backend,analytics,development,func-189160
+2025-12-27,S3,11.7378,79.04,GB-Month,us-west-2,ml,platform,development,res-664984
+2025-12-27,S3,29.2019,61.43,GB-Month,eu-west-1,data,platform,production,res-525782
+2025-12-27,S3,25.197,6.09,GB-Month,us-east-1,backend,mobile-api,development,res-516751
+2025-12-27,S3,23.2253,90.15,GB-Month,ap-southeast-1,backend,mobile-api,staging,res-897251
+2025-12-27,S3,34.2404,58.45,GB-Month,us-east-1,ml,ml-pipeline,production,res-449709
+2025-12-27,RDS,248.9918,99.13,Hours,us-east-1,infra,analytics,development,db-251565
+2025-12-27,RDS,78.5336,85.26,Hours,ap-southeast-1,ml,mobile-api,staging,db-911435
+2025-12-27,RDS,192.1442,34.05,Hours,eu-west-1,backend,ml-pipeline,staging,db-241430
+2025-12-27,DynamoDB,29.9951,62.24,WCU-Hours,us-west-2,frontend,platform,production,res-258519
+2025-12-27,DynamoDB,55.9527,56.1,WCU-Hours,us-west-2,ml,mobile-api,staging,res-330271
+2025-12-27,DynamoDB,46.8842,70.85,WCU-Hours,us-east-1,data,platform,production,res-932127
+2025-12-27,DynamoDB,33.2066,64.57,WCU-Hours,eu-west-1,data,ml-pipeline,development,res-621163
+2025-12-27,DynamoDB,26.4262,74.18,WCU-Hours,us-west-2,infra,analytics,staging,res-310493
+2025-12-27,CloudWatch,7.3542,80.08,Metrics,us-east-1,backend,platform,production,res-113246
+2025-12-27,CloudWatch,11.621,19.7,Metrics,us-east-1,data,analytics,development,res-889193
+2025-12-27,CloudWatch,6.3742,51.57,Metrics,ap-southeast-1,backend,mobile-api,staging,res-105615
+2025-12-27,CloudWatch,9.784,87.14,Metrics,eu-west-1,ml,analytics,production,res-651874
+2025-12-27,CloudFront,40.5697,7.36,GB,ap-southeast-1,infra,analytics,production,res-557337
+2025-12-27,CloudFront,33.4382,44.78,GB,ap-southeast-1,infra,web-app,development,res-419990
+2025-12-27,CloudFront,24.7861,90.13,GB,ap-southeast-1,data,ml-pipeline,production,res-463126
+2025-12-27,EBS,29.1139,42.56,GB-Month,us-east-1,backend,web-app,staging,res-606408
+2025-12-27,EBS,17.704,37.49,GB-Month,us-west-2,backend,platform,production,res-361818
+2025-12-27,EBS,26.1806,23.17,GB-Month,us-west-2,ml,web-app,development,res-251846
+2025-12-27,EBS,35.8688,36.48,GB-Month,eu-west-1,frontend,web-app,development,res-958891
+2025-12-27,EBS,30.4568,34.17,GB-Month,us-east-1,infra,analytics,production,res-429613
+2025-12-27,EKS,105.8756,10.5,Hours,eu-west-1,data,mobile-api,production,cluster-253916
+2025-12-27,EKS,129.3151,65.99,Hours,ap-southeast-1,frontend,ml-pipeline,development,cluster-190329
+2025-12-27,EKS,81.2523,99.57,Hours,us-east-1,ml,web-app,development,cluster-122335
+2025-12-27,EKS,68.6204,61.71,Hours,us-west-2,backend,ml-pipeline,production,cluster-270976
+2025-12-27,ElastiCache,74.5378,90.57,Hours,ap-southeast-1,frontend,web-app,staging,cache-660004
+2025-12-27,ElastiCache,73.5055,9.48,Hours,us-west-2,infra,web-app,development,cache-406384
+2025-12-27,ElastiCache,66.3832,70.17,Hours,us-east-1,backend,platform,staging,cache-655953
+2025-12-27,Route53,4.1438,90.45,Queries,us-east-1,frontend,platform,production,res-975019
+2025-12-27,Route53,5.6234,77.69,Queries,ap-southeast-1,frontend,platform,staging,res-976669
+2025-12-27,Route53,2.9815,22.42,Queries,us-east-1,data,platform,staging,res-676310
+2025-12-27,Route53,2.9495,80.29,Queries,eu-west-1,frontend,platform,development,res-567785
+2025-12-27,SNS,0.7877,61.11,Requests,us-west-2,frontend,web-app,staging,res-535056
+2025-12-27,SNS,1.6864,13.08,Requests,us-west-2,data,analytics,development,res-956655
+2025-12-27,SNS,0.9085,83.74,Requests,us-west-2,infra,platform,staging,res-756968
+2025-12-27,SNS,1.4624,34.78,Requests,us-west-2,ml,ml-pipeline,production,res-694964
+2025-12-27,SQS,2.1915,3.6,Requests,us-east-1,backend,ml-pipeline,production,res-674202
+2025-12-27,SQS,4.7269,91.56,Requests,eu-west-1,backend,web-app,development,res-873098
+2025-12-27,SQS,1.7447,3.79,Requests,eu-west-1,ml,ml-pipeline,production,res-616840
+2025-12-27,SQS,1.0759,10.05,Requests,us-east-1,ml,platform,development,res-537861
+2025-12-27,SQS,4.7471,57.45,Requests,eu-west-1,frontend,web-app,production,res-845797
+2025-12-27,API Gateway,2.1418,78.47,Requests,ap-southeast-1,frontend,web-app,development,res-298414
+2025-12-27,API Gateway,4.661,63.18,Requests,us-west-2,data,ml-pipeline,production,res-512935
+2025-12-27,API Gateway,5.7643,45.99,Requests,eu-west-1,frontend,ml-pipeline,production,res-644317
+2025-12-27,API Gateway,14.6991,65.38,Requests,us-east-1,ml,mobile-api,staging,res-508029
+2025-12-27,API Gateway,8.4735,94.77,Requests,ap-southeast-1,infra,web-app,staging,res-705256
+2025-12-27,Secrets Manager,8.7224,83.16,Secrets,ap-southeast-1,frontend,ml-pipeline,production,res-221561
+2025-12-27,Secrets Manager,10.068,57.43,Secrets,ap-southeast-1,backend,mobile-api,staging,res-555583
+2025-12-27,Secrets Manager,8.8908,1.37,Secrets,ap-southeast-1,infra,platform,staging,res-781555
+2025-12-28,EC2,85.0671,97.28,Hours,ap-southeast-1,frontend,analytics,development,i-514187
+2025-12-28,EC2,44.1333,2.62,Hours,ap-southeast-1,frontend,analytics,staging,i-741642
+2025-12-28,EC2,40.2545,63.15,Hours,eu-west-1,ml,web-app,development,i-489838
+2025-12-28,EC2,98.0052,66.67,Hours,eu-west-1,infra,ml-pipeline,development,i-552155
+2025-12-28,EC2,14.0265,42.64,Hours,eu-west-1,infra,analytics,development,i-861667
+2025-12-28,Lambda,12.1,85.98,Requests,eu-west-1,ml,mobile-api,staging,func-603675
+2025-12-28,Lambda,16.5949,63.44,Requests,ap-southeast-1,infra,mobile-api,production,func-851789
+2025-12-28,Lambda,11.2371,10.45,Requests,ap-southeast-1,infra,analytics,staging,func-695333
+2025-12-28,Lambda,2.1174,76.5,Requests,ap-southeast-1,data,mobile-api,staging,func-301296
+2025-12-28,Lambda,15.1914,68.77,Requests,eu-west-1,frontend,analytics,production,func-191811
+2025-12-28,S3,25.6021,39.01,GB-Month,eu-west-1,frontend,platform,production,res-578770
+2025-12-28,S3,19.7978,9.68,GB-Month,ap-southeast-1,infra,web-app,development,res-254943
+2025-12-28,S3,9.3355,90.21,GB-Month,ap-southeast-1,backend,mobile-api,staging,res-622670
+2025-12-28,S3,10.8002,45.8,GB-Month,ap-southeast-1,data,mobile-api,development,res-579509
+2025-12-28,S3,37.0205,32.4,GB-Month,us-west-2,ml,web-app,development,res-622382
+2025-12-28,RDS,42.3466,99.93,Hours,eu-west-1,backend,ml-pipeline,development,db-216073
+2025-12-28,RDS,60.2215,5.29,Hours,us-east-1,backend,ml-pipeline,development,db-715553
+2025-12-28,RDS,82.6917,57.41,Hours,ap-southeast-1,ml,ml-pipeline,development,db-119875
+2025-12-28,RDS,42.6561,48.05,Hours,us-east-1,ml,analytics,production,db-246278
+2025-12-28,DynamoDB,44.5775,49.98,WCU-Hours,us-east-1,ml,platform,staging,res-515965
+2025-12-28,DynamoDB,19.1772,85.32,WCU-Hours,us-east-1,data,mobile-api,production,res-982424
+2025-12-28,DynamoDB,58.4316,74.38,WCU-Hours,us-east-1,infra,web-app,development,res-869468
+2025-12-28,DynamoDB,69.069,48.78,WCU-Hours,us-east-1,ml,platform,production,res-271587
+2025-12-28,CloudWatch,8.7897,36.57,Metrics,us-east-1,ml,web-app,production,res-592750
+2025-12-28,CloudWatch,8.6909,26.99,Metrics,us-west-2,data,analytics,staging,res-210547
+2025-12-28,CloudWatch,8.2156,7.94,Metrics,eu-west-1,data,analytics,production,res-923978
+2025-12-28,CloudWatch,11.0119,61.35,Metrics,eu-west-1,backend,mobile-api,production,res-950774
+2025-12-28,CloudFront,20.5328,71.35,GB,eu-west-1,infra,mobile-api,staging,res-196080
+2025-12-28,CloudFront,21.6433,85.74,GB,eu-west-1,backend,platform,production,res-968028
+2025-12-28,CloudFront,48.831,47.93,GB,ap-southeast-1,frontend,analytics,development,res-121801
+2025-12-28,EBS,55.4507,40.95,GB-Month,eu-west-1,backend,mobile-api,development,res-603174
+2025-12-28,EBS,48.0616,18.02,GB-Month,ap-southeast-1,infra,mobile-api,staging,res-592263
+2025-12-28,EBS,24.6142,3.28,GB-Month,eu-west-1,ml,analytics,production,res-758177
+2025-12-28,EKS,59.5341,8.47,Hours,ap-southeast-1,infra,ml-pipeline,staging,cluster-159104
+2025-12-28,EKS,121.4285,72.31,Hours,ap-southeast-1,infra,ml-pipeline,staging,cluster-125730
+2025-12-28,EKS,131.8423,90.64,Hours,eu-west-1,data,web-app,staging,cluster-561396
+2025-12-28,EKS,57.9736,70.75,Hours,eu-west-1,data,analytics,production,cluster-869165
+2025-12-28,ElastiCache,25.7348,88.2,Hours,eu-west-1,infra,ml-pipeline,staging,cache-923902
+2025-12-28,ElastiCache,58.0068,51.61,Hours,eu-west-1,infra,analytics,development,cache-731318
+2025-12-28,ElastiCache,51.4396,62.76,Hours,us-west-2,frontend,web-app,development,cache-566575
+2025-12-28,Route53,2.3392,80.96,Queries,ap-southeast-1,backend,ml-pipeline,staging,res-885790
+2025-12-28,Route53,6.5949,35.84,Queries,eu-west-1,backend,ml-pipeline,production,res-138771
+2025-12-28,Route53,5.7508,92.71,Queries,us-west-2,ml,analytics,staging,res-859839
+2025-12-28,Route53,3.6993,74.9,Queries,us-west-2,ml,platform,staging,res-804101
+2025-12-28,SNS,3.4491,16.15,Requests,us-west-2,frontend,web-app,development,res-954481
+2025-12-28,SNS,4.6204,75.37,Requests,us-east-1,ml,analytics,development,res-486594
+2025-12-28,SNS,2.7948,73.25,Requests,us-east-1,backend,platform,staging,res-733496
+2025-12-28,SNS,4.4876,83.09,Requests,us-east-1,frontend,analytics,development,res-127947
+2025-12-28,SQS,4.9851,52.03,Requests,us-west-2,backend,ml-pipeline,production,res-469043
+2025-12-28,SQS,1.5495,2.24,Requests,ap-southeast-1,backend,platform,staging,res-746306
+2025-12-28,SQS,1.911,41.11,Requests,eu-west-1,data,mobile-api,production,res-101432
+2025-12-28,SQS,1.1273,58.55,Requests,eu-west-1,data,web-app,staging,res-319698
+2025-12-28,SQS,1.0771,47.38,Requests,ap-southeast-1,ml,web-app,development,res-893637
+2025-12-28,API Gateway,10.5443,22.36,Requests,ap-southeast-1,backend,ml-pipeline,staging,res-168237
+2025-12-28,API Gateway,11.2013,45.77,Requests,eu-west-1,data,web-app,production,res-509115
+2025-12-28,API Gateway,10.7163,19.99,Requests,eu-west-1,infra,ml-pipeline,development,res-530763
+2025-12-28,API Gateway,19.7044,36.12,Requests,ap-southeast-1,ml,platform,production,res-170374
+2025-12-28,Secrets Manager,3.4005,9.18,Secrets,eu-west-1,backend,mobile-api,development,res-328381
+2025-12-28,Secrets Manager,8.1308,25.1,Secrets,eu-west-1,ml,platform,staging,res-999287
+2025-12-28,Secrets Manager,8.3309,81.93,Secrets,ap-southeast-1,backend,ml-pipeline,staging,res-106067
+2025-12-29,EC2,16.9236,32.05,Hours,us-west-2,data,web-app,staging,i-833736
+2025-12-29,EC2,88.6334,3.87,Hours,us-west-2,backend,web-app,development,i-547193
+2025-12-29,EC2,124.8755,24.4,Hours,us-east-1,backend,web-app,staging,i-989712
+2025-12-29,Lambda,3.746,53.69,Requests,us-west-2,frontend,web-app,development,func-343969
+2025-12-29,Lambda,12.4557,66.77,Requests,eu-west-1,frontend,analytics,development,func-584781
+2025-12-29,Lambda,17.1957,72.32,Requests,us-east-1,infra,platform,production,func-502266
+2025-12-29,Lambda,4.3818,19.94,Requests,us-east-1,infra,mobile-api,staging,func-833324
+2025-12-29,Lambda,14.8781,28.04,Requests,us-west-2,backend,analytics,production,func-912229
+2025-12-29,S3,7.3133,87.7,GB-Month,eu-west-1,frontend,web-app,production,res-316191
+2025-12-29,S3,57.436,92.54,GB-Month,eu-west-1,frontend,ml-pipeline,staging,res-247372
+2025-12-29,S3,17.3626,75.69,GB-Month,ap-southeast-1,ml,web-app,staging,res-261561
+2025-12-29,RDS,137.5542,18.14,Hours,us-east-1,data,analytics,production,db-109158
+2025-12-29,RDS,71.802,71.87,Hours,us-west-2,backend,platform,staging,db-535886
+2025-12-29,RDS,84.0365,81.19,Hours,ap-southeast-1,infra,web-app,development,db-724268
+2025-12-29,RDS,128.7757,4.96,Hours,us-west-2,frontend,mobile-api,production,db-352444
+2025-12-29,RDS,61.7513,82.99,Hours,ap-southeast-1,infra,mobile-api,development,db-307269
+2025-12-29,DynamoDB,46.9311,86.97,WCU-Hours,eu-west-1,infra,web-app,development,res-439712
+2025-12-29,DynamoDB,72.1199,50.65,WCU-Hours,ap-southeast-1,backend,ml-pipeline,production,res-621065
+2025-12-29,DynamoDB,79.5961,2.9,WCU-Hours,us-east-1,ml,analytics,staging,res-769220
+2025-12-29,CloudWatch,8.1572,77.67,Metrics,ap-southeast-1,infra,mobile-api,development,res-801595
+2025-12-29,CloudWatch,1.7275,60.1,Metrics,eu-west-1,ml,mobile-api,development,res-959623
+2025-12-29,CloudWatch,11.5367,44.82,Metrics,ap-southeast-1,data,ml-pipeline,development,res-971373
+2025-12-29,CloudFront,12.3038,48.89,GB,ap-southeast-1,ml,mobile-api,development,res-431515
+2025-12-29,CloudFront,18.6226,10.93,GB,us-west-2,backend,ml-pipeline,production,res-741854
+2025-12-29,CloudFront,36.9673,40.45,GB,us-west-2,ml,analytics,production,res-934446
+2025-12-29,EBS,57.0404,70.65,GB-Month,eu-west-1,infra,web-app,development,res-523086
+2025-12-29,EBS,65.4445,82.37,GB-Month,ap-southeast-1,infra,mobile-api,production,res-671553
+2025-12-29,EBS,60.204,58.28,GB-Month,us-west-2,backend,platform,development,res-972058
+2025-12-29,EKS,80.2177,80.51,Hours,us-west-2,backend,web-app,development,cluster-497040
+2025-12-29,EKS,101.5471,29.41,Hours,eu-west-1,data,mobile-api,staging,cluster-720141
+2025-12-29,EKS,137.2218,10.15,Hours,eu-west-1,infra,analytics,production,cluster-873574
+2025-12-29,EKS,63.4116,87.62,Hours,eu-west-1,data,ml-pipeline,development,cluster-446913
+2025-12-29,ElastiCache,58.6707,61.07,Hours,eu-west-1,infra,analytics,staging,cache-569397
+2025-12-29,ElastiCache,67.2027,52.32,Hours,eu-west-1,infra,web-app,production,cache-403498
+2025-12-29,ElastiCache,50.0315,85.83,Hours,eu-west-1,ml,mobile-api,production,cache-390561
+2025-12-29,Route53,4.4541,73.86,Queries,us-west-2,infra,web-app,development,res-247226
+2025-12-29,Route53,1.5531,70.39,Queries,us-west-2,data,analytics,staging,res-575649
+2025-12-29,Route53,1.822,7.64,Queries,ap-southeast-1,infra,mobile-api,development,res-354452
+2025-12-29,Route53,2.2153,22.39,Queries,ap-southeast-1,infra,platform,development,res-387367
+2025-12-29,Route53,4.4938,30.85,Queries,us-east-1,ml,platform,production,res-101627
+2025-12-29,SNS,0.5232,96.15,Requests,ap-southeast-1,backend,analytics,production,res-649634
+2025-12-29,SNS,3.5809,11.22,Requests,ap-southeast-1,frontend,platform,development,res-379904
+2025-12-29,SNS,1.0421,35.54,Requests,ap-southeast-1,data,platform,development,res-903878
+2025-12-29,SNS,1.1431,62.76,Requests,us-west-2,infra,mobile-api,staging,res-645346
+2025-12-29,SNS,0.7185,9.53,Requests,us-east-1,ml,ml-pipeline,development,res-658470
+2025-12-29,SQS,3.0869,71.62,Requests,eu-west-1,infra,web-app,production,res-372143
+2025-12-29,SQS,4.6807,13.66,Requests,eu-west-1,data,web-app,production,res-293280
+2025-12-29,SQS,3.0795,2.38,Requests,us-east-1,backend,analytics,staging,res-559977
+2025-12-29,API Gateway,15.5799,74.6,Requests,us-east-1,infra,mobile-api,development,res-734296
+2025-12-29,API Gateway,7.4803,89.99,Requests,us-west-2,frontend,mobile-api,staging,res-190294
+2025-12-29,API Gateway,6.3682,89.84,Requests,eu-west-1,backend,ml-pipeline,production,res-235729
+2025-12-29,Secrets Manager,6.6468,4.38,Secrets,eu-west-1,ml,platform,production,res-921959
+2025-12-29,Secrets Manager,6.2685,13.79,Secrets,eu-west-1,infra,mobile-api,development,res-292644
+2025-12-29,Secrets Manager,9.8901,30.0,Secrets,ap-southeast-1,backend,ml-pipeline,production,res-822167
+2025-12-30,EC2,71.7001,29.54,Hours,us-west-2,backend,web-app,staging,i-637820
+2025-12-30,EC2,157.5824,36.36,Hours,us-east-1,backend,analytics,development,i-236622
+2025-12-30,EC2,155.3946,14.31,Hours,eu-west-1,ml,analytics,staging,i-535799
+2025-12-30,Lambda,23.3811,67.09,Requests,eu-west-1,ml,mobile-api,production,func-626322
+2025-12-30,Lambda,4.5694,23.21,Requests,us-east-1,frontend,web-app,development,func-398946
+2025-12-30,Lambda,16.8919,92.44,Requests,us-west-2,backend,platform,staging,func-562559
+2025-12-30,Lambda,23.0058,57.38,Requests,us-west-2,ml,analytics,development,func-476726
+2025-12-30,S3,34.9616,55.53,GB-Month,us-west-2,frontend,analytics,staging,res-256511
+2025-12-30,S3,31.2643,9.95,GB-Month,ap-southeast-1,frontend,analytics,production,res-653939
+2025-12-30,S3,35.2609,76.5,GB-Month,eu-west-1,data,web-app,development,res-747353
+2025-12-30,S3,43.9603,79.15,GB-Month,ap-southeast-1,ml,mobile-api,development,res-568488
+2025-12-30,RDS,117.9362,10.85,Hours,ap-southeast-1,ml,analytics,production,db-610113
+2025-12-30,RDS,127.4201,97.76,Hours,ap-southeast-1,infra,ml-pipeline,production,db-671207
+2025-12-30,RDS,78.5957,82.2,Hours,us-east-1,ml,web-app,development,db-248622
+2025-12-30,RDS,120.1241,99.61,Hours,us-east-1,data,analytics,development,db-186936
+2025-12-30,RDS,84.9873,24.98,Hours,ap-southeast-1,infra,platform,development,db-630854
+2025-12-30,DynamoDB,10.4193,8.66,WCU-Hours,ap-southeast-1,ml,ml-pipeline,staging,res-680864
+2025-12-30,DynamoDB,48.7315,89.55,WCU-Hours,us-west-2,infra,analytics,production,res-927788
+2025-12-30,DynamoDB,78.2224,20.94,WCU-Hours,eu-west-1,infra,platform,development,res-167095
+2025-12-30,CloudWatch,7.8092,4.05,Metrics,us-east-1,ml,ml-pipeline,staging,res-378946
+2025-12-30,CloudWatch,5.8445,40.87,Metrics,us-east-1,data,mobile-api,development,res-825489
+2025-12-30,CloudWatch,6.3757,30.58,Metrics,eu-west-1,ml,web-app,development,res-918689
+2025-12-30,CloudWatch,8.0271,11.72,Metrics,us-east-1,frontend,mobile-api,staging,res-589456
+2025-12-30,CloudWatch,8.6249,46.08,Metrics,ap-southeast-1,frontend,web-app,production,res-877428
+2025-12-30,CloudFront,29.3281,93.3,GB,ap-southeast-1,ml,web-app,staging,res-564795
+2025-12-30,CloudFront,27.4203,35.89,GB,us-west-2,infra,analytics,production,res-735485
+2025-12-30,CloudFront,30.9181,87.28,GB,eu-west-1,ml,analytics,production,res-609814
+2025-12-30,CloudFront,10.2085,99.71,GB,us-east-1,infra,ml-pipeline,development,res-729587
+2025-12-30,EBS,41.7457,90.14,GB-Month,eu-west-1,data,platform,staging,res-677573
+2025-12-30,EBS,33.8481,18.07,GB-Month,us-east-1,ml,web-app,development,res-686202
+2025-12-30,EBS,13.6683,99.14,GB-Month,eu-west-1,ml,platform,staging,res-678285
+2025-12-30,EKS,80.6137,52.44,Hours,us-east-1,infra,mobile-api,production,cluster-708655
+2025-12-30,EKS,104.5914,21.57,Hours,us-east-1,data,platform,production,cluster-272927
+2025-12-30,EKS,134.0243,28.15,Hours,eu-west-1,backend,platform,development,cluster-297506
+2025-12-30,EKS,142.281,32.23,Hours,us-west-2,ml,analytics,production,cluster-297962
+2025-12-30,ElastiCache,67.3204,3.37,Hours,us-west-2,data,analytics,production,cache-174047
+2025-12-30,ElastiCache,23.5426,51.44,Hours,eu-west-1,infra,analytics,staging,cache-834882
+2025-12-30,ElastiCache,21.7375,31.81,Hours,eu-west-1,ml,platform,staging,cache-182350
+2025-12-30,ElastiCache,38.0307,21.79,Hours,ap-southeast-1,ml,analytics,production,cache-623600
+2025-12-30,Route53,3.9546,22.72,Queries,eu-west-1,backend,ml-pipeline,staging,res-752975
+2025-12-30,Route53,3.9758,7.36,Queries,ap-southeast-1,backend,platform,production,res-143720
+2025-12-30,Route53,3.5575,68.45,Queries,eu-west-1,backend,mobile-api,staging,res-779642
+2025-12-30,Route53,3.1681,55.59,Queries,eu-west-1,ml,web-app,production,res-856422
+2025-12-30,Route53,3.2397,54.87,Queries,ap-southeast-1,backend,platform,development,res-785727
+2025-12-30,SNS,3.3974,82.14,Requests,eu-west-1,ml,analytics,staging,res-472157
+2025-12-30,SNS,1.336,16.85,Requests,eu-west-1,data,mobile-api,production,res-321602
+2025-12-30,SNS,0.4545,97.6,Requests,us-east-1,backend,mobile-api,production,res-875814
+2025-12-30,SNS,3.2521,80.83,Requests,us-east-1,ml,platform,development,res-922585
+2025-12-30,SNS,3.8004,75.15,Requests,ap-southeast-1,frontend,web-app,development,res-187101
+2025-12-30,SQS,1.1499,70.94,Requests,ap-southeast-1,frontend,web-app,production,res-969259
+2025-12-30,SQS,1.3538,71.82,Requests,us-west-2,frontend,analytics,production,res-286028
+2025-12-30,SQS,2.6888,39.93,Requests,us-west-2,frontend,mobile-api,production,res-727668
+2025-12-30,SQS,3.0549,10.44,Requests,us-east-1,data,ml-pipeline,production,res-467977
+2025-12-30,SQS,1.1609,67.31,Requests,us-west-2,data,ml-pipeline,development,res-748791
+2025-12-30,API Gateway,16.1428,42.8,Requests,eu-west-1,ml,platform,production,res-402924
+2025-12-30,API Gateway,11.4502,14.3,Requests,us-west-2,ml,web-app,production,res-918149
+2025-12-30,API Gateway,9.8844,78.92,Requests,eu-west-1,data,analytics,production,res-836936
+2025-12-30,API Gateway,2.9117,37.64,Requests,us-west-2,data,ml-pipeline,development,res-952135
+2025-12-30,Secrets Manager,2.2076,64.23,Secrets,us-east-1,infra,mobile-api,production,res-411087
+2025-12-30,Secrets Manager,2.5654,69.85,Secrets,eu-west-1,frontend,analytics,staging,res-400391
+2025-12-30,Secrets Manager,4.4604,71.5,Secrets,eu-west-1,infra,analytics,development,res-767936
+2025-12-30,Secrets Manager,6.7648,32.48,Secrets,eu-west-1,data,platform,production,res-652081
+2025-12-30,Secrets Manager,7.398,66.69,Secrets,eu-west-1,data,platform,staging,res-497746
+2025-12-31,EC2,83.3963,42.66,Hours,eu-west-1,ml,analytics,production,i-619893
+2025-12-31,EC2,65.58,77.73,Hours,us-west-2,ml,web-app,development,i-887630
+2025-12-31,EC2,57.3033,87.63,Hours,eu-west-1,ml,ml-pipeline,development,i-163676
+2025-12-31,EC2,83.6046,82.98,Hours,ap-southeast-1,data,ml-pipeline,production,i-673111
+2025-12-31,EC2,58.6239,86.41,Hours,ap-southeast-1,ml,platform,production,i-227267
+2025-12-31,Lambda,8.393,78.49,Requests,ap-southeast-1,frontend,mobile-api,staging,func-510004
+2025-12-31,Lambda,9.1821,20.72,Requests,us-east-1,backend,platform,development,func-980094
+2025-12-31,Lambda,18.4577,88.83,Requests,us-west-2,frontend,analytics,staging,func-906807
+2025-12-31,S3,20.7683,55.46,GB-Month,ap-southeast-1,data,platform,staging,res-603368
+2025-12-31,S3,18.04,80.63,GB-Month,ap-southeast-1,data,ml-pipeline,development,res-961824
+2025-12-31,S3,27.4777,48.23,GB-Month,us-east-1,ml,web-app,production,res-699279
+2025-12-31,RDS,71.745,99.67,Hours,ap-southeast-1,data,ml-pipeline,staging,db-564500
+2025-12-31,RDS,206.281,78.76,Hours,us-east-1,ml,ml-pipeline,production,db-497476
+2025-12-31,RDS,239.7613,62.78,Hours,us-west-2,frontend,analytics,development,db-762403
+2025-12-31,DynamoDB,43.4606,65.08,WCU-Hours,ap-southeast-1,ml,mobile-api,development,res-125430
+2025-12-31,DynamoDB,13.9079,84.55,WCU-Hours,us-east-1,data,platform,production,res-590813
+2025-12-31,DynamoDB,7.8947,4.82,WCU-Hours,ap-southeast-1,frontend,web-app,production,res-872312
+2025-12-31,DynamoDB,46.5113,71.64,WCU-Hours,eu-west-1,ml,ml-pipeline,production,res-484330
+2025-12-31,DynamoDB,51.6457,49.84,WCU-Hours,us-east-1,backend,ml-pipeline,development,res-417981
+2025-12-31,CloudWatch,5.892,14.2,Metrics,ap-southeast-1,data,analytics,staging,res-844933
+2025-12-31,CloudWatch,3.123,92.66,Metrics,us-west-2,frontend,ml-pipeline,production,res-810067
+2025-12-31,CloudWatch,5.912,20.35,Metrics,eu-west-1,frontend,web-app,production,res-331971
+2025-12-31,CloudFront,13.2822,44.85,GB,eu-west-1,ml,platform,production,res-608131
+2025-12-31,CloudFront,24.7024,22.17,GB,ap-southeast-1,backend,web-app,development,res-388419
+2025-12-31,CloudFront,28.4717,88.47,GB,ap-southeast-1,infra,mobile-api,production,res-701632
+2025-12-31,CloudFront,5.2575,44.52,GB,ap-southeast-1,backend,ml-pipeline,development,res-117369
+2025-12-31,CloudFront,23.4842,54.37,GB,us-east-1,data,web-app,production,res-737076
+2025-12-31,EBS,33.0257,61.21,GB-Month,us-west-2,frontend,analytics,staging,res-454129
+2025-12-31,EBS,17.5738,35.97,GB-Month,us-west-2,frontend,platform,production,res-406433
+2025-12-31,EBS,37.9524,27.86,GB-Month,us-west-2,frontend,ml-pipeline,development,res-508418
+2025-12-31,EBS,12.0184,98.86,GB-Month,ap-southeast-1,ml,web-app,staging,res-392882
+2025-12-31,EKS,62.0366,78.27,Hours,eu-west-1,data,ml-pipeline,production,cluster-561057
+2025-12-31,EKS,93.7477,99.04,Hours,eu-west-1,infra,ml-pipeline,development,cluster-106970
+2025-12-31,EKS,56.2631,52.87,Hours,ap-southeast-1,frontend,mobile-api,production,cluster-748574
+2025-12-31,EKS,108.433,64.43,Hours,ap-southeast-1,backend,platform,development,cluster-602066
+2025-12-31,EKS,76.3559,58.18,Hours,us-west-2,ml,mobile-api,staging,cluster-823622
+2025-12-31,ElastiCache,50.4389,86.67,Hours,ap-southeast-1,backend,analytics,production,cache-302955
+2025-12-31,ElastiCache,95.1307,56.96,Hours,us-east-1,ml,mobile-api,development,cache-311609
+2025-12-31,ElastiCache,64.5774,18.0,Hours,eu-west-1,ml,platform,staging,cache-811914
+2025-12-31,Route53,4.7575,42.27,Queries,us-east-1,ml,ml-pipeline,production,res-691479
+2025-12-31,Route53,2.2405,47.46,Queries,eu-west-1,backend,platform,staging,res-102574
+2025-12-31,Route53,5.0966,95.28,Queries,us-east-1,ml,platform,staging,res-754558
+2025-12-31,Route53,1.8647,99.26,Queries,eu-west-1,frontend,platform,production,res-272824
+2025-12-31,Route53,2.4501,3.05,Queries,us-east-1,infra,analytics,staging,res-321160
+2025-12-31,SNS,3.9131,22.38,Requests,eu-west-1,infra,platform,development,res-635732
+2025-12-31,SNS,0.5848,62.37,Requests,us-west-2,infra,analytics,development,res-782678
+2025-12-31,SNS,1.3144,76.96,Requests,ap-southeast-1,frontend,platform,production,res-575907
+2025-12-31,SNS,0.508,22.73,Requests,eu-west-1,data,analytics,development,res-965957
+2025-12-31,SQS,5.8595,31.0,Requests,us-east-1,ml,platform,development,res-817205
+2025-12-31,SQS,1.7132,79.18,Requests,us-west-2,infra,ml-pipeline,staging,res-358125
+2025-12-31,SQS,3.1102,47.01,Requests,eu-west-1,ml,ml-pipeline,development,res-935644
+2025-12-31,SQS,4.1286,33.0,Requests,us-east-1,frontend,web-app,production,res-723075
+2025-12-31,API Gateway,19.6171,16.38,Requests,ap-southeast-1,infra,ml-pipeline,production,res-170549
+2025-12-31,API Gateway,6.8473,22.69,Requests,us-west-2,infra,platform,staging,res-967629
+2025-12-31,API Gateway,4.717,98.62,Requests,us-west-2,backend,platform,production,res-590038
+2025-12-31,API Gateway,16.2473,70.53,Requests,eu-west-1,data,analytics,development,res-861852
+2025-12-31,Secrets Manager,5.9035,61.51,Secrets,us-east-1,data,analytics,development,res-117485
+2025-12-31,Secrets Manager,5.7001,19.79,Secrets,ap-southeast-1,ml,web-app,staging,res-674485
+2025-12-31,Secrets Manager,4.7225,20.49,Secrets,us-west-2,ml,analytics,production,res-633296
+2025-12-31,Secrets Manager,3.6309,73.98,Secrets,ap-southeast-1,backend,ml-pipeline,production,res-122310
+2025-12-31,Secrets Manager,4.9752,53.39,Secrets,us-west-2,data,platform,staging,res-863165
+2026-01-01,EC2,20.3901,95.22,Hours,us-east-1,data,platform,staging,i-670734
+2026-01-01,EC2,51.932,65.93,Hours,eu-west-1,ml,mobile-api,staging,i-934799
+2026-01-01,EC2,46.1286,76.17,Hours,us-west-2,ml,analytics,staging,i-409161
+2026-01-01,EC2,55.6768,83.4,Hours,ap-southeast-1,infra,web-app,development,i-665601
+2026-01-01,EC2,98.3288,95.83,Hours,eu-west-1,ml,mobile-api,production,i-740436
+2026-01-01,Lambda,4.5948,62.2,Requests,eu-west-1,backend,ml-pipeline,production,func-342063
+2026-01-01,Lambda,10.0818,64.29,Requests,ap-southeast-1,ml,analytics,development,func-882246
+2026-01-01,Lambda,6.3213,56.19,Requests,us-west-2,infra,mobile-api,development,func-857940
+2026-01-01,Lambda,13.3403,9.6,Requests,us-west-2,data,mobile-api,development,func-607689
+2026-01-01,Lambda,11.4672,31.13,Requests,us-east-1,ml,mobile-api,production,func-626663
+2026-01-01,S3,9.4154,28.5,GB-Month,us-east-1,frontend,ml-pipeline,production,res-883338
+2026-01-01,S3,12.123,92.14,GB-Month,ap-southeast-1,data,platform,development,res-295565
+2026-01-01,S3,15.3488,48.18,GB-Month,us-west-2,frontend,mobile-api,development,res-589134
+2026-01-01,S3,8.2135,42.61,GB-Month,us-east-1,ml,mobile-api,staging,res-814485
+2026-01-01,S3,8.7478,16.56,GB-Month,eu-west-1,data,analytics,staging,res-531091
+2026-01-01,RDS,77.7446,35.78,Hours,ap-southeast-1,backend,web-app,staging,db-215145
+2026-01-01,RDS,117.7031,87.27,Hours,ap-southeast-1,ml,mobile-api,staging,db-542572
+2026-01-01,RDS,70.6404,41.04,Hours,us-east-1,ml,web-app,development,db-298147
+2026-01-01,DynamoDB,73.4853,56.44,WCU-Hours,us-east-1,ml,analytics,development,res-515845
+2026-01-01,DynamoDB,7.9638,55.36,WCU-Hours,us-west-2,backend,web-app,production,res-993758
+2026-01-01,DynamoDB,54.9323,30.66,WCU-Hours,eu-west-1,backend,ml-pipeline,staging,res-830293
+2026-01-01,DynamoDB,21.7272,73.64,WCU-Hours,ap-southeast-1,data,ml-pipeline,production,res-544579
+2026-01-01,CloudWatch,1.5944,97.99,Metrics,us-west-2,infra,analytics,staging,res-661962
+2026-01-01,CloudWatch,2.4056,28.78,Metrics,ap-southeast-1,data,ml-pipeline,development,res-938250
+2026-01-01,CloudWatch,8.9523,8.57,Metrics,us-west-2,data,platform,development,res-125376
+2026-01-01,CloudWatch,5.2292,95.27,Metrics,eu-west-1,ml,mobile-api,development,res-795589
+2026-01-01,CloudFront,19.3919,19.04,GB,us-east-1,ml,platform,production,res-396362
+2026-01-01,CloudFront,25.9781,9.1,GB,us-east-1,backend,web-app,development,res-551504
+2026-01-01,CloudFront,27.5607,13.91,GB,ap-southeast-1,ml,ml-pipeline,development,res-800312
+2026-01-01,CloudFront,24.4106,72.84,GB,ap-southeast-1,data,analytics,staging,res-335924
+2026-01-01,EBS,46.8125,27.67,GB-Month,us-east-1,ml,web-app,production,res-902152
+2026-01-01,EBS,22.1911,47.81,GB-Month,eu-west-1,data,ml-pipeline,development,res-859815
+2026-01-01,EBS,7.5801,33.57,GB-Month,us-west-2,ml,web-app,staging,res-102908
+2026-01-01,EBS,35.2301,2.86,GB-Month,ap-southeast-1,backend,analytics,staging,res-365675
+2026-01-01,EKS,75.7374,56.37,Hours,ap-southeast-1,ml,analytics,production,cluster-875024
+2026-01-01,EKS,49.2073,89.52,Hours,ap-southeast-1,data,web-app,development,cluster-835771
+2026-01-01,EKS,50.1084,13.8,Hours,eu-west-1,frontend,web-app,staging,cluster-124041
+2026-01-01,EKS,97.3791,74.7,Hours,eu-west-1,backend,ml-pipeline,development,cluster-225169
+2026-01-01,EKS,100.9516,78.36,Hours,us-west-2,backend,analytics,development,cluster-218872
+2026-01-01,ElastiCache,23.7526,2.19,Hours,us-west-2,frontend,ml-pipeline,development,cache-287151
+2026-01-01,ElastiCache,37.1673,69.74,Hours,us-west-2,ml,analytics,staging,cache-192856
+2026-01-01,ElastiCache,31.2789,99.29,Hours,eu-west-1,ml,web-app,development,cache-747457
+2026-01-01,ElastiCache,10.0083,83.61,Hours,eu-west-1,infra,mobile-api,production,cache-773178
+2026-01-01,ElastiCache,46.7707,98.47,Hours,eu-west-1,data,mobile-api,staging,cache-899737
+2026-01-01,Route53,4.2033,47.85,Queries,us-west-2,frontend,platform,development,res-252741
+2026-01-01,Route53,1.4621,58.47,Queries,ap-southeast-1,backend,platform,development,res-377695
+2026-01-01,Route53,2.0411,17.73,Queries,us-east-1,infra,platform,production,res-560086
+2026-01-01,Route53,2.4087,25.37,Queries,us-east-1,frontend,mobile-api,development,res-855245
+2026-01-01,SNS,1.9281,86.56,Requests,ap-southeast-1,backend,analytics,staging,res-618356
+2026-01-01,SNS,2.7113,50.93,Requests,ap-southeast-1,backend,platform,staging,res-920142
+2026-01-01,SNS,1.6703,3.81,Requests,eu-west-1,ml,web-app,staging,res-819883
+2026-01-01,SNS,1.8702,31.78,Requests,ap-southeast-1,infra,analytics,production,res-111436
+2026-01-01,SQS,4.7108,21.53,Requests,eu-west-1,ml,analytics,development,res-584199
+2026-01-01,SQS,3.5571,53.41,Requests,ap-southeast-1,ml,platform,staging,res-939169
+2026-01-01,SQS,5.9924,94.01,Requests,us-east-1,backend,analytics,production,res-331712
+2026-01-01,SQS,5.6324,78.61,Requests,eu-west-1,backend,mobile-api,staging,res-940170
+2026-01-01,API Gateway,5.9668,12.27,Requests,eu-west-1,frontend,analytics,production,res-383934
+2026-01-01,API Gateway,2.5218,91.19,Requests,us-east-1,ml,platform,production,res-524020
+2026-01-01,API Gateway,11.2608,81.23,Requests,ap-southeast-1,ml,web-app,staging,res-102909
+2026-01-01,API Gateway,2.598,56.41,Requests,us-east-1,ml,web-app,production,res-187965
+2026-01-01,API Gateway,13.2711,53.05,Requests,us-west-2,data,platform,production,res-417768
+2026-01-01,Secrets Manager,1.6867,65.03,Secrets,eu-west-1,ml,analytics,staging,res-567300
+2026-01-01,Secrets Manager,2.9992,18.97,Secrets,us-east-1,infra,platform,staging,res-908099
+2026-01-01,Secrets Manager,5.0811,40.26,Secrets,us-east-1,infra,web-app,production,res-211800
+2026-01-01,Secrets Manager,4.819,10.86,Secrets,us-east-1,ml,ml-pipeline,staging,res-337238
+2026-01-01,Secrets Manager,3.1143,78.99,Secrets,us-west-2,backend,platform,staging,res-319233
+2026-01-02,EC2,109.9728,73.92,Hours,us-west-2,ml,platform,staging,i-983856
+2026-01-02,EC2,84.7367,78.59,Hours,ap-southeast-1,backend,analytics,staging,i-516230
+2026-01-02,EC2,118.3501,28.05,Hours,us-east-1,backend,mobile-api,production,i-387581
+2026-01-02,EC2,68.6487,23.97,Hours,us-east-1,backend,ml-pipeline,production,i-126791
+2026-01-02,Lambda,23.4476,49.4,Requests,ap-southeast-1,frontend,ml-pipeline,production,func-736908
+2026-01-02,Lambda,15.0039,59.1,Requests,us-west-2,infra,web-app,development,func-973409
+2026-01-02,Lambda,6.1889,1.03,Requests,ap-southeast-1,backend,platform,production,func-532634
+2026-01-02,Lambda,9.5881,67.99,Requests,us-west-2,frontend,platform,development,func-741349
+2026-01-02,S3,21.0636,72.97,GB-Month,us-west-2,infra,web-app,production,res-447644
+2026-01-02,S3,14.3822,15.38,GB-Month,us-west-2,ml,platform,development,res-810241
+2026-01-02,S3,48.8678,63.79,GB-Month,us-east-1,data,analytics,development,res-593853
+2026-01-02,S3,31.0009,70.94,GB-Month,ap-southeast-1,infra,platform,staging,res-293729
+2026-01-02,RDS,70.6976,27.48,Hours,us-west-2,frontend,analytics,development,db-891472
+2026-01-02,RDS,197.8488,61.98,Hours,eu-west-1,frontend,ml-pipeline,staging,db-797318
+2026-01-02,RDS,145.6495,96.78,Hours,us-west-2,backend,analytics,staging,db-123764
+2026-01-02,RDS,84.7195,23.46,Hours,us-east-1,infra,mobile-api,staging,db-867136
+2026-01-02,DynamoDB,69.6014,9.18,WCU-Hours,us-west-2,data,mobile-api,staging,res-310056
+2026-01-02,DynamoDB,98.6002,52.64,WCU-Hours,us-west-2,frontend,web-app,production,res-531820
+2026-01-02,DynamoDB,22.8305,18.35,WCU-Hours,eu-west-1,frontend,mobile-api,staging,res-366880
+2026-01-02,CloudWatch,7.2631,89.48,Metrics,eu-west-1,frontend,platform,development,res-240915
+2026-01-02,CloudWatch,9.3985,29.44,Metrics,us-east-1,ml,ml-pipeline,production,res-903625
+2026-01-02,CloudWatch,9.0789,48.72,Metrics,ap-southeast-1,data,ml-pipeline,development,res-992502
+2026-01-02,CloudWatch,2.8568,95.58,Metrics,us-east-1,backend,mobile-api,staging,res-368566
+2026-01-02,CloudWatch,9.0472,54.2,Metrics,eu-west-1,ml,web-app,development,res-574574
+2026-01-02,CloudFront,8.3667,76.19,GB,eu-west-1,infra,mobile-api,development,res-369128
+2026-01-02,CloudFront,17.3586,46.45,GB,eu-west-1,data,web-app,development,res-118346
+2026-01-02,CloudFront,10.9533,64.44,GB,ap-southeast-1,ml,mobile-api,development,res-821549
+2026-01-02,CloudFront,17.0363,4.15,GB,ap-southeast-1,frontend,ml-pipeline,production,res-122716
+2026-01-02,EBS,15.7203,39.05,GB-Month,ap-southeast-1,backend,analytics,development,res-322106
+2026-01-02,EBS,20.1633,13.67,GB-Month,ap-southeast-1,infra,analytics,production,res-475070
+2026-01-02,EBS,10.7539,93.64,GB-Month,ap-southeast-1,infra,ml-pipeline,production,res-467314
+2026-01-02,EBS,31.4412,31.87,GB-Month,us-west-2,data,analytics,staging,res-539552
+2026-01-02,EBS,29.1836,91.46,GB-Month,eu-west-1,frontend,mobile-api,production,res-178424
+2026-01-02,EKS,118.3413,77.8,Hours,us-east-1,backend,web-app,development,cluster-618362
+2026-01-02,EKS,109.0435,41.69,Hours,us-east-1,backend,analytics,production,cluster-567206
+2026-01-02,EKS,42.7923,9.58,Hours,us-east-1,infra,ml-pipeline,staging,cluster-875018
+2026-01-02,EKS,101.561,83.02,Hours,us-west-2,data,ml-pipeline,production,cluster-235164
+2026-01-02,EKS,117.2512,13.37,Hours,us-west-2,ml,analytics,staging,cluster-430678
+2026-01-02,ElastiCache,25.8157,77.07,Hours,ap-southeast-1,data,platform,production,cache-203396
+2026-01-02,ElastiCache,48.7846,50.85,Hours,eu-west-1,backend,mobile-api,staging,cache-884134
+2026-01-02,ElastiCache,51.3821,94.53,Hours,us-east-1,data,analytics,production,cache-685156
+2026-01-02,ElastiCache,29.3126,32.47,Hours,eu-west-1,data,analytics,production,cache-311930
+2026-01-02,Route53,9.954,93.35,Queries,ap-southeast-1,infra,analytics,development,res-406371
+2026-01-02,Route53,6.4349,31.81,Queries,us-west-2,backend,ml-pipeline,production,res-274262
+2026-01-02,Route53,3.288,89.32,Queries,ap-southeast-1,frontend,platform,production,res-751993
+2026-01-02,SNS,3.8246,96.2,Requests,ap-southeast-1,backend,analytics,production,res-619935
+2026-01-02,SNS,1.8078,81.81,Requests,us-east-1,frontend,analytics,staging,res-349087
+2026-01-02,SNS,4.5615,65.08,Requests,us-east-1,ml,analytics,production,res-837634
+2026-01-02,SNS,4.4605,92.51,Requests,us-west-2,frontend,mobile-api,production,res-921956
+2026-01-02,SQS,0.9831,32.29,Requests,ap-southeast-1,infra,platform,production,res-592811
+2026-01-02,SQS,3.3019,16.79,Requests,us-east-1,frontend,ml-pipeline,staging,res-795860
+2026-01-02,SQS,2.7298,65.09,Requests,ap-southeast-1,frontend,ml-pipeline,development,res-291846
+2026-01-02,SQS,3.2107,16.91,Requests,ap-southeast-1,ml,web-app,production,res-936404
+2026-01-02,SQS,2.1078,24.3,Requests,us-west-2,backend,mobile-api,staging,res-436420
+2026-01-02,API Gateway,25.7024,51.0,Requests,us-east-1,ml,ml-pipeline,production,res-986757
+2026-01-02,API Gateway,19.1869,92.8,Requests,us-east-1,frontend,mobile-api,production,res-955934
+2026-01-02,API Gateway,6.4443,60.84,Requests,eu-west-1,data,web-app,development,res-875426
+2026-01-02,Secrets Manager,4.7267,3.1,Secrets,eu-west-1,infra,analytics,production,res-883123
+2026-01-02,Secrets Manager,8.2024,79.69,Secrets,eu-west-1,frontend,analytics,development,res-716615
+2026-01-02,Secrets Manager,7.6662,84.3,Secrets,us-west-2,frontend,web-app,development,res-286727
+2026-01-03,EC2,54.2415,26.95,Hours,us-east-1,frontend,mobile-api,production,i-177590
+2026-01-03,EC2,116.119,80.31,Hours,us-east-1,data,analytics,development,i-278038
+2026-01-03,EC2,33.9869,95.75,Hours,us-west-2,infra,analytics,production,i-675333
+2026-01-03,EC2,46.1726,4.06,Hours,us-east-1,infra,ml-pipeline,development,i-942804
+2026-01-03,Lambda,13.4509,90.86,Requests,us-west-2,ml,analytics,production,func-585404
+2026-01-03,Lambda,19.7945,39.56,Requests,ap-southeast-1,backend,web-app,production,func-559188
+2026-01-03,Lambda,8.0367,50.87,Requests,ap-southeast-1,backend,analytics,production,func-215351
+2026-01-03,Lambda,19.8677,75.95,Requests,eu-west-1,backend,mobile-api,staging,func-772406
+2026-01-03,S3,14.8194,92.6,GB-Month,us-east-1,infra,platform,production,res-657599
+2026-01-03,S3,52.7666,10.24,GB-Month,us-east-1,ml,mobile-api,staging,res-584978
+2026-01-03,S3,60.9011,60.4,GB-Month,eu-west-1,backend,web-app,staging,res-891774
+2026-01-03,RDS,25.2585,26.06,Hours,ap-southeast-1,backend,analytics,staging,db-841447
+2026-01-03,RDS,73.1181,54.77,Hours,us-west-2,infra,mobile-api,development,db-734780
+2026-01-03,RDS,77.73,3.98,Hours,ap-southeast-1,data,mobile-api,staging,db-366478
+2026-01-03,RDS,27.7199,3.4,Hours,us-east-1,infra,platform,development,db-862246
+2026-01-03,RDS,128.5385,16.55,Hours,us-west-2,frontend,ml-pipeline,production,db-356815
+2026-01-03,DynamoDB,37.2846,56.36,WCU-Hours,ap-southeast-1,data,analytics,staging,res-171137
+2026-01-03,DynamoDB,62.2327,8.68,WCU-Hours,us-west-2,data,ml-pipeline,development,res-493096
+2026-01-03,DynamoDB,73.3642,80.7,WCU-Hours,eu-west-1,frontend,web-app,production,res-165218
+2026-01-03,DynamoDB,13.2519,91.44,WCU-Hours,us-east-1,frontend,ml-pipeline,development,res-332158
+2026-01-03,CloudWatch,2.9224,14.81,Metrics,us-east-1,infra,analytics,production,res-445147
+2026-01-03,CloudWatch,10.2477,32.76,Metrics,us-west-2,backend,ml-pipeline,production,res-626115
+2026-01-03,CloudWatch,7.7469,70.61,Metrics,us-west-2,ml,mobile-api,development,res-634514
+2026-01-03,CloudWatch,4.2467,78.34,Metrics,eu-west-1,frontend,platform,development,res-141142
+2026-01-03,CloudFront,21.7855,69.59,GB,ap-southeast-1,backend,mobile-api,development,res-435223
+2026-01-03,CloudFront,7.0461,88.57,GB,eu-west-1,frontend,platform,production,res-317862
+2026-01-03,CloudFront,16.5136,16.29,GB,us-east-1,ml,mobile-api,production,res-902187
+2026-01-03,CloudFront,6.9559,22.92,GB,us-east-1,infra,platform,development,res-479518
+2026-01-03,CloudFront,20.4422,75.01,GB,eu-west-1,ml,web-app,production,res-911944
+2026-01-03,EBS,49.3306,21.27,GB-Month,eu-west-1,frontend,ml-pipeline,staging,res-973853
+2026-01-03,EBS,44.8462,56.53,GB-Month,us-east-1,infra,ml-pipeline,staging,res-442577
+2026-01-03,EBS,29.8401,97.1,GB-Month,us-east-1,ml,mobile-api,staging,res-567235
+2026-01-03,EKS,61.9093,35.58,Hours,us-east-1,ml,analytics,production,cluster-420920
+2026-01-03,EKS,52.1904,42.65,Hours,ap-southeast-1,ml,ml-pipeline,production,cluster-774680
+2026-01-03,EKS,42.8814,62.23,Hours,us-east-1,infra,analytics,staging,cluster-478249
+2026-01-03,EKS,94.7872,98.65,Hours,us-east-1,backend,platform,development,cluster-248505
+2026-01-03,EKS,111.9072,13.07,Hours,eu-west-1,backend,platform,development,cluster-526337
+2026-01-03,ElastiCache,55.0591,69.6,Hours,us-east-1,infra,analytics,development,cache-289391
+2026-01-03,ElastiCache,71.4752,29.19,Hours,us-east-1,backend,mobile-api,development,cache-267823
+2026-01-03,ElastiCache,47.2385,9.82,Hours,eu-west-1,frontend,mobile-api,staging,cache-546014
+2026-01-03,ElastiCache,70.7034,93.3,Hours,us-east-1,frontend,analytics,staging,cache-886640
+2026-01-03,Route53,5.2077,21.27,Queries,eu-west-1,ml,ml-pipeline,production,res-662976
+2026-01-03,Route53,4.5478,84.14,Queries,us-east-1,data,mobile-api,development,res-545652
+2026-01-03,Route53,4.4352,22.91,Queries,ap-southeast-1,frontend,analytics,staging,res-345289
+2026-01-03,Route53,1.5967,62.57,Queries,us-west-2,frontend,analytics,production,res-703166
+2026-01-03,Route53,3.3809,40.77,Queries,us-west-2,infra,analytics,staging,res-970715
+2026-01-03,SNS,2.1709,21.76,Requests,us-east-1,ml,platform,development,res-979483
+2026-01-03,SNS,1.7839,91.59,Requests,us-east-1,backend,analytics,production,res-723911
+2026-01-03,SNS,3.8959,40.77,Requests,eu-west-1,backend,ml-pipeline,development,res-594085
+2026-01-03,SQS,2.4481,12.28,Requests,ap-southeast-1,data,platform,staging,res-172288
+2026-01-03,SQS,3.3822,92.61,Requests,eu-west-1,frontend,mobile-api,production,res-164691
+2026-01-03,SQS,3.1543,76.36,Requests,us-east-1,backend,mobile-api,staging,res-757049
+2026-01-03,API Gateway,14.9657,67.85,Requests,ap-southeast-1,frontend,analytics,staging,res-826050
+2026-01-03,API Gateway,5.8073,52.21,Requests,eu-west-1,ml,web-app,staging,res-219972
+2026-01-03,API Gateway,2.5906,47.43,Requests,ap-southeast-1,frontend,analytics,staging,res-880244
+2026-01-03,API Gateway,12.7621,46.15,Requests,us-west-2,frontend,web-app,production,res-680404
+2026-01-03,API Gateway,3.5755,66.62,Requests,ap-southeast-1,infra,mobile-api,development,res-117641
+2026-01-03,Secrets Manager,5.3997,64.23,Secrets,ap-southeast-1,ml,ml-pipeline,development,res-892362
+2026-01-03,Secrets Manager,1.9121,76.49,Secrets,eu-west-1,frontend,web-app,staging,res-112343
+2026-01-03,Secrets Manager,3.4229,12.36,Secrets,us-east-1,data,ml-pipeline,production,res-961383
+2026-01-03,Secrets Manager,2.9728,22.83,Secrets,eu-west-1,frontend,platform,development,res-983259
+2026-01-03,Secrets Manager,5.6358,55.55,Secrets,eu-west-1,infra,analytics,staging,res-492055
+2026-01-04,EC2,16.8502,44.5,Hours,us-east-1,frontend,analytics,production,i-675782
+2026-01-04,EC2,69.8345,75.71,Hours,eu-west-1,backend,platform,development,i-870145
+2026-01-04,EC2,39.6891,88.58,Hours,eu-west-1,data,mobile-api,staging,i-655746
+2026-01-04,Lambda,14.5722,33.53,Requests,us-west-2,backend,mobile-api,development,func-493602
+2026-01-04,Lambda,18.6838,23.37,Requests,us-west-2,data,mobile-api,production,func-498552
+2026-01-04,Lambda,7.3177,45.29,Requests,us-west-2,frontend,mobile-api,staging,func-117161
+2026-01-04,Lambda,10.6501,15.5,Requests,us-east-1,data,mobile-api,staging,func-836291
+2026-01-04,Lambda,15.2201,88.2,Requests,us-east-1,backend,analytics,production,func-611888
+2026-01-04,S3,12.1543,8.85,GB-Month,eu-west-1,backend,mobile-api,staging,res-687233
+2026-01-04,S3,10.0195,87.1,GB-Month,eu-west-1,data,mobile-api,development,res-820722
+2026-01-04,S3,10.6691,53.22,GB-Month,us-east-1,frontend,platform,production,res-891876
+2026-01-04,S3,34.9617,27.69,GB-Month,us-east-1,infra,mobile-api,staging,res-938973
+2026-01-04,S3,16.9172,51.45,GB-Month,ap-southeast-1,frontend,platform,staging,res-758766
+2026-01-04,RDS,178.105,74.42,Hours,eu-west-1,ml,mobile-api,development,db-311997
+2026-01-04,RDS,126.305,37.11,Hours,eu-west-1,data,web-app,staging,db-580651
+2026-01-04,RDS,42.7441,95.13,Hours,eu-west-1,frontend,analytics,staging,db-547575
+2026-01-04,RDS,177.8478,12.97,Hours,us-west-2,frontend,ml-pipeline,development,db-432497
+2026-01-04,DynamoDB,18.4252,98.29,WCU-Hours,us-east-1,infra,platform,development,res-347799
+2026-01-04,DynamoDB,22.3617,4.71,WCU-Hours,us-east-1,data,platform,development,res-936017
+2026-01-04,DynamoDB,16.0116,6.02,WCU-Hours,eu-west-1,backend,web-app,staging,res-157158
+2026-01-04,DynamoDB,37.8572,17.12,WCU-Hours,ap-southeast-1,infra,ml-pipeline,staging,res-616466
+2026-01-04,DynamoDB,23.0471,51.07,WCU-Hours,us-east-1,data,mobile-api,staging,res-580510
+2026-01-04,CloudWatch,7.5172,48.36,Metrics,us-east-1,ml,mobile-api,development,res-367931
+2026-01-04,CloudWatch,4.3114,24.18,Metrics,ap-southeast-1,frontend,ml-pipeline,production,res-869335
+2026-01-04,CloudWatch,1.5001,4.71,Metrics,us-east-1,backend,analytics,staging,res-577738
+2026-01-04,CloudWatch,7.3455,55.8,Metrics,eu-west-1,frontend,mobile-api,production,res-588233
+2026-01-04,CloudWatch,8.3278,12.05,Metrics,ap-southeast-1,backend,web-app,production,res-561163
+2026-01-04,CloudFront,23.8733,4.78,GB,us-west-2,infra,platform,staging,res-914723
+2026-01-04,CloudFront,24.4026,64.54,GB,eu-west-1,backend,ml-pipeline,development,res-305541
+2026-01-04,CloudFront,8.7965,66.61,GB,us-east-1,frontend,analytics,development,res-610066
+2026-01-04,EBS,10.4422,32.88,GB-Month,eu-west-1,ml,ml-pipeline,production,res-835389
+2026-01-04,EBS,30.6106,71.22,GB-Month,eu-west-1,backend,web-app,production,res-939465
+2026-01-04,EBS,11.2155,24.72,GB-Month,eu-west-1,infra,analytics,development,res-443050
+2026-01-04,EBS,45.7787,1.93,GB-Month,us-west-2,data,mobile-api,production,res-564188
+2026-01-04,EKS,150.8473,13.69,Hours,eu-west-1,frontend,web-app,staging,cluster-565552
+2026-01-04,EKS,122.4027,31.11,Hours,ap-southeast-1,frontend,ml-pipeline,staging,cluster-783876
+2026-01-04,EKS,116.5242,92.14,Hours,eu-west-1,infra,mobile-api,production,cluster-847646
+2026-01-04,ElastiCache,12.1269,23.38,Hours,eu-west-1,data,analytics,staging,cache-904630
+2026-01-04,ElastiCache,10.5538,65.9,Hours,us-west-2,ml,analytics,development,cache-136342
+2026-01-04,ElastiCache,45.5581,38.92,Hours,eu-west-1,infra,web-app,production,cache-692876
+2026-01-04,ElastiCache,46.6043,84.9,Hours,us-west-2,data,platform,staging,cache-795383
+2026-01-04,ElastiCache,10.9231,91.27,Hours,us-east-1,frontend,analytics,development,cache-958651
+2026-01-04,Route53,7.5136,61.53,Queries,us-west-2,backend,ml-pipeline,development,res-991473
+2026-01-04,Route53,5.2352,81.14,Queries,us-west-2,infra,ml-pipeline,staging,res-576286
+2026-01-04,Route53,4.0311,97.01,Queries,ap-southeast-1,frontend,web-app,production,res-202174
+2026-01-04,SNS,6.1527,9.95,Requests,us-west-2,ml,analytics,development,res-839377
+2026-01-04,SNS,1.7224,11.71,Requests,us-west-2,ml,ml-pipeline,production,res-223520
+2026-01-04,SNS,6.0941,27.82,Requests,ap-southeast-1,backend,platform,development,res-120369
+2026-01-04,SQS,4.8919,41.01,Requests,eu-west-1,data,analytics,staging,res-318429
+2026-01-04,SQS,1.2665,56.78,Requests,ap-southeast-1,ml,ml-pipeline,staging,res-125803
+2026-01-04,SQS,5.2807,77.74,Requests,us-east-1,backend,platform,production,res-595528
+2026-01-04,SQS,2.6174,9.21,Requests,ap-southeast-1,ml,mobile-api,production,res-897169
+2026-01-04,API Gateway,14.5517,53.27,Requests,ap-southeast-1,data,web-app,development,res-272439
+2026-01-04,API Gateway,11.4836,70.04,Requests,ap-southeast-1,backend,web-app,development,res-837500
+2026-01-04,API Gateway,2.9146,98.98,Requests,us-west-2,backend,analytics,staging,res-791286
+2026-01-04,API Gateway,15.9258,96.48,Requests,us-west-2,backend,analytics,development,res-480809
+2026-01-04,API Gateway,2.8877,55.44,Requests,us-west-2,infra,web-app,staging,res-628365
+2026-01-04,Secrets Manager,3.7444,35.68,Secrets,us-east-1,frontend,ml-pipeline,development,res-546841
+2026-01-04,Secrets Manager,4.58,48.47,Secrets,us-east-1,infra,analytics,production,res-556099
+2026-01-04,Secrets Manager,5.0626,23.24,Secrets,us-west-2,backend,analytics,production,res-936531
+2026-01-04,Secrets Manager,1.1228,10.82,Secrets,us-west-2,ml,analytics,staging,res-477342
+2026-01-04,Secrets Manager,2.3738,64.23,Secrets,eu-west-1,frontend,analytics,production,res-413594
+2026-01-05,EC2,38.5901,49.94,Hours,us-west-2,frontend,ml-pipeline,production,i-379542
+2026-01-05,EC2,69.3549,4.5,Hours,eu-west-1,data,mobile-api,staging,i-470126
+2026-01-05,EC2,63.4453,94.46,Hours,us-west-2,infra,platform,staging,i-223918
+2026-01-05,EC2,24.674,20.56,Hours,eu-west-1,data,platform,production,i-230189
+2026-01-05,EC2,65.8963,61.64,Hours,us-east-1,data,web-app,development,i-203279
+2026-01-05,Lambda,30.8618,60.26,Requests,eu-west-1,backend,ml-pipeline,production,func-531808
+2026-01-05,Lambda,10.431,69.22,Requests,us-east-1,backend,mobile-api,staging,func-414982
+2026-01-05,Lambda,32.7336,70.99,Requests,us-east-1,ml,platform,production,func-288163
+2026-01-05,S3,37.302,80.97,GB-Month,ap-southeast-1,frontend,mobile-api,staging,res-850441
+2026-01-05,S3,30.1474,88.76,GB-Month,eu-west-1,data,ml-pipeline,production,res-383304
+2026-01-05,S3,29.7343,20.73,GB-Month,us-east-1,ml,web-app,staging,res-457582
+2026-01-05,S3,38.2353,79.1,GB-Month,us-west-2,ml,mobile-api,staging,res-868556
+2026-01-05,RDS,186.1649,29.13,Hours,eu-west-1,ml,mobile-api,development,db-579784
+2026-01-05,RDS,110.0366,22.02,Hours,us-east-1,backend,analytics,development,db-344177
+2026-01-05,RDS,193.3018,15.73,Hours,us-west-2,ml,platform,staging,db-943639
+2026-01-05,DynamoDB,61.3391,80.36,WCU-Hours,us-west-2,frontend,web-app,staging,res-649654
+2026-01-05,DynamoDB,68.0306,28.53,WCU-Hours,ap-southeast-1,frontend,web-app,staging,res-123544
+2026-01-05,DynamoDB,43.5199,78.96,WCU-Hours,ap-southeast-1,frontend,web-app,staging,res-624133
+2026-01-05,DynamoDB,42.1368,98.25,WCU-Hours,us-east-1,ml,platform,development,res-405253
+2026-01-05,CloudWatch,8.7697,36.4,Metrics,eu-west-1,infra,analytics,development,res-434200
+2026-01-05,CloudWatch,5.5691,88.49,Metrics,us-east-1,data,platform,staging,res-751255
+2026-01-05,CloudWatch,1.7024,54.88,Metrics,us-east-1,infra,platform,development,res-900289
+2026-01-05,CloudWatch,8.4494,51.0,Metrics,eu-west-1,data,web-app,development,res-925516
+2026-01-05,CloudWatch,2.8949,60.92,Metrics,us-east-1,backend,ml-pipeline,development,res-761992
+2026-01-05,CloudFront,4.4387,9.14,GB,ap-southeast-1,backend,web-app,development,res-396243
+2026-01-05,CloudFront,29.431,84.5,GB,eu-west-1,frontend,web-app,development,res-490322
+2026-01-05,CloudFront,6.2276,78.12,GB,eu-west-1,data,ml-pipeline,development,res-814593
+2026-01-05,CloudFront,13.7372,40.99,GB,us-west-2,backend,web-app,production,res-858208
+2026-01-05,CloudFront,28.7278,11.21,GB,us-east-1,data,platform,production,res-220668
+2026-01-05,EBS,49.2019,63.16,GB-Month,us-west-2,backend,ml-pipeline,staging,res-423398
+2026-01-05,EBS,32.2323,80.36,GB-Month,eu-west-1,backend,analytics,staging,res-532657
+2026-01-05,EBS,11.2233,42.12,GB-Month,us-west-2,ml,analytics,production,res-187135
+2026-01-05,EBS,35.06,68.77,GB-Month,us-west-2,backend,analytics,production,res-245462
+2026-01-05,EKS,159.9537,73.25,Hours,eu-west-1,frontend,ml-pipeline,production,cluster-507638
+2026-01-05,EKS,147.6275,82.31,Hours,us-east-1,data,platform,development,cluster-834966
+2026-01-05,EKS,166.6776,32.48,Hours,eu-west-1,backend,web-app,staging,cluster-293671
+2026-01-05,ElastiCache,63.7213,58.37,Hours,eu-west-1,infra,web-app,development,cache-116971
+2026-01-05,ElastiCache,21.3001,21.39,Hours,us-west-2,backend,mobile-api,production,cache-184411
+2026-01-05,ElastiCache,57.4972,85.97,Hours,eu-west-1,backend,ml-pipeline,staging,cache-195692
+2026-01-05,Route53,6.1263,66.68,Queries,us-west-2,backend,mobile-api,development,res-517985
+2026-01-05,Route53,8.318,97.89,Queries,ap-southeast-1,ml,analytics,staging,res-640312
+2026-01-05,Route53,4.3252,32.57,Queries,us-east-1,data,platform,staging,res-692206
+2026-01-05,SNS,3.1135,52.09,Requests,us-west-2,backend,mobile-api,development,res-123522
+2026-01-05,SNS,1.0325,37.99,Requests,eu-west-1,backend,ml-pipeline,staging,res-626877
+2026-01-05,SNS,1.1932,80.81,Requests,ap-southeast-1,ml,analytics,staging,res-267571
+2026-01-05,SNS,2.8015,95.52,Requests,us-west-2,ml,analytics,staging,res-690687
+2026-01-05,SNS,3.8573,14.58,Requests,eu-west-1,ml,ml-pipeline,production,res-642595
+2026-01-05,SQS,2.1833,37.56,Requests,us-west-2,infra,analytics,staging,res-390065
+2026-01-05,SQS,1.1761,19.14,Requests,us-east-1,data,mobile-api,production,res-625815
+2026-01-05,SQS,2.8168,38.68,Requests,eu-west-1,frontend,web-app,staging,res-753744
+2026-01-05,SQS,6.182,83.51,Requests,ap-southeast-1,backend,platform,staging,res-267292
+2026-01-05,API Gateway,10.7569,16.4,Requests,us-east-1,ml,mobile-api,development,res-842545
+2026-01-05,API Gateway,3.1443,38.08,Requests,us-east-1,backend,mobile-api,production,res-902827
+2026-01-05,API Gateway,6.6371,12.64,Requests,us-east-1,infra,mobile-api,production,res-707807
+2026-01-05,API Gateway,4.9006,67.73,Requests,us-west-2,backend,platform,staging,res-975239
+2026-01-05,API Gateway,7.5089,12.56,Requests,ap-southeast-1,infra,ml-pipeline,production,res-246452
+2026-01-05,Secrets Manager,2.8876,81.33,Secrets,ap-southeast-1,infra,web-app,development,res-994682
+2026-01-05,Secrets Manager,5.1001,78.91,Secrets,us-west-2,backend,mobile-api,staging,res-412751
+2026-01-05,Secrets Manager,7.3262,65.67,Secrets,us-west-2,data,analytics,development,res-393312
+2026-01-05,Secrets Manager,3.2893,77.58,Secrets,eu-west-1,ml,analytics,staging,res-832217
+2026-01-05,Secrets Manager,1.3025,91.98,Secrets,ap-southeast-1,backend,platform,production,res-549058
+2026-01-06,EC2,14.5832,91.72,Hours,ap-southeast-1,ml,analytics,production,i-456918
+2026-01-06,EC2,55.1986,4.78,Hours,us-west-2,ml,web-app,staging,i-218044
+2026-01-06,EC2,29.7313,94.44,Hours,ap-southeast-1,frontend,ml-pipeline,development,i-477848
+2026-01-06,EC2,46.475,69.55,Hours,us-east-1,backend,analytics,development,i-908369
+2026-01-06,EC2,53.5234,28.73,Hours,us-east-1,ml,mobile-api,production,i-401026
+2026-01-06,Lambda,18.538,15.91,Requests,eu-west-1,backend,analytics,development,func-524808
+2026-01-06,Lambda,11.09,79.33,Requests,eu-west-1,ml,platform,production,func-860672
+2026-01-06,Lambda,3.7871,77.07,Requests,us-west-2,data,web-app,development,func-127358
+2026-01-06,Lambda,20.0322,15.9,Requests,eu-west-1,infra,mobile-api,staging,func-626256
+2026-01-06,S3,23.2618,12.5,GB-Month,us-west-2,infra,analytics,staging,res-437159
+2026-01-06,S3,26.0938,27.29,GB-Month,ap-southeast-1,ml,platform,staging,res-155346
+2026-01-06,S3,40.2927,18.41,GB-Month,us-west-2,data,platform,production,res-262333
+2026-01-06,S3,34.4796,20.6,GB-Month,eu-west-1,ml,ml-pipeline,production,res-785345
+2026-01-06,RDS,66.7917,72.43,Hours,us-east-1,frontend,analytics,development,db-599356
+2026-01-06,RDS,138.6899,26.93,Hours,us-west-2,infra,mobile-api,development,db-117772
+2026-01-06,RDS,41.7424,44.47,Hours,eu-west-1,data,web-app,staging,db-206891
+2026-01-06,RDS,70.3932,82.6,Hours,eu-west-1,frontend,ml-pipeline,staging,db-943322
+2026-01-06,RDS,143.3891,33.16,Hours,us-east-1,backend,web-app,staging,db-466970
+2026-01-06,DynamoDB,22.379,95.68,WCU-Hours,us-west-2,backend,web-app,development,res-245261
+2026-01-06,DynamoDB,20.3572,89.57,WCU-Hours,us-west-2,infra,web-app,production,res-682799
+2026-01-06,DynamoDB,45.546,10.59,WCU-Hours,us-east-1,backend,web-app,staging,res-439012
+2026-01-06,DynamoDB,16.0148,49.26,WCU-Hours,eu-west-1,frontend,platform,development,res-606487
+2026-01-06,DynamoDB,34.7062,58.67,WCU-Hours,ap-southeast-1,ml,platform,staging,res-806265
+2026-01-06,CloudWatch,4.8908,26.82,Metrics,us-west-2,backend,ml-pipeline,staging,res-434576
+2026-01-06,CloudWatch,12.4385,95.31,Metrics,eu-west-1,ml,web-app,development,res-911804
+2026-01-06,CloudWatch,4.9821,16.17,Metrics,ap-southeast-1,backend,web-app,production,res-655099
+2026-01-06,CloudFront,7.9145,15.01,GB,eu-west-1,backend,mobile-api,staging,res-844100
+2026-01-06,CloudFront,24.6218,38.29,GB,us-east-1,infra,web-app,production,res-731934
+2026-01-06,CloudFront,24.8556,75.33,GB,eu-west-1,data,analytics,production,res-745811
+2026-01-06,CloudFront,27.8456,75.21,GB,eu-west-1,infra,web-app,production,res-903803
+2026-01-06,CloudFront,10.8126,67.18,GB,us-west-2,backend,mobile-api,staging,res-503007
+2026-01-06,EBS,13.0135,23.65,GB-Month,ap-southeast-1,ml,mobile-api,development,res-343844
+2026-01-06,EBS,38.4968,22.36,GB-Month,ap-southeast-1,data,platform,development,res-563828
+2026-01-06,EBS,19.6661,53.11,GB-Month,eu-west-1,backend,mobile-api,development,res-523201
+2026-01-06,EBS,39.5196,28.7,GB-Month,eu-west-1,infra,ml-pipeline,staging,res-409222
+2026-01-06,EBS,8.2011,22.91,GB-Month,us-west-2,infra,platform,production,res-854569
+2026-01-06,EKS,143.5886,30.87,Hours,eu-west-1,ml,mobile-api,production,cluster-212924
+2026-01-06,EKS,162.1175,28.34,Hours,us-east-1,ml,mobile-api,staging,cluster-446000
+2026-01-06,EKS,111.1703,82.06,Hours,us-east-1,infra,platform,development,cluster-680214
+2026-01-06,ElastiCache,46.1867,38.62,Hours,us-west-2,data,mobile-api,production,cache-229218
+2026-01-06,ElastiCache,45.382,41.67,Hours,us-west-2,backend,platform,production,cache-903735
+2026-01-06,ElastiCache,65.9403,84.17,Hours,us-west-2,infra,mobile-api,production,cache-559441
+2026-01-06,ElastiCache,12.7094,71.41,Hours,ap-southeast-1,ml,mobile-api,development,cache-412108
+2026-01-06,Route53,2.6039,62.65,Queries,us-east-1,ml,ml-pipeline,staging,res-156299
+2026-01-06,Route53,3.246,61.94,Queries,ap-southeast-1,frontend,web-app,production,res-661780
+2026-01-06,Route53,3.2908,80.89,Queries,ap-southeast-1,infra,web-app,staging,res-748045
+2026-01-06,Route53,5.0766,67.66,Queries,eu-west-1,frontend,analytics,production,res-414614
+2026-01-06,Route53,4.6078,44.19,Queries,eu-west-1,infra,ml-pipeline,production,res-880106
+2026-01-06,SNS,2.9447,20.01,Requests,ap-southeast-1,data,ml-pipeline,production,res-932698
+2026-01-06,SNS,2.4354,74.22,Requests,us-east-1,backend,analytics,staging,res-701018
+2026-01-06,SNS,2.0826,14.67,Requests,us-west-2,frontend,web-app,staging,res-409340
+2026-01-06,SNS,3.6799,90.92,Requests,eu-west-1,data,platform,production,res-576054
+2026-01-06,SNS,2.2313,59.88,Requests,eu-west-1,backend,analytics,production,res-851118
+2026-01-06,SQS,3.4997,3.82,Requests,us-east-1,ml,ml-pipeline,staging,res-285244
+2026-01-06,SQS,4.9976,51.64,Requests,us-east-1,frontend,mobile-api,development,res-144966
+2026-01-06,SQS,3.5066,53.12,Requests,ap-southeast-1,data,mobile-api,staging,res-895912
+2026-01-06,SQS,2.9469,5.75,Requests,us-west-2,data,web-app,production,res-245838
+2026-01-06,SQS,3.4815,65.42,Requests,eu-west-1,data,platform,production,res-910783
+2026-01-06,API Gateway,4.4249,81.8,Requests,us-west-2,ml,analytics,development,res-551618
+2026-01-06,API Gateway,14.9791,11.26,Requests,eu-west-1,infra,mobile-api,staging,res-848676
+2026-01-06,API Gateway,4.5699,33.14,Requests,eu-west-1,backend,mobile-api,staging,res-842980
+2026-01-06,API Gateway,9.4397,85.62,Requests,ap-southeast-1,backend,ml-pipeline,production,res-460099
+2026-01-06,Secrets Manager,4.374,98.73,Secrets,us-east-1,ml,mobile-api,staging,res-953078
+2026-01-06,Secrets Manager,4.2539,30.56,Secrets,eu-west-1,ml,web-app,staging,res-589998
+2026-01-06,Secrets Manager,4.3984,55.61,Secrets,ap-southeast-1,infra,ml-pipeline,staging,res-764163
+2026-01-06,Secrets Manager,3.356,6.7,Secrets,ap-southeast-1,ml,mobile-api,production,res-199359
+2026-01-06,Secrets Manager,2.3743,42.73,Secrets,ap-southeast-1,ml,mobile-api,development,res-457594
+2026-01-07,EC2,22.7579,33.58,Hours,ap-southeast-1,ml,analytics,production,i-703817
+2026-01-07,EC2,75.9457,11.72,Hours,ap-southeast-1,data,ml-pipeline,staging,i-948988
+2026-01-07,EC2,66.0794,88.33,Hours,us-east-1,infra,platform,development,i-251382
+2026-01-07,EC2,94.4521,93.8,Hours,us-west-2,backend,platform,staging,i-289715
+2026-01-07,EC2,21.3858,43.91,Hours,eu-west-1,data,platform,staging,i-435368
+2026-01-07,Lambda,17.0842,99.08,Requests,ap-southeast-1,infra,analytics,staging,func-123204
+2026-01-07,Lambda,18.4799,19.11,Requests,ap-southeast-1,data,platform,development,func-420776
+2026-01-07,Lambda,7.6692,72.34,Requests,ap-southeast-1,frontend,mobile-api,staging,func-790716
+2026-01-07,Lambda,16.0333,52.55,Requests,us-east-1,data,mobile-api,production,func-591398
+2026-01-07,S3,10.7559,55.0,GB-Month,us-east-1,frontend,analytics,staging,res-874284
+2026-01-07,S3,8.045,89.19,GB-Month,eu-west-1,ml,mobile-api,production,res-853944
+2026-01-07,S3,26.2273,17.95,GB-Month,ap-southeast-1,infra,web-app,production,res-709543
+2026-01-07,S3,30.4676,89.48,GB-Month,eu-west-1,infra,platform,production,res-783897
+2026-01-07,S3,22.0709,26.49,GB-Month,us-west-2,backend,mobile-api,staging,res-473393
+2026-01-07,RDS,78.2545,38.8,Hours,eu-west-1,backend,web-app,staging,db-511061
+2026-01-07,RDS,125.7917,24.28,Hours,us-east-1,infra,analytics,staging,db-122222
+2026-01-07,RDS,99.9229,57.9,Hours,eu-west-1,backend,analytics,staging,db-676724
+2026-01-07,RDS,73.8557,10.75,Hours,ap-southeast-1,infra,ml-pipeline,development,db-672633
+2026-01-07,RDS,31.338,2.41,Hours,ap-southeast-1,frontend,mobile-api,production,db-288376
+2026-01-07,DynamoDB,49.908,94.86,WCU-Hours,ap-southeast-1,frontend,analytics,staging,res-574640
+2026-01-07,DynamoDB,36.613,92.28,WCU-Hours,us-west-2,infra,web-app,production,res-337275
+2026-01-07,DynamoDB,49.8259,34.07,WCU-Hours,ap-southeast-1,infra,analytics,production,res-564447
+2026-01-07,DynamoDB,16.5563,81.8,WCU-Hours,us-east-1,ml,mobile-api,staging,res-999723
+2026-01-07,DynamoDB,6.3501,81.72,WCU-Hours,us-east-1,infra,analytics,production,res-692223
+2026-01-07,CloudWatch,5.6752,59.49,Metrics,ap-southeast-1,infra,platform,production,res-502632
+2026-01-07,CloudWatch,9.3729,79.65,Metrics,eu-west-1,infra,ml-pipeline,staging,res-741520
+2026-01-07,CloudWatch,5.8105,38.56,Metrics,ap-southeast-1,backend,analytics,development,res-176430
+2026-01-07,CloudWatch,5.4036,14.01,Metrics,us-east-1,ml,analytics,staging,res-152817
+2026-01-07,CloudFront,12.5852,45.91,GB,ap-southeast-1,data,analytics,staging,res-128061
+2026-01-07,CloudFront,30.8625,26.76,GB,us-east-1,data,mobile-api,production,res-855655
+2026-01-07,CloudFront,29.7887,63.72,GB,us-east-1,infra,web-app,production,res-149367
+2026-01-07,EBS,26.6622,61.65,GB-Month,us-east-1,ml,platform,staging,res-462755
+2026-01-07,EBS,16.4174,35.09,GB-Month,eu-west-1,backend,platform,development,res-909427
+2026-01-07,EBS,10.9715,1.58,GB-Month,eu-west-1,backend,web-app,development,res-244763
+2026-01-07,EKS,69.9352,54.11,Hours,us-west-2,infra,ml-pipeline,development,cluster-200637
+2026-01-07,EKS,146.1493,73.9,Hours,us-west-2,ml,mobile-api,development,cluster-372375
+2026-01-07,EKS,54.2346,59.92,Hours,us-east-1,ml,web-app,staging,cluster-410839
+2026-01-07,EKS,123.8811,37.46,Hours,us-east-1,frontend,web-app,staging,cluster-529006
+2026-01-07,ElastiCache,95.1922,23.24,Hours,ap-southeast-1,frontend,platform,development,cache-205805
+2026-01-07,ElastiCache,88.3289,44.19,Hours,us-west-2,infra,analytics,production,cache-972436
+2026-01-07,ElastiCache,86.7785,46.63,Hours,us-west-2,frontend,analytics,development,cache-326053
+2026-01-07,Route53,5.3856,67.04,Queries,ap-southeast-1,data,platform,staging,res-859732
+2026-01-07,Route53,2.9594,93.15,Queries,eu-west-1,infra,mobile-api,staging,res-272919
+2026-01-07,Route53,3.8488,29.73,Queries,eu-west-1,data,platform,production,res-770805
+2026-01-07,Route53,3.463,36.94,Queries,us-west-2,infra,analytics,development,res-535077
+2026-01-07,Route53,2.8125,95.53,Queries,us-west-2,ml,ml-pipeline,development,res-468317
+2026-01-07,SNS,0.9957,99.06,Requests,us-west-2,ml,platform,staging,res-360964
+2026-01-07,SNS,3.9826,87.37,Requests,us-east-1,backend,ml-pipeline,staging,res-989042
+2026-01-07,SNS,2.8252,97.05,Requests,ap-southeast-1,backend,mobile-api,staging,res-984077
+2026-01-07,SNS,3.7676,77.16,Requests,eu-west-1,frontend,analytics,staging,res-501448
+2026-01-07,SNS,2.0058,62.28,Requests,us-west-2,backend,mobile-api,development,res-330715
+2026-01-07,SQS,2.741,30.46,Requests,eu-west-1,ml,web-app,production,res-584336
+2026-01-07,SQS,4.8672,22.55,Requests,us-west-2,frontend,ml-pipeline,development,res-681201
+2026-01-07,SQS,1.0485,95.68,Requests,us-west-2,frontend,ml-pipeline,production,res-585650
+2026-01-07,SQS,4.855,43.7,Requests,us-west-2,ml,web-app,development,res-871911
+2026-01-07,SQS,2.0203,39.78,Requests,us-west-2,frontend,web-app,development,res-284178
+2026-01-07,API Gateway,9.581,90.8,Requests,eu-west-1,infra,analytics,staging,res-833807
+2026-01-07,API Gateway,25.1026,61.11,Requests,us-west-2,backend,web-app,staging,res-636764
+2026-01-07,API Gateway,4.704,2.06,Requests,us-east-1,frontend,analytics,production,res-447787
+2026-01-07,Secrets Manager,4.5109,69.82,Secrets,us-east-1,backend,ml-pipeline,staging,res-860209
+2026-01-07,Secrets Manager,11.323,5.8,Secrets,ap-southeast-1,infra,ml-pipeline,production,res-108835
+2026-01-07,Secrets Manager,2.509,44.45,Secrets,us-east-1,data,analytics,development,res-541258
+2026-01-08,EC2,73.6037,29.39,Hours,eu-west-1,data,mobile-api,development,i-723893
+2026-01-08,EC2,30.6502,34.47,Hours,us-west-2,data,platform,staging,i-405558
+2026-01-08,EC2,72.3377,88.59,Hours,us-east-1,data,mobile-api,staging,i-537908
+2026-01-08,EC2,72.9459,19.16,Hours,us-west-2,frontend,platform,production,i-291526
+2026-01-08,Lambda,15.6741,5.65,Requests,us-east-1,ml,analytics,development,func-533859
+2026-01-08,Lambda,7.1358,22.83,Requests,us-east-1,frontend,web-app,staging,func-572224
+2026-01-08,Lambda,3.761,66.13,Requests,us-west-2,data,mobile-api,production,func-303536
+2026-01-08,Lambda,2.8971,34.17,Requests,us-west-2,infra,mobile-api,production,func-780018
+2026-01-08,S3,29.4172,75.49,GB-Month,us-east-1,infra,mobile-api,development,res-431104
+2026-01-08,S3,16.1216,11.52,GB-Month,us-west-2,ml,web-app,staging,res-421408
+2026-01-08,S3,41.2313,65.81,GB-Month,us-west-2,infra,platform,development,res-375083
+2026-01-08,S3,21.9888,13.43,GB-Month,eu-west-1,frontend,platform,production,res-309232
+2026-01-08,RDS,69.361,16.65,Hours,ap-southeast-1,infra,platform,production,db-381610
+2026-01-08,RDS,97.6013,44.89,Hours,ap-southeast-1,frontend,web-app,production,db-165487
+2026-01-08,RDS,227.9212,79.51,Hours,eu-west-1,ml,mobile-api,production,db-563784
+2026-01-08,DynamoDB,88.4137,50.95,WCU-Hours,us-west-2,ml,ml-pipeline,production,res-504934
+2026-01-08,DynamoDB,97.7053,13.56,WCU-Hours,ap-southeast-1,infra,web-app,development,res-384136
+2026-01-08,DynamoDB,70.8008,98.82,WCU-Hours,ap-southeast-1,infra,platform,development,res-962239
+2026-01-08,CloudWatch,8.2559,87.38,Metrics,ap-southeast-1,data,ml-pipeline,staging,res-581744
+2026-01-08,CloudWatch,8.4797,73.13,Metrics,eu-west-1,infra,web-app,development,res-392326
+2026-01-08,CloudWatch,5.3033,87.42,Metrics,eu-west-1,backend,mobile-api,production,res-903453
+2026-01-08,CloudFront,45.3011,45.38,GB,us-west-2,backend,analytics,development,res-567676
+2026-01-08,CloudFront,6.7074,45.42,GB,eu-west-1,backend,ml-pipeline,production,res-277166
+2026-01-08,CloudFront,38.8939,25.07,GB,ap-southeast-1,data,web-app,development,res-294975
+2026-01-08,EBS,27.311,60.46,GB-Month,us-east-1,frontend,web-app,production,res-400721
+2026-01-08,EBS,28.3318,78.3,GB-Month,us-west-2,ml,platform,staging,res-597599
+2026-01-08,EBS,24.1597,98.67,GB-Month,us-east-1,data,analytics,development,res-480713
+2026-01-08,EBS,11.1444,24.54,GB-Month,ap-southeast-1,ml,web-app,production,res-719527
+2026-01-08,EKS,111.4954,9.75,Hours,eu-west-1,frontend,mobile-api,development,cluster-584500
+2026-01-08,EKS,131.4836,44.45,Hours,us-west-2,frontend,analytics,staging,cluster-765906
+2026-01-08,EKS,90.9022,32.77,Hours,eu-west-1,infra,analytics,production,cluster-664821
+2026-01-08,EKS,89.193,13.43,Hours,us-east-1,backend,analytics,staging,cluster-832267
+2026-01-08,ElastiCache,68.1685,61.4,Hours,ap-southeast-1,frontend,web-app,development,cache-662844
+2026-01-08,ElastiCache,79.7092,60.07,Hours,us-west-2,infra,ml-pipeline,development,cache-727470
+2026-01-08,ElastiCache,37.2451,93.79,Hours,us-west-2,data,mobile-api,development,cache-139462
+2026-01-08,Route53,4.0362,56.77,Queries,ap-southeast-1,frontend,ml-pipeline,development,res-414525
+2026-01-08,Route53,8.9332,63.53,Queries,us-east-1,backend,platform,staging,res-538548
+2026-01-08,Route53,6.5329,21.82,Queries,us-west-2,backend,platform,development,res-178286
+2026-01-08,SNS,4.6926,33.35,Requests,eu-west-1,data,ml-pipeline,staging,res-334930
+2026-01-08,SNS,1.9515,62.97,Requests,us-east-1,backend,analytics,development,res-947485
+2026-01-08,SNS,5.1582,33.35,Requests,us-east-1,data,mobile-api,development,res-490933
+2026-01-08,SQS,3.719,31.31,Requests,us-east-1,data,ml-pipeline,production,res-900376
+2026-01-08,SQS,3.8885,95.45,Requests,us-east-1,data,ml-pipeline,development,res-976731
+2026-01-08,SQS,4.3345,52.15,Requests,us-east-1,data,analytics,staging,res-286013
+2026-01-08,SQS,2.0527,77.81,Requests,us-east-1,infra,ml-pipeline,production,res-997082
+2026-01-08,SQS,4.7733,41.94,Requests,us-west-2,infra,analytics,production,res-677599
+2026-01-08,API Gateway,5.9924,63.82,Requests,eu-west-1,infra,mobile-api,production,res-691457
+2026-01-08,API Gateway,14.878,46.83,Requests,us-west-2,ml,web-app,development,res-782418
+2026-01-08,API Gateway,6.691,82.33,Requests,ap-southeast-1,ml,analytics,production,res-646161
+2026-01-08,API Gateway,7.0064,11.11,Requests,ap-southeast-1,backend,analytics,development,res-562076
+2026-01-08,Secrets Manager,8.2189,29.25,Secrets,us-west-2,ml,platform,production,res-764192
+2026-01-08,Secrets Manager,5.2447,31.78,Secrets,ap-southeast-1,ml,web-app,production,res-201672
+2026-01-08,Secrets Manager,2.6877,98.16,Secrets,us-east-1,frontend,ml-pipeline,staging,res-526998
+2026-01-08,Secrets Manager,2.1791,45.01,Secrets,us-east-1,data,platform,staging,res-801157
+2026-01-09,EC2,25.2647,4.94,Hours,us-west-2,ml,web-app,production,i-467197
+2026-01-09,EC2,96.0278,39.1,Hours,eu-west-1,infra,mobile-api,production,i-977408
+2026-01-09,EC2,38.0989,17.64,Hours,ap-southeast-1,backend,platform,staging,i-127504
+2026-01-09,EC2,78.6123,67.98,Hours,eu-west-1,ml,web-app,production,i-673985
+2026-01-09,EC2,80.1986,74.53,Hours,us-west-2,data,platform,staging,i-963378
+2026-01-09,Lambda,15.1913,40.06,Requests,ap-southeast-1,frontend,analytics,production,func-980325
+2026-01-09,Lambda,9.7762,38.09,Requests,ap-southeast-1,frontend,ml-pipeline,staging,func-895987
+2026-01-09,Lambda,5.345,7.27,Requests,us-west-2,ml,ml-pipeline,production,func-957653
+2026-01-09,Lambda,12.7812,77.96,Requests,us-east-1,ml,mobile-api,development,func-630933
+2026-01-09,Lambda,13.0401,42.66,Requests,ap-southeast-1,frontend,analytics,development,func-299866
+2026-01-09,S3,28.9185,22.39,GB-Month,us-east-1,backend,analytics,production,res-618217
+2026-01-09,S3,23.4712,70.49,GB-Month,eu-west-1,infra,mobile-api,staging,res-137441
+2026-01-09,S3,27.6259,91.3,GB-Month,ap-southeast-1,frontend,platform,production,res-327432
+2026-01-09,S3,30.1276,87.19,GB-Month,ap-southeast-1,backend,analytics,production,res-583467
+2026-01-09,S3,29.0654,80.01,GB-Month,us-west-2,ml,mobile-api,staging,res-700728
+2026-01-09,RDS,230.571,6.96,Hours,ap-southeast-1,backend,platform,staging,db-770906
+2026-01-09,RDS,206.2025,81.33,Hours,ap-southeast-1,frontend,mobile-api,development,db-381279
+2026-01-09,RDS,162.4489,80.9,Hours,us-west-2,frontend,mobile-api,staging,db-795688
+2026-01-09,DynamoDB,75.4046,27.13,WCU-Hours,ap-southeast-1,ml,analytics,production,res-530162
+2026-01-09,DynamoDB,78.148,15.36,WCU-Hours,ap-southeast-1,backend,mobile-api,development,res-746912
+2026-01-09,DynamoDB,26.7845,47.18,WCU-Hours,ap-southeast-1,ml,analytics,production,res-625623
+2026-01-09,CloudWatch,5.0689,29.49,Metrics,us-east-1,frontend,ml-pipeline,development,res-441749
+2026-01-09,CloudWatch,8.2682,41.15,Metrics,ap-southeast-1,infra,ml-pipeline,staging,res-888278
+2026-01-09,CloudWatch,16.5176,91.76,Metrics,eu-west-1,backend,web-app,development,res-422833
+2026-01-09,CloudFront,8.6969,72.45,GB,us-west-2,infra,analytics,development,res-206576
+2026-01-09,CloudFront,9.2173,62.49,GB,us-west-2,infra,mobile-api,staging,res-559417
+2026-01-09,CloudFront,20.2368,44.62,GB,us-west-2,frontend,ml-pipeline,production,res-275597
+2026-01-09,CloudFront,18.9283,25.91,GB,us-west-2,data,ml-pipeline,development,res-952419
+2026-01-09,CloudFront,16.9042,5.68,GB,us-west-2,backend,ml-pipeline,development,res-927346
+2026-01-09,EBS,42.2034,43.67,GB-Month,eu-west-1,data,platform,production,res-603183
+2026-01-09,EBS,61.4402,84.52,GB-Month,us-east-1,infra,ml-pipeline,development,res-134770
+2026-01-09,EBS,57.0994,35.29,GB-Month,us-east-1,infra,web-app,production,res-861840
+2026-01-09,EKS,54.9367,3.57,Hours,us-west-2,ml,mobile-api,staging,cluster-505622
+2026-01-09,EKS,91.0895,26.99,Hours,us-east-1,frontend,platform,production,cluster-333254
+2026-01-09,EKS,60.5742,79.19,Hours,us-west-2,infra,analytics,production,cluster-310978
+2026-01-09,EKS,96.7657,65.22,Hours,us-west-2,frontend,platform,staging,cluster-768080
+2026-01-09,ElastiCache,16.3452,38.79,Hours,eu-west-1,data,web-app,production,cache-638994
+2026-01-09,ElastiCache,38.4023,68.53,Hours,us-east-1,backend,analytics,production,cache-405892
+2026-01-09,ElastiCache,48.8005,13.92,Hours,eu-west-1,frontend,web-app,production,cache-691725
+2026-01-09,ElastiCache,38.021,98.68,Hours,ap-southeast-1,ml,platform,production,cache-362842
+2026-01-09,Route53,4.3243,5.14,Queries,us-west-2,backend,web-app,development,res-413451
+2026-01-09,Route53,4.003,14.45,Queries,us-east-1,infra,analytics,staging,res-215526
+2026-01-09,Route53,6.1642,53.75,Queries,us-west-2,data,web-app,staging,res-461967
+2026-01-09,Route53,2.1903,51.44,Queries,us-west-2,backend,web-app,production,res-391683
+2026-01-09,SNS,4.8328,15.76,Requests,eu-west-1,infra,analytics,production,res-475543
+2026-01-09,SNS,3.7143,15.06,Requests,us-east-1,infra,web-app,staging,res-449904
+2026-01-09,SNS,0.8999,57.76,Requests,us-east-1,data,web-app,staging,res-653999
+2026-01-09,SNS,4.0949,63.39,Requests,us-east-1,frontend,ml-pipeline,production,res-517973
+2026-01-09,SQS,5.4849,58.07,Requests,us-west-2,ml,web-app,development,res-130561
+2026-01-09,SQS,2.5047,46.36,Requests,us-west-2,data,platform,staging,res-952393
+2026-01-09,SQS,5.4536,45.31,Requests,us-west-2,infra,mobile-api,development,res-165916
+2026-01-09,SQS,1.5414,58.61,Requests,us-west-2,data,platform,production,res-845895
+2026-01-09,API Gateway,22.9945,71.24,Requests,ap-southeast-1,ml,ml-pipeline,staging,res-550525
+2026-01-09,API Gateway,5.0997,42.48,Requests,us-west-2,backend,platform,development,res-628300
+2026-01-09,API Gateway,19.3243,70.24,Requests,ap-southeast-1,backend,platform,production,res-359025
+2026-01-09,Secrets Manager,7.9481,44.57,Secrets,us-east-1,frontend,analytics,development,res-453370
+2026-01-09,Secrets Manager,9.2652,2.65,Secrets,us-east-1,backend,platform,production,res-856081
+2026-01-09,Secrets Manager,3.5329,98.73,Secrets,us-west-2,data,platform,development,res-870998
+2026-01-09,Secrets Manager,4.1551,23.67,Secrets,us-west-2,backend,web-app,production,res-123105
+2026-01-10,EC2,38.5839,30.93,Hours,us-east-1,data,analytics,production,i-630073
+2026-01-10,EC2,28.0971,90.69,Hours,ap-southeast-1,backend,mobile-api,production,i-630837
+2026-01-10,EC2,29.4912,75.42,Hours,us-east-1,ml,ml-pipeline,staging,i-104430
+2026-01-10,Lambda,14.5554,89.65,Requests,us-east-1,frontend,platform,production,func-919064
+2026-01-10,Lambda,27.207,7.27,Requests,us-west-2,ml,mobile-api,staging,func-190002
+2026-01-10,Lambda,17.1085,95.19,Requests,ap-southeast-1,backend,mobile-api,staging,func-259401
+2026-01-10,S3,14.1792,97.21,GB-Month,ap-southeast-1,frontend,analytics,development,res-655431
+2026-01-10,S3,19.9445,79.67,GB-Month,ap-southeast-1,infra,platform,development,res-581259
+2026-01-10,S3,4.6701,54.86,GB-Month,ap-southeast-1,frontend,web-app,staging,res-952451
+2026-01-10,S3,27.7928,18.75,GB-Month,us-east-1,ml,mobile-api,production,res-754993
+2026-01-10,S3,22.756,67.96,GB-Month,eu-west-1,infra,platform,staging,res-932648
+2026-01-10,RDS,52.2444,56.37,Hours,us-east-1,infra,ml-pipeline,production,db-338044
+2026-01-10,RDS,160.7939,29.45,Hours,us-east-1,frontend,ml-pipeline,production,db-291838
+2026-01-10,RDS,74.3894,61.27,Hours,us-west-2,ml,platform,development,db-238113
+2026-01-10,RDS,119.303,18.76,Hours,us-east-1,infra,platform,staging,db-478779
+2026-01-10,DynamoDB,14.2919,4.24,WCU-Hours,us-west-2,backend,platform,development,res-693349
+2026-01-10,DynamoDB,40.2437,56.84,WCU-Hours,eu-west-1,frontend,web-app,production,res-300330
+2026-01-10,DynamoDB,29.5318,10.19,WCU-Hours,eu-west-1,infra,platform,staging,res-274420
+2026-01-10,DynamoDB,46.8003,12.24,WCU-Hours,ap-southeast-1,frontend,analytics,production,res-548385
+2026-01-10,DynamoDB,42.4935,76.94,WCU-Hours,ap-southeast-1,data,mobile-api,development,res-275179
+2026-01-10,CloudWatch,2.2268,15.82,Metrics,ap-southeast-1,infra,ml-pipeline,production,res-777491
+2026-01-10,CloudWatch,6.75,54.4,Metrics,us-east-1,ml,analytics,development,res-442516
+2026-01-10,CloudWatch,11.6884,96.77,Metrics,ap-southeast-1,infra,analytics,production,res-971262
+2026-01-10,CloudWatch,6.2947,89.21,Metrics,us-east-1,ml,mobile-api,production,res-602645
+2026-01-10,CloudFront,36.3356,24.87,GB,ap-southeast-1,backend,ml-pipeline,staging,res-754927
+2026-01-10,CloudFront,26.3031,28.31,GB,us-east-1,infra,mobile-api,production,res-640877
+2026-01-10,CloudFront,32.2391,30.3,GB,ap-southeast-1,data,mobile-api,staging,res-282670
+2026-01-10,CloudFront,21.8731,70.13,GB,eu-west-1,frontend,ml-pipeline,production,res-961166
+2026-01-10,EBS,48.1548,56.24,GB-Month,us-west-2,frontend,analytics,staging,res-816070
+2026-01-10,EBS,22.2378,91.57,GB-Month,us-west-2,infra,platform,staging,res-421207
+2026-01-10,EBS,16.0881,12.05,GB-Month,eu-west-1,backend,mobile-api,development,res-546154
+2026-01-10,EKS,66.9141,28.93,Hours,us-west-2,data,mobile-api,production,cluster-803992
+2026-01-10,EKS,43.6,5.44,Hours,us-west-2,ml,ml-pipeline,development,cluster-168119
+2026-01-10,EKS,40.18,48.24,Hours,ap-southeast-1,ml,web-app,development,cluster-919406
+2026-01-10,EKS,92.1838,41.64,Hours,eu-west-1,ml,platform,development,cluster-102643
+2026-01-10,EKS,85.9609,97.67,Hours,ap-southeast-1,frontend,platform,development,cluster-966977
+2026-01-10,ElastiCache,47.8689,1.85,Hours,ap-southeast-1,ml,platform,production,cache-333048
+2026-01-10,ElastiCache,44.2464,5.18,Hours,us-west-2,data,mobile-api,production,cache-869922
+2026-01-10,ElastiCache,58.422,49.21,Hours,eu-west-1,frontend,analytics,development,cache-485792
+2026-01-10,ElastiCache,60.8186,71.22,Hours,eu-west-1,frontend,ml-pipeline,staging,cache-882064
+2026-01-10,Route53,5.6083,82.99,Queries,us-east-1,backend,ml-pipeline,production,res-511319
+2026-01-10,Route53,7.3959,5.24,Queries,eu-west-1,frontend,analytics,production,res-547737
+2026-01-10,Route53,2.2974,63.07,Queries,us-east-1,backend,platform,development,res-547285
+2026-01-10,Route53,1.7016,32.73,Queries,eu-west-1,frontend,web-app,staging,res-954172
+2026-01-10,SNS,1.7063,75.6,Requests,ap-southeast-1,ml,analytics,production,res-136493
+2026-01-10,SNS,4.6477,86.96,Requests,eu-west-1,backend,mobile-api,development,res-177654
+2026-01-10,SNS,2.4193,59.73,Requests,eu-west-1,infra,mobile-api,staging,res-618409
+2026-01-10,SNS,1.0247,41.54,Requests,us-east-1,data,mobile-api,staging,res-156403
+2026-01-10,SQS,4.0028,33.19,Requests,eu-west-1,backend,ml-pipeline,production,res-180860
+2026-01-10,SQS,0.8203,12.49,Requests,us-west-2,backend,ml-pipeline,production,res-851803
+2026-01-10,SQS,4.4178,76.63,Requests,ap-southeast-1,backend,platform,development,res-223232
+2026-01-10,SQS,5.0922,33.68,Requests,eu-west-1,frontend,platform,production,res-766243
+2026-01-10,API Gateway,5.5812,23.81,Requests,us-east-1,data,mobile-api,development,res-766177
+2026-01-10,API Gateway,4.1832,48.95,Requests,us-east-1,ml,analytics,development,res-939974
+2026-01-10,API Gateway,18.9016,53.11,Requests,ap-southeast-1,data,mobile-api,staging,res-181597
+2026-01-10,API Gateway,8.2151,12.83,Requests,ap-southeast-1,infra,web-app,development,res-884610
+2026-01-10,Secrets Manager,8.0785,31.31,Secrets,eu-west-1,ml,analytics,production,res-318319
+2026-01-10,Secrets Manager,6.1579,56.73,Secrets,eu-west-1,backend,mobile-api,production,res-605440
+2026-01-10,Secrets Manager,3.3651,64.23,Secrets,us-east-1,ml,platform,development,res-605814
+2026-01-11,EC2,76.9692,41.8,Hours,eu-west-1,frontend,web-app,staging,i-985950
+2026-01-11,EC2,70.1649,18.03,Hours,ap-southeast-1,infra,analytics,production,i-285647
+2026-01-11,EC2,76.1638,65.58,Hours,us-east-1,backend,mobile-api,production,i-769156
+2026-01-11,EC2,83.6261,64.51,Hours,ap-southeast-1,ml,ml-pipeline,production,i-581256
+2026-01-11,EC2,12.173,66.52,Hours,ap-southeast-1,infra,platform,staging,i-626341
+2026-01-11,Lambda,11.667,84.99,Requests,eu-west-1,data,platform,production,func-650232
+2026-01-11,Lambda,2.3591,84.16,Requests,us-west-2,frontend,platform,production,func-172981
+2026-01-11,Lambda,8.8371,19.51,Requests,eu-west-1,ml,web-app,staging,func-321615
+2026-01-11,Lambda,4.1711,79.18,Requests,us-west-2,ml,platform,production,func-677131
+2026-01-11,Lambda,4.7559,41.48,Requests,ap-southeast-1,frontend,ml-pipeline,staging,func-784689
+2026-01-11,S3,35.0802,56.33,GB-Month,us-west-2,frontend,web-app,staging,res-113238
+2026-01-11,S3,20.9058,23.31,GB-Month,ap-southeast-1,backend,ml-pipeline,production,res-196146
+2026-01-11,S3,33.6588,72.45,GB-Month,us-west-2,data,web-app,staging,res-822205
+2026-01-11,S3,25.7796,98.63,GB-Month,us-east-1,data,platform,production,res-509730
+2026-01-11,RDS,114.5017,47.4,Hours,us-east-1,frontend,web-app,production,db-152390
+2026-01-11,RDS,153.6233,22.59,Hours,ap-southeast-1,backend,ml-pipeline,development,db-259015
+2026-01-11,RDS,79.0944,4.69,Hours,us-west-2,backend,web-app,development,db-631764
+2026-01-11,RDS,176.7345,42.96,Hours,eu-west-1,infra,platform,production,db-311770
+2026-01-11,DynamoDB,62.5771,14.31,WCU-Hours,ap-southeast-1,frontend,platform,production,res-856999
+2026-01-11,DynamoDB,8.5065,62.3,WCU-Hours,ap-southeast-1,infra,web-app,staging,res-511395
+2026-01-11,DynamoDB,19.173,55.39,WCU-Hours,ap-southeast-1,ml,platform,production,res-903409
+2026-01-11,DynamoDB,7.8982,99.1,WCU-Hours,us-east-1,frontend,ml-pipeline,development,res-440365
+2026-01-11,CloudWatch,6.3123,21.61,Metrics,ap-southeast-1,infra,ml-pipeline,development,res-469582
+2026-01-11,CloudWatch,4.3676,81.62,Metrics,ap-southeast-1,infra,analytics,staging,res-718601
+2026-01-11,CloudWatch,2.6049,2.43,Metrics,us-west-2,data,mobile-api,development,res-270507
+2026-01-11,CloudWatch,4.0301,23.35,Metrics,us-east-1,data,ml-pipeline,production,res-723535
+2026-01-11,CloudFront,12.8157,63.15,GB,us-west-2,infra,platform,development,res-377030
+2026-01-11,CloudFront,20.1229,69.62,GB,ap-southeast-1,frontend,web-app,staging,res-564651
+2026-01-11,CloudFront,4.5569,15.25,GB,us-east-1,backend,platform,development,res-668898
+2026-01-11,CloudFront,4.9064,46.22,GB,us-east-1,infra,mobile-api,development,res-100408
+2026-01-11,CloudFront,27.0984,5.99,GB,ap-southeast-1,infra,web-app,staging,res-986687
+2026-01-11,EBS,20.7056,39.79,GB-Month,us-east-1,backend,mobile-api,staging,res-471999
+2026-01-11,EBS,27.0137,93.68,GB-Month,us-west-2,infra,web-app,production,res-294162
+2026-01-11,EBS,13.8088,70.84,GB-Month,us-east-1,ml,platform,staging,res-644314
+2026-01-11,EKS,111.6493,12.58,Hours,us-west-2,ml,analytics,development,cluster-707937
+2026-01-11,EKS,65.733,70.59,Hours,eu-west-1,data,mobile-api,development,cluster-104735
+2026-01-11,EKS,76.0381,19.91,Hours,us-east-1,data,platform,production,cluster-446897
+2026-01-11,EKS,93.5498,21.13,Hours,eu-west-1,frontend,mobile-api,staging,cluster-165151
+2026-01-11,EKS,89.6322,92.49,Hours,eu-west-1,frontend,analytics,staging,cluster-566118
+2026-01-11,ElastiCache,71.6312,89.86,Hours,eu-west-1,backend,analytics,production,cache-435524
+2026-01-11,ElastiCache,78.7892,30.92,Hours,ap-southeast-1,frontend,ml-pipeline,production,cache-385120
+2026-01-11,ElastiCache,75.8496,46.47,Hours,us-west-2,data,mobile-api,production,cache-857109
+2026-01-11,Route53,5.8775,89.24,Queries,us-east-1,frontend,ml-pipeline,production,res-243442
+2026-01-11,Route53,5.6514,84.76,Queries,us-east-1,infra,analytics,staging,res-437540
+2026-01-11,Route53,2.8575,37.65,Queries,us-west-2,data,mobile-api,development,res-216745
+2026-01-11,SNS,1.9275,67.13,Requests,ap-southeast-1,ml,mobile-api,staging,res-430718
+2026-01-11,SNS,3.0948,60.91,Requests,ap-southeast-1,data,ml-pipeline,staging,res-173837
+2026-01-11,SNS,0.4271,71.0,Requests,ap-southeast-1,frontend,mobile-api,production,res-644709
+2026-01-11,SNS,1.4145,67.94,Requests,us-west-2,backend,mobile-api,development,res-761164
+2026-01-11,SNS,0.6567,50.85,Requests,ap-southeast-1,data,analytics,development,res-938102
+2026-01-11,SQS,0.8299,1.35,Requests,us-east-1,frontend,ml-pipeline,staging,res-634030
+2026-01-11,SQS,1.1214,55.26,Requests,eu-west-1,data,ml-pipeline,production,res-904408
+2026-01-11,SQS,4.0756,32.04,Requests,us-west-2,backend,analytics,development,res-634766
+2026-01-11,SQS,3.8437,54.46,Requests,us-east-1,infra,mobile-api,production,res-629308
+2026-01-11,SQS,4.6657,80.53,Requests,us-west-2,backend,web-app,development,res-481537
+2026-01-11,API Gateway,12.3898,65.55,Requests,eu-west-1,infra,ml-pipeline,production,res-669378
+2026-01-11,API Gateway,8.3826,6.84,Requests,us-west-2,backend,mobile-api,development,res-492394
+2026-01-11,API Gateway,6.8492,84.48,Requests,us-west-2,backend,mobile-api,staging,res-240923
+2026-01-11,API Gateway,6.7305,29.35,Requests,us-east-1,data,mobile-api,production,res-428216
+2026-01-11,API Gateway,9.5018,84.45,Requests,eu-west-1,ml,analytics,staging,res-454459
+2026-01-11,Secrets Manager,3.6625,33.65,Secrets,us-east-1,infra,mobile-api,development,res-343494
+2026-01-11,Secrets Manager,7.307,7.14,Secrets,us-east-1,infra,ml-pipeline,staging,res-738119
+2026-01-11,Secrets Manager,6.8691,28.29,Secrets,us-west-2,data,web-app,production,res-443324
+2026-01-11,Secrets Manager,2.1874,9.81,Secrets,us-east-1,backend,mobile-api,staging,res-751903
+2026-01-12,EC2,13.0229,32.95,Hours,ap-southeast-1,backend,ml-pipeline,production,i-761484
+2026-01-12,EC2,67.0641,15.64,Hours,us-east-1,infra,web-app,development,i-688598
+2026-01-12,EC2,80.402,2.26,Hours,us-east-1,frontend,mobile-api,staging,i-221426
+2026-01-12,EC2,63.2213,52.23,Hours,ap-southeast-1,data,platform,staging,i-108079
+2026-01-12,EC2,88.118,3.56,Hours,eu-west-1,ml,ml-pipeline,staging,i-984190
+2026-01-12,Lambda,17.2275,4.49,Requests,us-east-1,backend,platform,staging,func-398874
+2026-01-12,Lambda,7.9384,46.8,Requests,us-east-1,ml,web-app,production,func-471774
+2026-01-12,Lambda,3.4763,42.76,Requests,eu-west-1,ml,web-app,staging,func-492115
+2026-01-12,S3,48.5728,26.35,GB-Month,us-east-1,data,mobile-api,development,res-700364
+2026-01-12,S3,47.1268,34.14,GB-Month,us-west-2,ml,analytics,development,res-920958
+2026-01-12,S3,22.8588,56.25,GB-Month,us-west-2,frontend,mobile-api,development,res-423041
+2026-01-12,S3,21.6399,35.64,GB-Month,ap-southeast-1,data,analytics,production,res-297865
+2026-01-12,RDS,136.5571,84.33,Hours,ap-southeast-1,data,analytics,development,db-170952
+2026-01-12,RDS,53.0538,23.47,Hours,us-east-1,data,mobile-api,staging,db-156763
+2026-01-12,RDS,128.9117,78.01,Hours,us-west-2,frontend,web-app,staging,db-301772
+2026-01-12,RDS,104.3203,64.38,Hours,ap-southeast-1,ml,platform,development,db-617048
+2026-01-12,RDS,145.9398,87.59,Hours,us-west-2,ml,ml-pipeline,production,db-290793
+2026-01-12,DynamoDB,15.433,52.29,WCU-Hours,us-east-1,infra,platform,development,res-417915
+2026-01-12,DynamoDB,59.1314,53.27,WCU-Hours,eu-west-1,infra,web-app,production,res-302611
+2026-01-12,DynamoDB,33.1002,58.78,WCU-Hours,us-east-1,data,mobile-api,staging,res-329130
+2026-01-12,DynamoDB,22.0257,56.54,WCU-Hours,eu-west-1,infra,mobile-api,production,res-644943
+2026-01-12,DynamoDB,54.9579,21.56,WCU-Hours,ap-southeast-1,backend,platform,production,res-238274
+2026-01-12,CloudWatch,9.1258,85.51,Metrics,eu-west-1,infra,analytics,staging,res-608548
+2026-01-12,CloudWatch,12.4847,17.93,Metrics,ap-southeast-1,data,mobile-api,development,res-955513
+2026-01-12,CloudWatch,8.9738,43.85,Metrics,ap-southeast-1,backend,ml-pipeline,production,res-853353
+2026-01-12,CloudWatch,8.4211,54.4,Metrics,us-west-2,infra,ml-pipeline,production,res-415506
+2026-01-12,CloudFront,27.5087,80.15,GB,eu-west-1,backend,ml-pipeline,production,res-302182
+2026-01-12,CloudFront,21.7899,80.05,GB,us-east-1,infra,ml-pipeline,production,res-973555
+2026-01-12,CloudFront,34.663,79.15,GB,ap-southeast-1,infra,analytics,staging,res-473105
+2026-01-12,EBS,48.9108,56.34,GB-Month,us-east-1,data,web-app,production,res-258878
+2026-01-12,EBS,27.2574,46.14,GB-Month,eu-west-1,data,analytics,staging,res-753912
+2026-01-12,EBS,57.1125,66.76,GB-Month,us-west-2,data,platform,development,res-820136
+2026-01-12,EKS,70.987,68.49,Hours,us-west-2,frontend,analytics,development,cluster-303108
+2026-01-12,EKS,63.2231,22.99,Hours,ap-southeast-1,frontend,analytics,production,cluster-542302
+2026-01-12,EKS,77.9864,84.65,Hours,eu-west-1,data,platform,production,cluster-492598
+2026-01-12,EKS,84.6824,93.81,Hours,us-east-1,data,mobile-api,development,cluster-219202
+2026-01-12,EKS,71.2336,40.52,Hours,ap-southeast-1,infra,analytics,staging,cluster-522997
+2026-01-12,ElastiCache,60.8461,18.32,Hours,us-east-1,infra,analytics,development,cache-135418
+2026-01-12,ElastiCache,62.0645,1.26,Hours,us-east-1,data,mobile-api,production,cache-374707
+2026-01-12,ElastiCache,46.2617,83.59,Hours,us-west-2,frontend,analytics,staging,cache-787773
+2026-01-12,ElastiCache,16.074,47.65,Hours,us-east-1,infra,analytics,production,cache-273762
+2026-01-12,Route53,5.9538,22.22,Queries,ap-southeast-1,ml,mobile-api,staging,res-543517
+2026-01-12,Route53,5.8522,8.13,Queries,us-west-2,data,platform,development,res-496409
+2026-01-12,Route53,6.5437,24.1,Queries,eu-west-1,ml,ml-pipeline,production,res-591262
+2026-01-12,SNS,3.6207,46.37,Requests,us-west-2,frontend,platform,development,res-731031
+2026-01-12,SNS,4.4007,27.13,Requests,eu-west-1,infra,analytics,production,res-235261
+2026-01-12,SNS,4.2635,49.49,Requests,ap-southeast-1,ml,analytics,development,res-485695
+2026-01-12,SNS,3.9186,70.84,Requests,ap-southeast-1,infra,analytics,development,res-330525
+2026-01-12,SQS,1.9547,48.06,Requests,eu-west-1,ml,mobile-api,development,res-993000
+2026-01-12,SQS,2.3696,23.1,Requests,eu-west-1,frontend,analytics,production,res-502338
+2026-01-12,SQS,4.3949,81.16,Requests,eu-west-1,backend,ml-pipeline,staging,res-374410
+2026-01-12,SQS,5.9445,83.57,Requests,us-east-1,ml,mobile-api,production,res-379054
+2026-01-12,API Gateway,11.4825,70.3,Requests,ap-southeast-1,data,platform,staging,res-100926
+2026-01-12,API Gateway,9.5207,3.57,Requests,ap-southeast-1,infra,analytics,development,res-584780
+2026-01-12,API Gateway,5.6353,75.01,Requests,eu-west-1,ml,mobile-api,development,res-203698
+2026-01-12,API Gateway,3.3527,90.2,Requests,eu-west-1,frontend,mobile-api,development,res-403417
+2026-01-12,API Gateway,5.2136,26.58,Requests,us-east-1,frontend,platform,production,res-379590
+2026-01-12,Secrets Manager,4.5358,24.47,Secrets,eu-west-1,frontend,analytics,staging,res-427773
+2026-01-12,Secrets Manager,1.6936,99.96,Secrets,us-east-1,frontend,web-app,staging,res-475003
+2026-01-12,Secrets Manager,8.067,93.66,Secrets,us-east-1,infra,ml-pipeline,development,res-804827
+2026-01-12,Secrets Manager,7.4676,13.01,Secrets,eu-west-1,frontend,web-app,staging,res-604945
+2026-01-13,EC2,19.1247,38.13,Hours,us-east-1,data,analytics,staging,i-386183
+2026-01-13,EC2,120.6597,57.96,Hours,us-west-2,infra,platform,production,i-784563
+2026-01-13,EC2,71.8835,72.81,Hours,us-east-1,ml,analytics,staging,i-412562
+2026-01-13,EC2,50.5368,25.32,Hours,ap-southeast-1,data,analytics,staging,i-766037
+2026-01-13,Lambda,19.6742,59.7,Requests,us-east-1,data,analytics,staging,func-961776
+2026-01-13,Lambda,10.7283,93.11,Requests,us-west-2,infra,platform,development,func-303699
+2026-01-13,Lambda,14.6123,58.71,Requests,us-west-2,frontend,analytics,staging,func-887118
+2026-01-13,Lambda,19.1235,40.58,Requests,ap-southeast-1,data,analytics,development,func-262897
+2026-01-13,Lambda,12.3401,31.85,Requests,ap-southeast-1,data,ml-pipeline,development,func-246139
+2026-01-13,S3,25.3282,83.02,GB-Month,eu-west-1,infra,platform,staging,res-261518
+2026-01-13,S3,20.2115,27.69,GB-Month,eu-west-1,backend,mobile-api,staging,res-110439
+2026-01-13,S3,15.5954,55.8,GB-Month,us-east-1,ml,platform,staging,res-516149
+2026-01-13,S3,9.1491,35.27,GB-Month,eu-west-1,ml,mobile-api,staging,res-912947
+2026-01-13,S3,25.0381,39.65,GB-Month,eu-west-1,ml,ml-pipeline,production,res-326776
+2026-01-13,RDS,88.533,74.69,Hours,us-west-2,ml,ml-pipeline,development,db-935453
+2026-01-13,RDS,144.1914,84.46,Hours,eu-west-1,infra,analytics,staging,db-121897
+2026-01-13,RDS,138.6714,73.79,Hours,eu-west-1,backend,web-app,production,db-796212
+2026-01-13,RDS,137.3456,38.66,Hours,eu-west-1,infra,analytics,production,db-923324
+2026-01-13,DynamoDB,27.6116,38.49,WCU-Hours,us-east-1,infra,web-app,production,res-398279
+2026-01-13,DynamoDB,69.6227,72.48,WCU-Hours,ap-southeast-1,infra,platform,staging,res-711954
+2026-01-13,DynamoDB,71.5553,19.27,WCU-Hours,us-west-2,infra,analytics,development,res-188506
+2026-01-13,DynamoDB,26.4904,83.31,WCU-Hours,us-west-2,backend,mobile-api,production,res-812984
+2026-01-13,CloudWatch,2.5506,24.22,Metrics,eu-west-1,infra,platform,development,res-244548
+2026-01-13,CloudWatch,1.6174,19.81,Metrics,us-west-2,backend,platform,production,res-527743
+2026-01-13,CloudWatch,3.1865,13.87,Metrics,ap-southeast-1,frontend,web-app,development,res-229720
+2026-01-13,CloudWatch,10.9682,24.31,Metrics,us-east-1,frontend,analytics,development,res-851304
+2026-01-13,CloudFront,28.509,38.25,GB,us-east-1,data,web-app,production,res-377079
+2026-01-13,CloudFront,22.5643,4.06,GB,eu-west-1,ml,ml-pipeline,development,res-241890
+2026-01-13,CloudFront,27.6322,83.51,GB,ap-southeast-1,frontend,web-app,development,res-651267
+2026-01-13,CloudFront,25.5471,82.78,GB,us-west-2,backend,ml-pipeline,staging,res-873496
+2026-01-13,CloudFront,18.193,1.18,GB,us-east-1,ml,web-app,development,res-528549
+2026-01-13,EBS,6.4848,84.36,GB-Month,eu-west-1,infra,platform,production,res-260279
+2026-01-13,EBS,22.1428,47.87,GB-Month,ap-southeast-1,frontend,mobile-api,production,res-939007
+2026-01-13,EBS,11.7947,25.19,GB-Month,us-west-2,ml,platform,development,res-683395
+2026-01-13,EBS,25.9572,61.23,GB-Month,us-west-2,data,analytics,development,res-454285
+2026-01-13,EBS,10.7102,65.5,GB-Month,us-west-2,ml,platform,production,res-574032
+2026-01-13,EKS,80.6821,11.19,Hours,us-west-2,ml,mobile-api,staging,cluster-868448
+2026-01-13,EKS,131.5241,55.81,Hours,eu-west-1,infra,mobile-api,staging,cluster-781280
+2026-01-13,EKS,111.7637,19.45,Hours,ap-southeast-1,data,mobile-api,staging,cluster-997120
+2026-01-13,EKS,129.591,7.25,Hours,us-west-2,ml,ml-pipeline,development,cluster-163040
+2026-01-13,ElastiCache,43.2285,15.96,Hours,ap-southeast-1,data,platform,production,cache-530466
+2026-01-13,ElastiCache,52.7716,45.3,Hours,us-east-1,backend,ml-pipeline,production,cache-991724
+2026-01-13,ElastiCache,49.8619,66.43,Hours,us-west-2,frontend,web-app,production,cache-474709
+2026-01-13,ElastiCache,43.2564,82.88,Hours,us-east-1,backend,analytics,staging,cache-520913
+2026-01-13,ElastiCache,51.6724,37.74,Hours,eu-west-1,backend,platform,staging,cache-636493
+2026-01-13,Route53,6.4325,57.92,Queries,eu-west-1,ml,mobile-api,development,res-121845
+2026-01-13,Route53,5.0531,30.07,Queries,eu-west-1,frontend,platform,production,res-890386
+2026-01-13,Route53,5.8786,38.13,Queries,ap-southeast-1,backend,platform,production,res-544225
+2026-01-13,SNS,3.4416,95.79,Requests,us-west-2,infra,web-app,production,res-128997
+2026-01-13,SNS,2.5419,24.2,Requests,ap-southeast-1,frontend,web-app,development,res-693385
+2026-01-13,SNS,3.6002,42.2,Requests,ap-southeast-1,data,ml-pipeline,development,res-995959
+2026-01-13,SNS,2.1005,69.07,Requests,us-west-2,frontend,mobile-api,production,res-205312
+2026-01-13,SNS,3.4537,45.39,Requests,us-east-1,frontend,ml-pipeline,development,res-199461
+2026-01-13,SQS,2.4224,1.67,Requests,ap-southeast-1,data,mobile-api,production,res-772437
+2026-01-13,SQS,0.9047,28.41,Requests,ap-southeast-1,ml,platform,staging,res-329371
+2026-01-13,SQS,0.8658,71.97,Requests,us-east-1,backend,ml-pipeline,development,res-407410
+2026-01-13,SQS,3.6652,22.76,Requests,us-east-1,data,mobile-api,staging,res-542193
+2026-01-13,SQS,2.9093,32.51,Requests,us-east-1,infra,analytics,production,res-744755
+2026-01-13,API Gateway,3.1005,33.06,Requests,ap-southeast-1,infra,platform,development,res-952245
+2026-01-13,API Gateway,9.0791,10.31,Requests,us-east-1,backend,web-app,staging,res-559833
+2026-01-13,API Gateway,10.672,93.66,Requests,ap-southeast-1,backend,ml-pipeline,production,res-566398
+2026-01-13,API Gateway,17.6294,57.85,Requests,us-west-2,frontend,platform,production,res-468495
+2026-01-13,Secrets Manager,4.8585,85.84,Secrets,us-east-1,backend,platform,staging,res-152612
+2026-01-13,Secrets Manager,6.0806,41.12,Secrets,us-east-1,infra,analytics,staging,res-586488
+2026-01-13,Secrets Manager,3.5721,85.02,Secrets,ap-southeast-1,backend,analytics,staging,res-302065
+2026-01-13,Secrets Manager,8.6045,55.68,Secrets,us-east-1,data,mobile-api,development,res-721997
+2026-01-14,EC2,54.5742,43.94,Hours,eu-west-1,backend,mobile-api,production,i-188895
+2026-01-14,EC2,56.592,40.82,Hours,ap-southeast-1,backend,analytics,production,i-319087
+2026-01-14,EC2,74.9824,76.16,Hours,us-west-2,infra,platform,production,i-831725
+2026-01-14,Lambda,4.5843,3.69,Requests,us-west-2,backend,analytics,development,func-267973
+2026-01-14,Lambda,7.097,45.59,Requests,us-east-1,backend,mobile-api,production,func-769175
+2026-01-14,Lambda,6.2597,78.61,Requests,ap-southeast-1,frontend,ml-pipeline,production,func-833843
+2026-01-14,Lambda,6.7847,91.61,Requests,us-east-1,data,platform,development,func-833340
+2026-01-14,S3,16.0776,82.9,GB-Month,eu-west-1,backend,web-app,development,res-378034
+2026-01-14,S3,5.6022,25.97,GB-Month,ap-southeast-1,infra,mobile-api,staging,res-219323
+2026-01-14,S3,38.1288,29.17,GB-Month,us-east-1,data,mobile-api,production,res-492108
+2026-01-14,S3,37.2929,89.73,GB-Month,us-east-1,frontend,web-app,staging,res-569889
+2026-01-14,S3,30.5087,28.78,GB-Month,eu-west-1,infra,mobile-api,development,res-149092
+2026-01-14,RDS,217.4276,7.31,Hours,us-west-2,backend,ml-pipeline,production,db-494527
+2026-01-14,RDS,83.4427,88.53,Hours,eu-west-1,frontend,ml-pipeline,staging,db-659303
+2026-01-14,RDS,96.9705,32.01,Hours,eu-west-1,frontend,web-app,development,db-358114
+2026-01-14,DynamoDB,74.6693,20.98,WCU-Hours,eu-west-1,frontend,analytics,production,res-499893
+2026-01-14,DynamoDB,38.048,70.14,WCU-Hours,us-east-1,backend,platform,production,res-347759
+2026-01-14,DynamoDB,60.0922,90.65,WCU-Hours,us-east-1,ml,ml-pipeline,development,res-341898
+2026-01-14,DynamoDB,23.3493,59.0,WCU-Hours,us-west-2,ml,web-app,production,res-141083
+2026-01-14,CloudWatch,9.7767,65.62,Metrics,us-east-1,data,platform,production,res-458241
+2026-01-14,CloudWatch,5.0143,21.36,Metrics,us-west-2,frontend,analytics,staging,res-916744
+2026-01-14,CloudWatch,5.4983,53.24,Metrics,eu-west-1,infra,platform,development,res-614801
+2026-01-14,CloudWatch,8.2205,35.05,Metrics,eu-west-1,frontend,mobile-api,production,res-553417
+2026-01-14,CloudFront,16.2899,82.77,GB,us-west-2,backend,web-app,staging,res-152225
+2026-01-14,CloudFront,6.1689,69.34,GB,ap-southeast-1,frontend,platform,production,res-883813
+2026-01-14,CloudFront,20.2368,4.73,GB,us-east-1,frontend,platform,production,res-979710
+2026-01-14,CloudFront,11.2405,11.5,GB,ap-southeast-1,frontend,web-app,development,res-324552
+2026-01-14,EBS,60.3455,67.75,GB-Month,us-west-2,ml,platform,development,res-277089
+2026-01-14,EBS,52.8112,76.6,GB-Month,us-west-2,ml,web-app,staging,res-582722
+2026-01-14,EBS,42.9598,93.81,GB-Month,ap-southeast-1,infra,mobile-api,development,res-439030
+2026-01-14,EKS,88.911,57.23,Hours,us-east-1,ml,web-app,production,cluster-238485
+2026-01-14,EKS,146.0787,59.41,Hours,eu-west-1,backend,ml-pipeline,production,cluster-252333
+2026-01-14,EKS,93.9175,75.11,Hours,ap-southeast-1,ml,web-app,production,cluster-231174
+2026-01-14,EKS,76.6807,86.94,Hours,us-east-1,data,platform,production,cluster-814832
+2026-01-14,ElastiCache,28.5863,79.15,Hours,us-east-1,ml,web-app,development,cache-432254
+2026-01-14,ElastiCache,32.2828,17.42,Hours,eu-west-1,backend,ml-pipeline,development,cache-604238
+2026-01-14,ElastiCache,54.9949,42.3,Hours,ap-southeast-1,ml,mobile-api,staging,cache-692921
+2026-01-14,ElastiCache,52.4889,72.07,Hours,eu-west-1,data,platform,production,cache-870838
+2026-01-14,Route53,5.033,56.79,Queries,ap-southeast-1,infra,mobile-api,staging,res-947046
+2026-01-14,Route53,3.5285,17.27,Queries,ap-southeast-1,frontend,web-app,development,res-794188
+2026-01-14,Route53,4.4477,87.28,Queries,ap-southeast-1,infra,ml-pipeline,development,res-590648
+2026-01-14,Route53,4.9775,9.13,Queries,us-east-1,data,analytics,staging,res-819481
+2026-01-14,SNS,4.5178,79.95,Requests,eu-west-1,frontend,analytics,staging,res-819355
+2026-01-14,SNS,1.6122,40.05,Requests,us-east-1,ml,mobile-api,staging,res-664541
+2026-01-14,SNS,6.2665,9.04,Requests,us-west-2,backend,ml-pipeline,staging,res-453004
+2026-01-14,SQS,4.1964,61.58,Requests,ap-southeast-1,data,mobile-api,development,res-194695
+2026-01-14,SQS,1.7883,89.29,Requests,eu-west-1,infra,ml-pipeline,staging,res-695790
+2026-01-14,SQS,1.7047,5.73,Requests,us-west-2,frontend,analytics,development,res-202185
+2026-01-14,SQS,3.7186,62.14,Requests,ap-southeast-1,backend,web-app,development,res-168115
+2026-01-14,SQS,3.7397,17.3,Requests,us-east-1,data,analytics,staging,res-713506
+2026-01-14,API Gateway,9.8213,78.67,Requests,us-east-1,frontend,platform,staging,res-154989
+2026-01-14,API Gateway,26.6275,65.67,Requests,us-west-2,ml,web-app,staging,res-981266
+2026-01-14,API Gateway,3.4642,34.27,Requests,ap-southeast-1,ml,analytics,development,res-465367
+2026-01-14,Secrets Manager,6.1818,36.41,Secrets,us-east-1,frontend,analytics,development,res-346978
+2026-01-14,Secrets Manager,8.4943,79.82,Secrets,us-west-2,data,analytics,staging,res-479405
+2026-01-14,Secrets Manager,6.9239,37.75,Secrets,eu-west-1,data,web-app,production,res-472083
+2026-01-14,Secrets Manager,3.8195,75.18,Secrets,us-east-1,infra,analytics,staging,res-572008
+2026-01-15,EC2,78.1743,77.57,Hours,eu-west-1,ml,mobile-api,production,i-879427
+2026-01-15,EC2,88.2028,46.47,Hours,eu-west-1,frontend,platform,production,i-571249
+2026-01-15,EC2,60.6178,99.74,Hours,eu-west-1,data,web-app,production,i-117911
+2026-01-15,EC2,58.3883,90.24,Hours,us-west-2,ml,web-app,production,i-906577
+2026-01-15,EC2,34.1211,98.88,Hours,us-west-2,backend,platform,staging,i-591182
+2026-01-15,Lambda,16.9426,85.12,Requests,us-west-2,ml,platform,staging,func-635799
+2026-01-15,Lambda,13.2018,8.05,Requests,eu-west-1,backend,platform,development,func-566311
+2026-01-15,Lambda,14.6961,30.24,Requests,eu-west-1,ml,ml-pipeline,production,func-880048
+2026-01-15,Lambda,18.0096,16.47,Requests,ap-southeast-1,ml,web-app,development,func-589192
+2026-01-15,Lambda,14.8361,67.93,Requests,eu-west-1,ml,mobile-api,staging,func-223830
+2026-01-15,S3,37.8244,23.13,GB-Month,ap-southeast-1,infra,web-app,staging,res-573728
+2026-01-15,S3,31.6233,4.66,GB-Month,ap-southeast-1,ml,mobile-api,staging,res-651093
+2026-01-15,S3,31.8539,92.47,GB-Month,eu-west-1,ml,analytics,production,res-563670
+2026-01-15,S3,34.5837,29.22,GB-Month,us-east-1,backend,analytics,staging,res-211833
+2026-01-15,S3,30.1481,15.52,GB-Month,us-east-1,frontend,platform,development,res-712460
+2026-01-15,RDS,150.612,66.07,Hours,us-west-2,data,mobile-api,staging,db-199569
+2026-01-15,RDS,173.7305,30.76,Hours,us-east-1,infra,web-app,development,db-865420
+2026-01-15,RDS,142.3682,49.1,Hours,ap-southeast-1,ml,web-app,production,db-667966
+2026-01-15,RDS,63.3871,62.9,Hours,us-east-1,frontend,ml-pipeline,production,db-551766
+2026-01-15,DynamoDB,20.59,21.07,WCU-Hours,us-east-1,ml,platform,production,res-239922
+2026-01-15,DynamoDB,43.2284,11.52,WCU-Hours,ap-southeast-1,data,web-app,staging,res-422974
+2026-01-15,DynamoDB,43.5787,47.78,WCU-Hours,us-east-1,data,web-app,staging,res-345551
+2026-01-15,CloudWatch,6.9238,30.72,Metrics,ap-southeast-1,data,platform,staging,res-496486
+2026-01-15,CloudWatch,12.168,18.38,Metrics,eu-west-1,data,web-app,staging,res-221185
+2026-01-15,CloudWatch,9.7165,54.59,Metrics,ap-southeast-1,infra,ml-pipeline,staging,res-139627
+2026-01-15,CloudWatch,11.1764,18.08,Metrics,ap-southeast-1,backend,analytics,production,res-275612
+2026-01-15,CloudFront,30.5351,13.18,GB,ap-southeast-1,backend,mobile-api,development,res-327068
+2026-01-15,CloudFront,7.7549,55.36,GB,us-west-2,data,mobile-api,development,res-449528
+2026-01-15,CloudFront,23.5091,26.14,GB,us-east-1,backend,analytics,staging,res-726128
+2026-01-15,EBS,34.6896,45.64,GB-Month,us-west-2,ml,web-app,production,res-113919
+2026-01-15,EBS,38.3765,13.1,GB-Month,ap-southeast-1,ml,mobile-api,production,res-115773
+2026-01-15,EBS,59.1262,25.71,GB-Month,ap-southeast-1,ml,mobile-api,production,res-884414
+2026-01-15,EKS,68.7109,65.94,Hours,eu-west-1,ml,mobile-api,development,cluster-294751
+2026-01-15,EKS,71.7438,31.3,Hours,us-west-2,backend,mobile-api,production,cluster-777804
+2026-01-15,EKS,92.5241,40.8,Hours,us-west-2,frontend,platform,development,cluster-657131
+2026-01-15,EKS,110.7525,55.45,Hours,ap-southeast-1,backend,mobile-api,staging,cluster-637493
+2026-01-15,EKS,109.718,97.0,Hours,ap-southeast-1,ml,analytics,staging,cluster-707398
+2026-01-15,ElastiCache,37.0699,86.01,Hours,us-east-1,data,web-app,production,cache-974001
+2026-01-15,ElastiCache,27.054,13.64,Hours,eu-west-1,data,mobile-api,staging,cache-116376
+2026-01-15,ElastiCache,19.435,11.22,Hours,ap-southeast-1,ml,ml-pipeline,development,cache-334412
+2026-01-15,ElastiCache,36.8895,38.2,Hours,us-east-1,data,analytics,production,cache-605390
+2026-01-15,ElastiCache,13.9495,40.01,Hours,us-west-2,ml,web-app,development,cache-909683
+2026-01-15,Route53,4.4386,9.94,Queries,us-east-1,ml,ml-pipeline,staging,res-967133
+2026-01-15,Route53,5.8235,8.24,Queries,ap-southeast-1,frontend,mobile-api,staging,res-538925
+2026-01-15,Route53,2.9628,28.79,Queries,us-east-1,ml,web-app,development,res-145359
+2026-01-15,Route53,4.5443,83.88,Queries,eu-west-1,backend,mobile-api,staging,res-754400
+2026-01-15,Route53,5.4382,17.24,Queries,us-east-1,backend,mobile-api,production,res-731152
+2026-01-15,SNS,0.6943,89.33,Requests,ap-southeast-1,backend,mobile-api,development,res-484066
+2026-01-15,SNS,0.6923,16.31,Requests,us-west-2,backend,ml-pipeline,development,res-112535
+2026-01-15,SNS,3.8612,48.92,Requests,eu-west-1,infra,web-app,development,res-844625
+2026-01-15,SNS,3.1989,55.24,Requests,us-west-2,backend,ml-pipeline,production,res-516411
+2026-01-15,SQS,5.522,97.14,Requests,us-east-1,backend,analytics,development,res-670192
+2026-01-15,SQS,1.3921,41.85,Requests,eu-west-1,data,platform,staging,res-982721
+2026-01-15,SQS,5.1139,84.12,Requests,ap-southeast-1,ml,analytics,production,res-166549
+2026-01-15,API Gateway,4.458,83.46,Requests,us-west-2,backend,analytics,development,res-802228
+2026-01-15,API Gateway,15.3427,96.89,Requests,us-east-1,infra,platform,development,res-571402
+2026-01-15,API Gateway,19.5522,54.73,Requests,us-west-2,frontend,mobile-api,development,res-866582
+2026-01-15,API Gateway,4.0884,81.2,Requests,eu-west-1,infra,ml-pipeline,production,res-173564
+2026-01-15,Secrets Manager,9.398,20.38,Secrets,eu-west-1,infra,web-app,development,res-748300
+2026-01-15,Secrets Manager,8.128,34.78,Secrets,eu-west-1,data,web-app,staging,res-223523
+2026-01-15,Secrets Manager,7.6676,38.69,Secrets,us-west-2,frontend,platform,staging,res-890516
+2026-01-16,EC2,98.0705,56.12,Hours,eu-west-1,frontend,analytics,development,i-413151
+2026-01-16,EC2,30.708,12.49,Hours,eu-west-1,backend,web-app,production,i-273434
+2026-01-16,EC2,90.4461,53.59,Hours,us-east-1,frontend,ml-pipeline,production,i-206023
+2026-01-16,EC2,75.6189,17.22,Hours,us-west-2,data,platform,production,i-456968
+2026-01-16,EC2,51.2771,11.38,Hours,us-east-1,ml,ml-pipeline,staging,i-197050
+2026-01-16,Lambda,19.6482,11.12,Requests,us-east-1,data,mobile-api,production,func-503390
+2026-01-16,Lambda,6.6631,7.59,Requests,us-east-1,data,analytics,development,func-855974
+2026-01-16,Lambda,15.6944,71.92,Requests,us-west-2,data,ml-pipeline,development,func-956507
+2026-01-16,Lambda,16.619,76.71,Requests,us-east-1,infra,platform,production,func-291022
+2026-01-16,Lambda,5.2878,78.63,Requests,eu-west-1,ml,platform,staging,func-362654
+2026-01-16,S3,56.1923,85.85,GB-Month,us-west-2,infra,mobile-api,development,res-516739
+2026-01-16,S3,42.8943,4.41,GB-Month,ap-southeast-1,backend,analytics,production,res-418685
+2026-01-16,S3,33.0537,54.7,GB-Month,ap-southeast-1,backend,mobile-api,staging,res-611460
+2026-01-16,RDS,63.0455,55.14,Hours,ap-southeast-1,infra,web-app,production,db-140707
+2026-01-16,RDS,163.4175,78.12,Hours,us-east-1,ml,ml-pipeline,production,db-138508
+2026-01-16,RDS,227.6736,31.17,Hours,eu-west-1,backend,analytics,development,db-756354
+2026-01-16,DynamoDB,26.7583,42.03,WCU-Hours,us-east-1,backend,web-app,staging,res-966390
+2026-01-16,DynamoDB,75.8684,38.2,WCU-Hours,eu-west-1,backend,analytics,production,res-438894
+2026-01-16,DynamoDB,37.6879,48.63,WCU-Hours,us-east-1,data,mobile-api,staging,res-367253
+2026-01-16,CloudWatch,4.7868,99.97,Metrics,ap-southeast-1,frontend,mobile-api,staging,res-946800
+2026-01-16,CloudWatch,11.7617,54.74,Metrics,eu-west-1,infra,ml-pipeline,development,res-999185
+2026-01-16,CloudWatch,14.4313,28.28,Metrics,eu-west-1,data,platform,staging,res-425214
+2026-01-16,CloudFront,34.6853,38.75,GB,ap-southeast-1,frontend,web-app,development,res-710076
+2026-01-16,CloudFront,42.7886,5.51,GB,ap-southeast-1,data,web-app,development,res-572080
+2026-01-16,CloudFront,33.1607,65.34,GB,ap-southeast-1,infra,mobile-api,development,res-823688
+2026-01-16,EBS,18.8031,85.56,GB-Month,eu-west-1,frontend,web-app,staging,res-682655
+2026-01-16,EBS,6.0744,98.02,GB-Month,us-east-1,infra,mobile-api,development,res-871201
+2026-01-16,EBS,8.5746,38.27,GB-Month,us-west-2,infra,mobile-api,staging,res-466051
+2026-01-16,EBS,29.5195,51.03,GB-Month,eu-west-1,infra,platform,staging,res-892347
+2026-01-16,EBS,19.6088,46.28,GB-Month,ap-southeast-1,data,ml-pipeline,production,res-407495
+2026-01-16,EKS,138.0077,14.94,Hours,us-west-2,ml,ml-pipeline,development,cluster-690037
+2026-01-16,EKS,128.3188,88.12,Hours,us-west-2,frontend,web-app,development,cluster-583986
+2026-01-16,EKS,110.4177,57.38,Hours,ap-southeast-1,data,mobile-api,development,cluster-686947
+2026-01-16,EKS,91.5689,64.32,Hours,ap-southeast-1,data,analytics,staging,cluster-635539
+2026-01-16,ElastiCache,40.6716,36.25,Hours,eu-west-1,ml,ml-pipeline,production,cache-494788
+2026-01-16,ElastiCache,54.6222,44.09,Hours,us-west-2,data,analytics,development,cache-980496
+2026-01-16,ElastiCache,49.2492,69.95,Hours,us-west-2,data,platform,production,cache-353833
+2026-01-16,Route53,1.0429,39.6,Queries,ap-southeast-1,frontend,platform,production,res-337902
+2026-01-16,Route53,2.9979,66.89,Queries,eu-west-1,infra,mobile-api,production,res-889241
+2026-01-16,Route53,2.132,38.1,Queries,us-west-2,data,ml-pipeline,development,res-481812
+2026-01-16,Route53,2.0729,21.61,Queries,eu-west-1,infra,analytics,production,res-989624
+2026-01-16,Route53,2.971,70.91,Queries,us-east-1,backend,analytics,staging,res-738633
+2026-01-16,SNS,5.7775,43.39,Requests,ap-southeast-1,ml,mobile-api,production,res-644129
+2026-01-16,SNS,5.4047,72.26,Requests,us-west-2,frontend,analytics,staging,res-589520
+2026-01-16,SNS,3.6529,60.69,Requests,us-east-1,ml,web-app,production,res-127933
+2026-01-16,SQS,4.8983,20.41,Requests,us-east-1,data,web-app,production,res-902814
+2026-01-16,SQS,3.063,5.02,Requests,us-east-1,ml,platform,staging,res-871899
+2026-01-16,SQS,1.6742,82.51,Requests,ap-southeast-1,ml,ml-pipeline,development,res-523923
+2026-01-16,SQS,0.9903,96.58,Requests,ap-southeast-1,frontend,analytics,staging,res-653909
+2026-01-16,SQS,4.6286,34.09,Requests,us-east-1,ml,platform,development,res-939473
+2026-01-16,API Gateway,18.3319,6.07,Requests,us-west-2,backend,ml-pipeline,development,res-589545
+2026-01-16,API Gateway,13.2258,3.67,Requests,us-east-1,ml,web-app,production,res-849851
+2026-01-16,API Gateway,7.5525,75.83,Requests,ap-southeast-1,ml,platform,production,res-487951
+2026-01-16,API Gateway,10.3925,64.37,Requests,us-east-1,backend,analytics,staging,res-995528
+2026-01-16,Secrets Manager,5.861,85.18,Secrets,ap-southeast-1,data,web-app,staging,res-533922
+2026-01-16,Secrets Manager,8.3175,10.68,Secrets,us-west-2,infra,web-app,production,res-762640
+2026-01-16,Secrets Manager,8.1101,64.19,Secrets,us-west-2,data,web-app,production,res-769603
+2026-01-17,EC2,76.5927,67.07,Hours,us-east-1,infra,mobile-api,production,i-409400
+2026-01-17,EC2,42.4852,77.96,Hours,us-west-2,frontend,web-app,staging,i-822309
+2026-01-17,EC2,122.8437,24.61,Hours,us-east-1,infra,mobile-api,development,i-106737
+2026-01-17,EC2,49.2342,58.77,Hours,ap-southeast-1,infra,web-app,staging,i-289887
+2026-01-17,Lambda,30.2821,76.55,Requests,us-east-1,infra,ml-pipeline,development,func-292600
+2026-01-17,Lambda,29.4451,27.19,Requests,us-east-1,backend,web-app,staging,func-878561
+2026-01-17,Lambda,22.1291,82.7,Requests,us-west-2,infra,analytics,development,func-117270
+2026-01-17,S3,35.753,80.05,GB-Month,us-west-2,frontend,platform,production,res-536270
+2026-01-17,S3,35.0618,44.65,GB-Month,ap-southeast-1,frontend,mobile-api,development,res-433770
+2026-01-17,S3,49.0704,12.63,GB-Month,us-west-2,frontend,analytics,production,res-920587
+2026-01-17,RDS,69.4867,5.23,Hours,us-west-2,ml,ml-pipeline,production,db-912470
+2026-01-17,RDS,38.4031,41.05,Hours,eu-west-1,data,platform,production,db-570092
+2026-01-17,RDS,110.4228,7.74,Hours,us-west-2,frontend,platform,staging,db-959237
+2026-01-17,RDS,31.3439,89.88,Hours,us-east-1,infra,mobile-api,production,db-347296
+2026-01-17,RDS,43.2487,10.66,Hours,ap-southeast-1,frontend,mobile-api,development,db-919672
+2026-01-17,DynamoDB,40.3764,47.49,WCU-Hours,ap-southeast-1,infra,web-app,production,res-824840
+2026-01-17,DynamoDB,58.1634,66.67,WCU-Hours,us-east-1,ml,ml-pipeline,development,res-483546
+2026-01-17,DynamoDB,16.8156,57.89,WCU-Hours,eu-west-1,infra,platform,staging,res-716355
+2026-01-17,CloudWatch,7.6281,10.83,Metrics,eu-west-1,frontend,platform,staging,res-432542
+2026-01-17,CloudWatch,2.5044,62.29,Metrics,ap-southeast-1,ml,web-app,production,res-575890
+2026-01-17,CloudWatch,6.3301,74.31,Metrics,ap-southeast-1,infra,analytics,staging,res-677331
+2026-01-17,CloudWatch,4.0721,95.67,Metrics,us-east-1,ml,ml-pipeline,production,res-157596
+2026-01-17,CloudFront,37.1669,45.81,GB,ap-southeast-1,data,platform,staging,res-952166
+2026-01-17,CloudFront,6.7938,29.91,GB,eu-west-1,data,mobile-api,staging,res-332828
+2026-01-17,CloudFront,14.8497,18.1,GB,eu-west-1,infra,web-app,staging,res-155983
+2026-01-17,EBS,42.277,47.49,GB-Month,us-west-2,backend,mobile-api,production,res-570234
+2026-01-17,EBS,45.2759,83.45,GB-Month,eu-west-1,infra,analytics,staging,res-256550
+2026-01-17,EBS,26.1319,16.53,GB-Month,us-east-1,infra,mobile-api,staging,res-756910
+2026-01-17,EBS,45.2812,66.59,GB-Month,ap-southeast-1,infra,web-app,development,res-283074
+2026-01-17,EKS,198.4589,58.18,Hours,eu-west-1,backend,mobile-api,development,cluster-212635
+2026-01-17,EKS,172.807,44.42,Hours,eu-west-1,frontend,ml-pipeline,production,cluster-572136
+2026-01-17,EKS,99.1898,58.9,Hours,eu-west-1,infra,ml-pipeline,development,cluster-218780
+2026-01-17,ElastiCache,39.9434,61.46,Hours,ap-southeast-1,frontend,platform,development,cache-520176
+2026-01-17,ElastiCache,28.9166,85.85,Hours,us-east-1,infra,web-app,staging,cache-395116
+2026-01-17,ElastiCache,35.5121,44.9,Hours,us-west-2,data,analytics,staging,cache-742777
+2026-01-17,ElastiCache,36.5864,70.32,Hours,us-east-1,frontend,web-app,production,cache-797276
+2026-01-17,ElastiCache,34.2576,84.6,Hours,ap-southeast-1,backend,analytics,development,cache-736589
+2026-01-17,Route53,2.3636,6.06,Queries,us-west-2,backend,analytics,development,res-489381
+2026-01-17,Route53,4.3899,94.53,Queries,us-west-2,infra,ml-pipeline,production,res-652855
+2026-01-17,Route53,4.599,12.1,Queries,eu-west-1,backend,web-app,staging,res-724997
+2026-01-17,Route53,5.2609,53.21,Queries,us-west-2,ml,mobile-api,production,res-325717
+2026-01-17,Route53,5.2163,47.26,Queries,us-east-1,ml,platform,staging,res-829589
+2026-01-17,SNS,3.5225,34.25,Requests,us-west-2,infra,mobile-api,staging,res-413917
+2026-01-17,SNS,3.2343,84.2,Requests,us-east-1,backend,web-app,development,res-657392
+2026-01-17,SNS,3.3407,8.89,Requests,ap-southeast-1,data,platform,production,res-480750
+2026-01-17,SNS,3.0875,14.84,Requests,us-west-2,infra,web-app,development,res-671985
+2026-01-17,SQS,2.7221,93.96,Requests,ap-southeast-1,frontend,mobile-api,production,res-861366
+2026-01-17,SQS,3.7301,30.12,Requests,eu-west-1,frontend,platform,production,res-227643
+2026-01-17,SQS,4.7878,75.22,Requests,us-east-1,backend,platform,development,res-209224
+2026-01-17,SQS,0.6086,89.15,Requests,us-east-1,frontend,analytics,development,res-518859
+2026-01-17,SQS,1.0134,85.49,Requests,us-east-1,backend,analytics,development,res-986220
+2026-01-17,API Gateway,10.2824,34.54,Requests,eu-west-1,ml,mobile-api,production,res-647349
+2026-01-17,API Gateway,8.6347,52.05,Requests,us-east-1,infra,mobile-api,production,res-459520
+2026-01-17,API Gateway,16.8583,13.55,Requests,ap-southeast-1,ml,web-app,production,res-828924
+2026-01-17,API Gateway,9.5846,14.58,Requests,us-west-2,backend,platform,development,res-844870
+2026-01-17,Secrets Manager,6.471,35.81,Secrets,us-east-1,data,web-app,development,res-940464
+2026-01-17,Secrets Manager,1.3708,41.34,Secrets,us-west-2,data,ml-pipeline,production,res-456016
+2026-01-17,Secrets Manager,1.6339,36.04,Secrets,us-east-1,backend,platform,development,res-622118
+2026-01-17,Secrets Manager,5.9795,54.12,Secrets,us-east-1,frontend,mobile-api,development,res-795031
+2026-01-17,Secrets Manager,5.6002,15.08,Secrets,eu-west-1,frontend,ml-pipeline,development,res-703794
+2026-01-18,EC2,71.4259,27.58,Hours,us-west-2,frontend,mobile-api,staging,i-790495
+2026-01-18,EC2,43.8556,66.17,Hours,us-east-1,backend,mobile-api,development,i-531779
+2026-01-18,EC2,96.0765,37.58,Hours,eu-west-1,infra,mobile-api,staging,i-236036
+2026-01-18,EC2,52.6801,20.87,Hours,eu-west-1,infra,platform,staging,i-430383
+2026-01-18,EC2,99.0061,94.12,Hours,us-west-2,infra,web-app,staging,i-602807
+2026-01-18,Lambda,5.4736,67.62,Requests,us-west-2,infra,web-app,production,func-636752
+2026-01-18,Lambda,10.5485,52.11,Requests,eu-west-1,frontend,ml-pipeline,staging,func-604086
+2026-01-18,Lambda,6.0086,44.68,Requests,ap-southeast-1,backend,web-app,development,func-919462
+2026-01-18,Lambda,6.4952,71.73,Requests,ap-southeast-1,backend,mobile-api,production,func-578528
+2026-01-18,Lambda,6.761,77.92,Requests,us-west-2,ml,web-app,development,func-849690
+2026-01-18,S3,18.353,64.12,GB-Month,us-east-1,backend,mobile-api,development,res-692879
+2026-01-18,S3,19.485,30.12,GB-Month,us-east-1,backend,ml-pipeline,staging,res-648588
+2026-01-18,S3,26.4267,85.07,GB-Month,eu-west-1,infra,analytics,development,res-111839
+2026-01-18,S3,24.1335,42.28,GB-Month,eu-west-1,ml,ml-pipeline,staging,res-730739
+2026-01-18,S3,28.4014,63.6,GB-Month,us-west-2,backend,ml-pipeline,development,res-279923
+2026-01-18,RDS,118.5646,85.97,Hours,ap-southeast-1,frontend,web-app,development,db-127396
+2026-01-18,RDS,70.1441,34.57,Hours,ap-southeast-1,ml,web-app,staging,db-101707
+2026-01-18,RDS,79.94,84.84,Hours,us-west-2,frontend,platform,development,db-632046
+2026-01-18,RDS,171.045,43.6,Hours,ap-southeast-1,ml,analytics,development,db-573353
+2026-01-18,DynamoDB,13.5757,55.58,WCU-Hours,us-west-2,data,ml-pipeline,production,res-174331
+2026-01-18,DynamoDB,68.9222,32.35,WCU-Hours,eu-west-1,frontend,mobile-api,development,res-106031
+2026-01-18,DynamoDB,27.9762,8.09,WCU-Hours,us-west-2,data,ml-pipeline,development,res-639686
+2026-01-18,CloudWatch,5.6972,72.77,Metrics,eu-west-1,ml,mobile-api,production,res-940970
+2026-01-18,CloudWatch,7.0374,69.05,Metrics,us-east-1,infra,platform,production,res-821363
+2026-01-18,CloudWatch,4.7827,19.26,Metrics,us-west-2,ml,ml-pipeline,production,res-613703
+2026-01-18,CloudWatch,8.1212,49.79,Metrics,us-west-2,ml,analytics,production,res-758437
+2026-01-18,CloudWatch,2.7972,48.58,Metrics,ap-southeast-1,backend,platform,development,res-592280
+2026-01-18,CloudFront,8.9081,7.12,GB,us-east-1,infra,mobile-api,staging,res-431057
+2026-01-18,CloudFront,39.5233,70.75,GB,us-west-2,ml,mobile-api,production,res-750969
+2026-01-18,CloudFront,20.1312,79.59,GB,eu-west-1,frontend,analytics,development,res-561177
+2026-01-18,EBS,41.7576,42.31,GB-Month,eu-west-1,infra,mobile-api,staging,res-883050
+2026-01-18,EBS,47.9098,24.17,GB-Month,eu-west-1,ml,platform,production,res-111067
+2026-01-18,EBS,38.8211,65.15,GB-Month,us-east-1,infra,web-app,development,res-874050
+2026-01-18,EBS,45.5917,29.49,GB-Month,eu-west-1,ml,ml-pipeline,development,res-802450
+2026-01-18,EKS,66.9097,27.12,Hours,us-west-2,backend,analytics,development,cluster-949943
+2026-01-18,EKS,139.0823,86.73,Hours,ap-southeast-1,infra,analytics,production,cluster-583267
+2026-01-18,EKS,103.0281,95.15,Hours,eu-west-1,frontend,analytics,production,cluster-374898
+2026-01-18,EKS,93.9268,94.42,Hours,us-east-1,frontend,platform,production,cluster-934358
+2026-01-18,ElastiCache,23.2498,44.97,Hours,ap-southeast-1,infra,analytics,production,cache-318003
+2026-01-18,ElastiCache,97.8467,82.56,Hours,eu-west-1,ml,platform,staging,cache-145807
+2026-01-18,ElastiCache,56.898,5.7,Hours,us-east-1,data,analytics,development,cache-809217
+2026-01-18,Route53,4.4404,90.39,Queries,us-east-1,data,web-app,staging,res-268575
+2026-01-18,Route53,5.0905,99.88,Queries,us-west-2,data,ml-pipeline,production,res-607376
+2026-01-18,Route53,1.8515,19.12,Queries,us-west-2,ml,web-app,production,res-993536
+2026-01-18,Route53,1.0398,88.44,Queries,us-east-1,data,mobile-api,staging,res-478738
+2026-01-18,Route53,4.0932,69.98,Queries,ap-southeast-1,infra,ml-pipeline,staging,res-664106
+2026-01-18,SNS,2.6675,6.98,Requests,us-east-1,frontend,mobile-api,production,res-727973
+2026-01-18,SNS,0.9545,99.75,Requests,eu-west-1,frontend,analytics,staging,res-270463
+2026-01-18,SNS,3.1577,74.1,Requests,us-east-1,frontend,web-app,development,res-735264
+2026-01-18,SNS,1.1935,79.94,Requests,us-east-1,ml,web-app,staging,res-170573
+2026-01-18,SQS,2.8959,88.79,Requests,ap-southeast-1,frontend,analytics,staging,res-470862
+2026-01-18,SQS,4.832,19.16,Requests,eu-west-1,ml,platform,development,res-321575
+2026-01-18,SQS,2.5135,1.42,Requests,us-west-2,frontend,web-app,development,res-748901
+2026-01-18,SQS,1.0409,50.99,Requests,us-west-2,infra,platform,production,res-874471
+2026-01-18,SQS,2.3198,11.08,Requests,us-east-1,frontend,platform,development,res-686286
+2026-01-18,API Gateway,11.177,16.94,Requests,us-west-2,data,ml-pipeline,development,res-895422
+2026-01-18,API Gateway,8.2162,77.99,Requests,ap-southeast-1,infra,mobile-api,development,res-793490
+2026-01-18,API Gateway,17.2585,43.52,Requests,eu-west-1,data,ml-pipeline,production,res-307665
+2026-01-18,API Gateway,18.5353,95.66,Requests,ap-southeast-1,data,mobile-api,staging,res-519591
+2026-01-18,Secrets Manager,9.6319,83.07,Secrets,eu-west-1,data,web-app,production,res-346141
+2026-01-18,Secrets Manager,12.1165,71.66,Secrets,eu-west-1,frontend,web-app,staging,res-121276
+2026-01-18,Secrets Manager,12.9477,13.95,Secrets,us-west-2,frontend,platform,staging,res-834976
+2026-01-19,EC2,94.4466,69.91,Hours,eu-west-1,frontend,analytics,development,i-608563
+2026-01-19,EC2,10.2807,10.3,Hours,eu-west-1,frontend,analytics,staging,i-307359
+2026-01-19,EC2,18.1995,22.64,Hours,us-east-1,frontend,analytics,development,i-816207
+2026-01-19,EC2,19.0918,81.45,Hours,eu-west-1,infra,mobile-api,development,i-271196
+2026-01-19,EC2,80.0187,97.97,Hours,ap-southeast-1,ml,mobile-api,staging,i-481532
+2026-01-19,Lambda,16.7044,18.91,Requests,us-west-2,infra,web-app,development,func-907413
+2026-01-19,Lambda,11.8028,91.21,Requests,eu-west-1,frontend,ml-pipeline,staging,func-486107
+2026-01-19,Lambda,11.6709,26.43,Requests,ap-southeast-1,backend,analytics,staging,func-370584
+2026-01-19,Lambda,7.1346,5.4,Requests,us-east-1,backend,mobile-api,staging,func-125797
+2026-01-19,Lambda,13.3379,48.89,Requests,ap-southeast-1,backend,mobile-api,production,func-769591
+2026-01-19,S3,26.6628,77.99,GB-Month,us-west-2,ml,ml-pipeline,production,res-900898
+2026-01-19,S3,21.3078,95.69,GB-Month,ap-southeast-1,infra,ml-pipeline,production,res-855048
+2026-01-19,S3,22.3317,31.93,GB-Month,eu-west-1,backend,web-app,production,res-542448
+2026-01-19,S3,21.1736,73.94,GB-Month,us-east-1,frontend,web-app,staging,res-318371
+2026-01-19,S3,6.4859,14.71,GB-Month,ap-southeast-1,frontend,mobile-api,development,res-322320
+2026-01-19,RDS,86.804,8.7,Hours,eu-west-1,ml,platform,staging,db-780664
+2026-01-19,RDS,31.3559,24.59,Hours,us-west-2,backend,platform,development,db-258412
+2026-01-19,RDS,75.4763,65.44,Hours,us-west-2,ml,analytics,staging,db-444686
+2026-01-19,RDS,137.6,30.19,Hours,us-west-2,frontend,ml-pipeline,staging,db-655402
+2026-01-19,RDS,124.1485,17.87,Hours,eu-west-1,ml,web-app,production,db-451541
+2026-01-19,DynamoDB,72.2738,54.77,WCU-Hours,ap-southeast-1,data,platform,development,res-535402
+2026-01-19,DynamoDB,48.1174,21.95,WCU-Hours,us-west-2,frontend,mobile-api,staging,res-114624
+2026-01-19,DynamoDB,32.199,52.37,WCU-Hours,us-east-1,frontend,analytics,staging,res-964397
+2026-01-19,CloudWatch,3.0615,3.47,Metrics,us-west-2,frontend,web-app,production,res-283036
+2026-01-19,CloudWatch,1.4609,95.38,Metrics,us-east-1,infra,analytics,staging,res-476035
+2026-01-19,CloudWatch,8.1899,77.04,Metrics,ap-southeast-1,infra,web-app,staging,res-189773
+2026-01-19,CloudWatch,1.1342,56.45,Metrics,ap-southeast-1,ml,mobile-api,production,res-259564
+2026-01-19,CloudWatch,4.3789,14.13,Metrics,eu-west-1,infra,mobile-api,production,res-828044
+2026-01-19,CloudFront,20.6409,4.15,GB,eu-west-1,infra,ml-pipeline,staging,res-549163
+2026-01-19,CloudFront,7.5853,26.83,GB,us-west-2,ml,mobile-api,staging,res-884791
+2026-01-19,CloudFront,15.7899,35.03,GB,eu-west-1,data,web-app,production,res-518798
+2026-01-19,CloudFront,4.8922,69.51,GB,us-west-2,ml,ml-pipeline,staging,res-101344
+2026-01-19,CloudFront,22.2303,74.86,GB,eu-west-1,infra,mobile-api,staging,res-658081
+2026-01-19,EBS,14.5964,60.21,GB-Month,eu-west-1,frontend,mobile-api,staging,res-563741
+2026-01-19,EBS,6.9405,79.65,GB-Month,us-east-1,ml,web-app,production,res-720415
+2026-01-19,EBS,37.4907,30.51,GB-Month,us-west-2,frontend,ml-pipeline,production,res-765858
+2026-01-19,EBS,26.7819,16.29,GB-Month,us-west-2,backend,web-app,staging,res-117028
+2026-01-19,EBS,21.932,23.51,GB-Month,eu-west-1,frontend,analytics,production,res-925632
+2026-01-19,EKS,49.7207,27.25,Hours,us-west-2,frontend,mobile-api,production,cluster-636105
+2026-01-19,EKS,115.6787,26.61,Hours,us-east-1,backend,platform,staging,cluster-443429
+2026-01-19,EKS,88.2543,51.94,Hours,us-east-1,frontend,mobile-api,development,cluster-764772
+2026-01-19,EKS,50.0236,15.4,Hours,ap-southeast-1,backend,web-app,staging,cluster-920103
+2026-01-19,EKS,66.9482,25.56,Hours,ap-southeast-1,backend,mobile-api,production,cluster-761291
+2026-01-19,ElastiCache,47.3772,51.84,Hours,us-east-1,infra,mobile-api,production,cache-970853
+2026-01-19,ElastiCache,32.5031,13.71,Hours,ap-southeast-1,data,ml-pipeline,production,cache-685138
+2026-01-19,ElastiCache,40.7796,94.18,Hours,eu-west-1,ml,analytics,development,cache-147379
+2026-01-19,ElastiCache,72.2133,47.01,Hours,eu-west-1,backend,platform,production,cache-886119
+2026-01-19,Route53,6.1104,72.43,Queries,us-east-1,ml,ml-pipeline,development,res-570710
+2026-01-19,Route53,6.4566,46.66,Queries,us-west-2,infra,mobile-api,production,res-863944
+2026-01-19,Route53,2.2523,53.35,Queries,ap-southeast-1,frontend,analytics,staging,res-959954
+2026-01-19,Route53,6.5842,43.44,Queries,eu-west-1,frontend,mobile-api,development,res-755598
+2026-01-19,SNS,6.3348,83.03,Requests,us-west-2,backend,web-app,development,res-237251
+2026-01-19,SNS,5.479,11.58,Requests,eu-west-1,data,web-app,development,res-672719
+2026-01-19,SNS,6.351,23.34,Requests,eu-west-1,frontend,analytics,development,res-743380
+2026-01-19,SQS,1.2904,35.27,Requests,us-east-1,frontend,platform,production,res-660306
+2026-01-19,SQS,1.6729,54.5,Requests,ap-southeast-1,frontend,web-app,development,res-980396
+2026-01-19,SQS,2.3009,26.13,Requests,us-west-2,backend,analytics,staging,res-959034
+2026-01-19,SQS,4.8393,57.19,Requests,eu-west-1,data,analytics,production,res-902344
+2026-01-19,API Gateway,5.0026,89.01,Requests,us-east-1,data,ml-pipeline,development,res-144057
+2026-01-19,API Gateway,23.125,79.85,Requests,eu-west-1,infra,web-app,production,res-906133
+2026-01-19,API Gateway,19.56,76.42,Requests,us-east-1,frontend,platform,production,res-387880
+2026-01-19,Secrets Manager,2.9726,38.01,Secrets,us-east-1,ml,web-app,production,res-546330
+2026-01-19,Secrets Manager,1.8714,57.35,Secrets,us-east-1,ml,mobile-api,production,res-867541
+2026-01-19,Secrets Manager,3.3182,99.86,Secrets,us-east-1,frontend,ml-pipeline,production,res-670074
+2026-01-19,Secrets Manager,2.2124,95.58,Secrets,ap-southeast-1,ml,analytics,development,res-558948
+2026-01-20,EC2,96.3072,78.24,Hours,us-west-2,backend,web-app,production,i-993944
+2026-01-20,EC2,65.204,45.57,Hours,us-west-2,data,ml-pipeline,development,i-216144
+2026-01-20,EC2,51.2231,36.52,Hours,ap-southeast-1,infra,ml-pipeline,production,i-560691
+2026-01-20,EC2,70.0858,19.64,Hours,ap-southeast-1,ml,mobile-api,development,i-752106
+2026-01-20,Lambda,3.3712,46.73,Requests,ap-southeast-1,ml,web-app,development,func-923838
+2026-01-20,Lambda,12.9608,96.65,Requests,us-west-2,frontend,analytics,staging,func-456819
+2026-01-20,Lambda,24.9288,39.9,Requests,us-west-2,infra,web-app,staging,func-689916
+2026-01-20,S3,36.0537,82.5,GB-Month,eu-west-1,backend,mobile-api,staging,res-790126
+2026-01-20,S3,49.8941,98.17,GB-Month,us-west-2,data,analytics,development,res-212364
+2026-01-20,S3,25.017,75.04,GB-Month,ap-southeast-1,infra,platform,production,res-185325
+2026-01-20,RDS,188.2265,40.35,Hours,us-east-1,data,mobile-api,production,db-181738
+2026-01-20,RDS,48.5771,9.54,Hours,eu-west-1,ml,ml-pipeline,production,db-436630
+2026-01-20,RDS,127.1809,53.48,Hours,us-west-2,backend,ml-pipeline,staging,db-404248
+2026-01-20,RDS,131.5062,42.71,Hours,ap-southeast-1,data,analytics,staging,db-791602
+2026-01-20,DynamoDB,42.6383,87.17,WCU-Hours,ap-southeast-1,backend,platform,staging,res-688552
+2026-01-20,DynamoDB,72.1319,16.15,WCU-Hours,us-east-1,ml,ml-pipeline,development,res-758585
+2026-01-20,DynamoDB,69.6249,48.75,WCU-Hours,ap-southeast-1,backend,analytics,staging,res-759144
+2026-01-20,DynamoDB,40.3525,76.1,WCU-Hours,us-east-1,frontend,web-app,production,res-950979
+2026-01-20,CloudWatch,14.9196,85.9,Metrics,us-east-1,infra,analytics,staging,res-194681
+2026-01-20,CloudWatch,13.6895,78.64,Metrics,us-west-2,infra,platform,development,res-465543
+2026-01-20,CloudWatch,3.2746,78.49,Metrics,us-west-2,ml,analytics,production,res-295209
+2026-01-20,CloudFront,14.3126,76.61,GB,ap-southeast-1,frontend,platform,development,res-166152
+2026-01-20,CloudFront,20.6281,31.26,GB,us-west-2,ml,mobile-api,staging,res-572690
+2026-01-20,CloudFront,25.5092,24.94,GB,us-west-2,data,web-app,production,res-464560
+2026-01-20,CloudFront,23.2865,14.73,GB,us-east-1,ml,mobile-api,production,res-386732
+2026-01-20,CloudFront,11.5723,21.88,GB,us-west-2,data,platform,development,res-165216
+2026-01-20,EBS,34.1493,65.65,GB-Month,ap-southeast-1,frontend,web-app,staging,res-927415
+2026-01-20,EBS,15.0852,65.71,GB-Month,ap-southeast-1,data,web-app,development,res-791912
+2026-01-20,EBS,18.7124,12.31,GB-Month,us-east-1,infra,platform,development,res-358853
+2026-01-20,EKS,87.6111,84.27,Hours,us-west-2,backend,ml-pipeline,development,cluster-170701
+2026-01-20,EKS,61.1044,44.36,Hours,eu-west-1,backend,mobile-api,development,cluster-828076
+2026-01-20,EKS,149.7001,49.68,Hours,us-west-2,infra,analytics,development,cluster-739122
+2026-01-20,EKS,136.7265,47.98,Hours,us-west-2,backend,ml-pipeline,production,cluster-898873
+2026-01-20,ElastiCache,49.9016,26.74,Hours,us-west-2,ml,platform,staging,cache-896398
+2026-01-20,ElastiCache,25.7493,66.98,Hours,eu-west-1,ml,ml-pipeline,production,cache-589977
+2026-01-20,ElastiCache,13.9934,75.56,Hours,us-east-1,infra,ml-pipeline,production,cache-240700
+2026-01-20,ElastiCache,27.708,24.17,Hours,us-east-1,infra,ml-pipeline,development,cache-758015
+2026-01-20,ElastiCache,52.9178,3.17,Hours,us-west-2,ml,analytics,production,cache-464927
+2026-01-20,Route53,6.0264,97.82,Queries,us-east-1,frontend,platform,development,res-318021
+2026-01-20,Route53,9.6934,33.95,Queries,ap-southeast-1,backend,web-app,development,res-436146
+2026-01-20,Route53,6.8778,42.85,Queries,eu-west-1,backend,mobile-api,production,res-514640
+2026-01-20,SNS,0.6757,6.64,Requests,us-east-1,frontend,web-app,staging,res-797338
+2026-01-20,SNS,0.5985,61.71,Requests,us-west-2,infra,ml-pipeline,production,res-206730
+2026-01-20,SNS,2.3237,85.82,Requests,ap-southeast-1,frontend,ml-pipeline,development,res-904200
+2026-01-20,SNS,1.3171,91.54,Requests,eu-west-1,ml,web-app,development,res-888112
+2026-01-20,SQS,0.7654,7.6,Requests,eu-west-1,ml,platform,production,res-566973
+2026-01-20,SQS,1.1508,62.48,Requests,us-west-2,backend,mobile-api,staging,res-307800
+2026-01-20,SQS,3.2155,30.62,Requests,ap-southeast-1,backend,web-app,production,res-572113
+2026-01-20,SQS,4.712,75.54,Requests,ap-southeast-1,ml,ml-pipeline,development,res-883418
+2026-01-20,SQS,2.642,18.85,Requests,us-west-2,data,mobile-api,development,res-460306
+2026-01-20,API Gateway,15.0449,82.0,Requests,ap-southeast-1,infra,ml-pipeline,production,res-678736
+2026-01-20,API Gateway,5.5086,53.95,Requests,us-west-2,data,ml-pipeline,staging,res-174960
+2026-01-20,API Gateway,4.7142,23.48,Requests,ap-southeast-1,infra,analytics,production,res-968217
+2026-01-20,API Gateway,3.8025,72.53,Requests,eu-west-1,data,ml-pipeline,development,res-897194
+2026-01-20,Secrets Manager,2.8587,42.12,Secrets,ap-southeast-1,data,platform,staging,res-526615
+2026-01-20,Secrets Manager,4.4658,97.98,Secrets,us-west-2,infra,web-app,staging,res-724905
+2026-01-20,Secrets Manager,2.3986,58.33,Secrets,us-west-2,ml,ml-pipeline,development,res-195529
+2026-01-20,Secrets Manager,6.0735,19.41,Secrets,us-west-2,infra,platform,production,res-754088
+2026-01-21,EC2,24.8843,96.62,Hours,eu-west-1,frontend,platform,development,i-242612
+2026-01-21,EC2,103.3974,22.15,Hours,eu-west-1,data,analytics,staging,i-359487
+2026-01-21,EC2,57.6749,24.56,Hours,ap-southeast-1,ml,platform,staging,i-752670
+2026-01-21,EC2,75.9306,45.56,Hours,ap-southeast-1,backend,web-app,staging,i-348992
+2026-01-21,Lambda,13.6078,41.92,Requests,eu-west-1,data,platform,staging,func-604305
+2026-01-21,Lambda,18.1321,26.94,Requests,us-east-1,data,platform,development,func-161336
+2026-01-21,Lambda,16.8576,40.46,Requests,eu-west-1,data,ml-pipeline,development,func-552086
+2026-01-21,Lambda,2.7431,29.56,Requests,us-east-1,ml,analytics,production,func-712864
+2026-01-21,Lambda,11.2937,82.84,Requests,us-west-2,infra,web-app,development,func-999641
+2026-01-21,S3,28.1617,35.78,GB-Month,ap-southeast-1,data,ml-pipeline,development,res-243495
+2026-01-21,S3,4.0535,12.75,GB-Month,us-east-1,data,platform,development,res-711934
+2026-01-21,S3,36.8329,22.51,GB-Month,ap-southeast-1,infra,analytics,production,res-228078
+2026-01-21,S3,6.7447,71.9,GB-Month,ap-southeast-1,infra,ml-pipeline,development,res-787330
+2026-01-21,S3,22.4522,97.88,GB-Month,eu-west-1,backend,ml-pipeline,staging,res-756139
+2026-01-21,RDS,103.3575,69.62,Hours,ap-southeast-1,ml,mobile-api,development,db-800744
+2026-01-21,RDS,38.2717,46.57,Hours,us-east-1,ml,ml-pipeline,staging,db-868155
+2026-01-21,RDS,116.0566,12.76,Hours,eu-west-1,infra,ml-pipeline,staging,db-391414
+2026-01-21,RDS,89.3721,66.61,Hours,eu-west-1,frontend,mobile-api,staging,db-802519
+2026-01-21,DynamoDB,64.7652,59.93,WCU-Hours,eu-west-1,ml,mobile-api,production,res-931606
+2026-01-21,DynamoDB,82.7181,2.58,WCU-Hours,ap-southeast-1,ml,analytics,production,res-922908
+2026-01-21,DynamoDB,31.9286,7.84,WCU-Hours,eu-west-1,infra,ml-pipeline,production,res-144095
+2026-01-21,CloudWatch,8.0125,73.14,Metrics,us-east-1,infra,mobile-api,development,res-399617
+2026-01-21,CloudWatch,15.3709,5.53,Metrics,ap-southeast-1,ml,web-app,development,res-188412
+2026-01-21,CloudWatch,7.3034,57.82,Metrics,us-east-1,data,platform,staging,res-652023
+2026-01-21,CloudFront,16.7847,45.79,GB,us-west-2,infra,web-app,development,res-268922
+2026-01-21,CloudFront,33.2852,59.58,GB,ap-southeast-1,frontend,web-app,development,res-754052
+2026-01-21,CloudFront,32.4471,39.38,GB,ap-southeast-1,data,web-app,production,res-725664
+2026-01-21,CloudFront,10.1699,21.82,GB,ap-southeast-1,data,platform,staging,res-387991
+2026-01-21,EBS,13.0645,89.29,GB-Month,us-east-1,frontend,analytics,staging,res-233998
+2026-01-21,EBS,31.0873,33.95,GB-Month,eu-west-1,data,ml-pipeline,staging,res-659232
+2026-01-21,EBS,20.4504,62.4,GB-Month,ap-southeast-1,backend,analytics,staging,res-108231
+2026-01-21,EBS,8.7108,86.25,GB-Month,us-east-1,ml,ml-pipeline,production,res-457061
+2026-01-21,EKS,100.7236,34.78,Hours,ap-southeast-1,frontend,ml-pipeline,production,cluster-925824
+2026-01-21,EKS,90.2747,4.4,Hours,ap-southeast-1,ml,web-app,development,cluster-644372
+2026-01-21,EKS,113.0524,92.45,Hours,us-west-2,ml,mobile-api,staging,cluster-940570
+2026-01-21,EKS,63.8251,81.67,Hours,eu-west-1,frontend,web-app,production,cluster-913233
+2026-01-21,EKS,88.8533,60.69,Hours,eu-west-1,data,ml-pipeline,staging,cluster-321046
+2026-01-21,ElastiCache,33.6844,47.94,Hours,eu-west-1,frontend,web-app,development,cache-513798
+2026-01-21,ElastiCache,76.1048,21.48,Hours,us-west-2,ml,platform,development,cache-521220
+2026-01-21,ElastiCache,21.1937,71.53,Hours,us-west-2,ml,analytics,development,cache-742132
+2026-01-21,Route53,9.6566,78.53,Queries,us-west-2,infra,ml-pipeline,development,res-655524
+2026-01-21,Route53,8.966,55.08,Queries,ap-southeast-1,backend,web-app,staging,res-821816
+2026-01-21,Route53,8.9548,34.66,Queries,us-east-1,infra,mobile-api,staging,res-677911
+2026-01-21,SNS,2.7211,49.24,Requests,ap-southeast-1,ml,web-app,production,res-388676
+2026-01-21,SNS,0.8211,6.43,Requests,ap-southeast-1,data,web-app,production,res-381673
+2026-01-21,SNS,4.4316,26.33,Requests,us-west-2,data,platform,production,res-304108
+2026-01-21,SNS,4.098,42.25,Requests,eu-west-1,data,web-app,staging,res-360462
+2026-01-21,SQS,1.981,49.62,Requests,us-west-2,infra,analytics,staging,res-248569
+2026-01-21,SQS,6.3458,88.95,Requests,us-west-2,frontend,mobile-api,development,res-814666
+2026-01-21,SQS,2.5335,42.06,Requests,us-east-1,infra,platform,staging,res-710328
+2026-01-21,API Gateway,4.9827,17.28,Requests,us-west-2,backend,web-app,development,res-244505
+2026-01-21,API Gateway,13.146,59.26,Requests,ap-southeast-1,ml,mobile-api,staging,res-450715
+2026-01-21,API Gateway,12.5433,16.15,Requests,us-east-1,ml,web-app,production,res-903248
+2026-01-21,API Gateway,8.0895,95.65,Requests,us-east-1,frontend,ml-pipeline,staging,res-579866
+2026-01-21,API Gateway,2.8285,2.0,Requests,us-west-2,data,platform,staging,res-342684
+2026-01-21,Secrets Manager,4.3654,27.63,Secrets,us-east-1,infra,mobile-api,staging,res-983447
+2026-01-21,Secrets Manager,10.1766,5.29,Secrets,us-east-1,frontend,platform,staging,res-506208
+2026-01-21,Secrets Manager,4.3103,54.87,Secrets,us-west-2,ml,platform,development,res-527110
+2026-01-22,EC2,73.3089,41.32,Hours,us-east-1,infra,platform,production,i-361452
+2026-01-22,EC2,42.8598,87.32,Hours,eu-west-1,backend,ml-pipeline,development,i-922552
+2026-01-22,EC2,83.1297,21.02,Hours,eu-west-1,data,mobile-api,development,i-184197
+2026-01-22,EC2,63.5986,75.17,Hours,ap-southeast-1,ml,platform,development,i-568698
+2026-01-22,EC2,27.0964,90.77,Hours,us-west-2,frontend,web-app,production,i-483315
+2026-01-22,Lambda,19.0173,90.73,Requests,us-west-2,data,platform,development,func-363350
+2026-01-22,Lambda,8.4507,42.95,Requests,us-east-1,infra,web-app,development,func-914815
+2026-01-22,Lambda,22.6299,44.27,Requests,eu-west-1,data,ml-pipeline,development,func-119299
+2026-01-22,S3,15.1117,35.69,GB-Month,ap-southeast-1,data,web-app,production,res-638205
+2026-01-22,S3,7.2642,19.92,GB-Month,eu-west-1,frontend,mobile-api,staging,res-332028
+2026-01-22,S3,12.2555,16.0,GB-Month,ap-southeast-1,infra,analytics,staging,res-825225
+2026-01-22,S3,15.7163,6.4,GB-Month,us-west-2,backend,mobile-api,development,res-469998
+2026-01-22,S3,13.1737,52.84,GB-Month,ap-southeast-1,data,platform,production,res-851412
+2026-01-22,RDS,134.0549,43.39,Hours,us-west-2,frontend,analytics,staging,db-105293
+2026-01-22,RDS,175.4951,93.03,Hours,us-east-1,data,analytics,production,db-915667
+2026-01-22,RDS,133.5376,24.8,Hours,eu-west-1,infra,ml-pipeline,staging,db-447392
+2026-01-22,RDS,169.9995,46.59,Hours,us-east-1,infra,platform,development,db-781994
+2026-01-22,DynamoDB,8.7426,41.96,WCU-Hours,us-west-2,ml,web-app,development,res-302352
+2026-01-22,DynamoDB,52.6837,54.67,WCU-Hours,us-west-2,infra,platform,development,res-431667
+2026-01-22,DynamoDB,54.418,25.02,WCU-Hours,eu-west-1,backend,ml-pipeline,development,res-498915
+2026-01-22,DynamoDB,39.0773,96.45,WCU-Hours,ap-southeast-1,frontend,platform,staging,res-253722
+2026-01-22,DynamoDB,26.0599,9.79,WCU-Hours,eu-west-1,frontend,ml-pipeline,development,res-487386
+2026-01-22,CloudWatch,12.3109,95.6,Metrics,us-west-2,frontend,mobile-api,staging,res-639736
+2026-01-22,CloudWatch,1.8526,44.34,Metrics,us-east-1,data,web-app,production,res-373108
+2026-01-22,CloudWatch,9.0498,23.86,Metrics,eu-west-1,ml,platform,development,res-646622
+2026-01-22,CloudWatch,4.7466,67.76,Metrics,ap-southeast-1,backend,web-app,production,res-810872
+2026-01-22,CloudFront,34.2066,68.02,GB,ap-southeast-1,infra,mobile-api,staging,res-399453
+2026-01-22,CloudFront,14.4574,73.25,GB,eu-west-1,data,web-app,production,res-823123
+2026-01-22,CloudFront,34.9135,53.83,GB,us-east-1,infra,platform,staging,res-927003
+2026-01-22,CloudFront,11.5668,15.53,GB,eu-west-1,frontend,mobile-api,production,res-408944
+2026-01-22,EBS,36.8345,80.61,GB-Month,us-west-2,frontend,ml-pipeline,production,res-290845
+2026-01-22,EBS,23.858,48.77,GB-Month,ap-southeast-1,data,analytics,development,res-381527
+2026-01-22,EBS,49.0413,26.45,GB-Month,us-west-2,ml,analytics,development,res-725872
+2026-01-22,EBS,21.3093,22.19,GB-Month,eu-west-1,data,platform,development,res-325950
+2026-01-22,EKS,83.3974,8.85,Hours,ap-southeast-1,data,mobile-api,development,cluster-711093
+2026-01-22,EKS,173.3041,23.9,Hours,ap-southeast-1,ml,platform,staging,cluster-784263
+2026-01-22,EKS,156.4839,71.02,Hours,ap-southeast-1,backend,mobile-api,staging,cluster-326999
+2026-01-22,ElastiCache,60.5553,61.16,Hours,us-east-1,infra,platform,development,cache-345815
+2026-01-22,ElastiCache,30.0522,79.75,Hours,ap-southeast-1,data,ml-pipeline,staging,cache-705444
+2026-01-22,ElastiCache,39.0682,57.41,Hours,eu-west-1,ml,ml-pipeline,staging,cache-660862
+2026-01-22,ElastiCache,51.617,71.27,Hours,us-west-2,data,analytics,production,cache-286967
+2026-01-22,Route53,5.7129,49.73,Queries,eu-west-1,data,mobile-api,production,res-945376
+2026-01-22,Route53,2.8171,65.32,Queries,eu-west-1,data,web-app,production,res-923395
+2026-01-22,Route53,1.3437,76.3,Queries,us-west-2,ml,platform,production,res-819633
+2026-01-22,Route53,4.4993,98.54,Queries,eu-west-1,data,mobile-api,production,res-305338
+2026-01-22,SNS,1.8606,11.13,Requests,eu-west-1,backend,web-app,staging,res-276167
+2026-01-22,SNS,0.4919,69.17,Requests,us-east-1,infra,analytics,development,res-342871
+2026-01-22,SNS,1.393,16.83,Requests,us-east-1,backend,mobile-api,staging,res-909557
+2026-01-22,SNS,2.5736,1.37,Requests,us-west-2,infra,web-app,development,res-202357
+2026-01-22,SNS,0.9182,2.1,Requests,ap-southeast-1,backend,analytics,production,res-263669
+2026-01-22,SQS,4.5069,93.26,Requests,us-west-2,backend,platform,development,res-181665
+2026-01-22,SQS,2.3334,88.47,Requests,ap-southeast-1,frontend,analytics,production,res-905436
+2026-01-22,SQS,6.5249,43.44,Requests,eu-west-1,data,mobile-api,production,res-370205
+2026-01-22,API Gateway,8.2505,13.9,Requests,us-west-2,backend,ml-pipeline,staging,res-560561
+2026-01-22,API Gateway,12.5411,44.2,Requests,eu-west-1,data,analytics,development,res-426319
+2026-01-22,API Gateway,7.0918,86.97,Requests,ap-southeast-1,frontend,web-app,production,res-183436
+2026-01-22,API Gateway,14.4187,28.32,Requests,eu-west-1,frontend,platform,development,res-368763
+2026-01-22,API Gateway,3.1419,65.59,Requests,us-east-1,ml,analytics,development,res-242654
+2026-01-22,Secrets Manager,4.9689,99.64,Secrets,us-west-2,infra,analytics,staging,res-591017
+2026-01-22,Secrets Manager,7.4886,35.84,Secrets,eu-west-1,backend,platform,development,res-473249
+2026-01-22,Secrets Manager,2.937,6.89,Secrets,eu-west-1,ml,mobile-api,production,res-358391
+2026-01-22,Secrets Manager,7.6317,31.6,Secrets,us-west-2,frontend,ml-pipeline,development,res-742465
+2026-01-22,Secrets Manager,4.3802,89.52,Secrets,us-west-2,infra,analytics,production,res-945933
+2026-01-23,EC2,104.2169,29.66,Hours,us-east-1,backend,ml-pipeline,development,i-795792
+2026-01-23,EC2,30.9095,13.76,Hours,us-west-2,backend,platform,development,i-254308
+2026-01-23,EC2,39.8203,37.58,Hours,eu-west-1,infra,mobile-api,production,i-399144
+2026-01-23,EC2,114.9699,83.65,Hours,ap-southeast-1,data,analytics,development,i-485283
+2026-01-23,Lambda,22.7779,21.12,Requests,eu-west-1,data,analytics,development,func-603664
+2026-01-23,Lambda,25.9485,5.92,Requests,ap-southeast-1,ml,ml-pipeline,production,func-288062
+2026-01-23,Lambda,16.7019,50.02,Requests,us-west-2,infra,analytics,production,func-138583
+2026-01-23,S3,7.5551,80.38,GB-Month,ap-southeast-1,infra,platform,production,res-933711
+2026-01-23,S3,48.3606,62.42,GB-Month,us-east-1,data,mobile-api,staging,res-530210
+2026-01-23,S3,35.0112,47.83,GB-Month,ap-southeast-1,infra,web-app,production,res-663147
+2026-01-23,S3,46.5281,17.25,GB-Month,eu-west-1,backend,mobile-api,development,res-518125
+2026-01-23,RDS,206.8682,34.66,Hours,us-east-1,backend,web-app,development,db-735483
+2026-01-23,RDS,265.5032,48.84,Hours,us-east-1,data,web-app,production,db-376312
+2026-01-23,RDS,93.0141,99.88,Hours,ap-southeast-1,data,platform,development,db-316962
+2026-01-23,DynamoDB,33.6103,24.5,WCU-Hours,eu-west-1,backend,analytics,development,res-853586
+2026-01-23,DynamoDB,59.8248,94.97,WCU-Hours,us-west-2,ml,ml-pipeline,development,res-652377
+2026-01-23,DynamoDB,41.625,65.67,WCU-Hours,ap-southeast-1,frontend,mobile-api,production,res-731513
+2026-01-23,DynamoDB,27.9956,55.3,WCU-Hours,eu-west-1,infra,platform,staging,res-832400
+2026-01-23,DynamoDB,55.1275,49.87,WCU-Hours,ap-southeast-1,backend,mobile-api,production,res-741496
+2026-01-23,CloudWatch,6.5897,41.44,Metrics,us-west-2,backend,platform,production,res-957376
+2026-01-23,CloudWatch,6.0942,67.26,Metrics,us-east-1,ml,web-app,production,res-238185
+2026-01-23,CloudWatch,4.7749,23.71,Metrics,us-east-1,frontend,ml-pipeline,development,res-683376
+2026-01-23,CloudWatch,7.2807,39.99,Metrics,ap-southeast-1,infra,analytics,production,res-482715
+2026-01-23,CloudFront,15.0925,53.46,GB,us-west-2,ml,platform,development,res-434995
+2026-01-23,CloudFront,21.4619,45.36,GB,eu-west-1,data,ml-pipeline,production,res-665083
+2026-01-23,CloudFront,25.2399,40.03,GB,eu-west-1,ml,mobile-api,development,res-991065
+2026-01-23,CloudFront,24.7864,43.94,GB,ap-southeast-1,infra,analytics,staging,res-490640
+2026-01-23,EBS,17.9228,7.87,GB-Month,us-east-1,frontend,mobile-api,development,res-272903
+2026-01-23,EBS,52.9358,91.39,GB-Month,eu-west-1,infra,platform,staging,res-944390
+2026-01-23,EBS,12.0026,37.92,GB-Month,us-east-1,data,analytics,development,res-637011
+2026-01-23,EKS,166.8688,77.77,Hours,us-west-2,frontend,mobile-api,development,cluster-997473
+2026-01-23,EKS,165.4407,1.85,Hours,eu-west-1,infra,mobile-api,staging,cluster-173226
+2026-01-23,EKS,171.7866,75.79,Hours,eu-west-1,backend,mobile-api,development,cluster-115799
+2026-01-23,ElastiCache,37.9681,83.17,Hours,us-east-1,frontend,web-app,staging,cache-201345
+2026-01-23,ElastiCache,56.8844,49.48,Hours,us-east-1,infra,analytics,development,cache-140734
+2026-01-23,ElastiCache,18.5871,1.42,Hours,ap-southeast-1,ml,ml-pipeline,production,cache-647687
+2026-01-23,ElastiCache,54.813,66.24,Hours,us-west-2,backend,analytics,production,cache-611821
+2026-01-23,ElastiCache,41.9973,53.67,Hours,us-east-1,data,mobile-api,staging,cache-878276
+2026-01-23,Route53,9.6857,37.69,Queries,us-west-2,data,platform,development,res-711575
+2026-01-23,Route53,2.6493,63.17,Queries,ap-southeast-1,data,mobile-api,production,res-898026
+2026-01-23,Route53,5.1669,49.55,Queries,ap-southeast-1,infra,mobile-api,development,res-505052
+2026-01-23,SNS,2.3406,20.73,Requests,us-west-2,data,analytics,staging,res-933370
+2026-01-23,SNS,1.3967,56.07,Requests,us-west-2,infra,ml-pipeline,production,res-243492
+2026-01-23,SNS,3.1491,26.19,Requests,us-west-2,data,platform,production,res-238772
+2026-01-23,SNS,1.542,96.77,Requests,ap-southeast-1,data,mobile-api,staging,res-815866
+2026-01-23,SNS,1.2188,49.05,Requests,us-west-2,infra,platform,production,res-920519
+2026-01-23,SQS,5.248,3.98,Requests,us-east-1,data,web-app,staging,res-452075
+2026-01-23,SQS,1.6696,64.91,Requests,us-east-1,ml,platform,staging,res-779257
+2026-01-23,SQS,1.0632,37.32,Requests,us-east-1,infra,mobile-api,production,res-908568
+2026-01-23,SQS,2.6051,15.81,Requests,ap-southeast-1,infra,platform,staging,res-341250
+2026-01-23,API Gateway,2.3277,37.96,Requests,us-east-1,data,ml-pipeline,production,res-336637
+2026-01-23,API Gateway,2.6958,57.61,Requests,ap-southeast-1,infra,mobile-api,development,res-573196
+2026-01-23,API Gateway,9.2928,90.35,Requests,us-west-2,infra,web-app,production,res-220603
+2026-01-23,API Gateway,12.9466,72.24,Requests,us-west-2,backend,analytics,staging,res-952297
+2026-01-23,API Gateway,10.2601,73.2,Requests,us-east-1,infra,analytics,production,res-158874
+2026-01-23,Secrets Manager,1.9545,45.82,Secrets,us-west-2,infra,analytics,staging,res-219467
+2026-01-23,Secrets Manager,8.4586,4.18,Secrets,eu-west-1,frontend,mobile-api,production,res-317269
+2026-01-23,Secrets Manager,11.0738,77.46,Secrets,ap-southeast-1,infra,platform,staging,res-882592
+2026-01-24,EC2,49.8279,64.0,Hours,us-east-1,data,platform,development,i-109474
+2026-01-24,EC2,43.5099,52.28,Hours,us-east-1,infra,ml-pipeline,development,i-326429
+2026-01-24,EC2,55.2898,2.3,Hours,ap-southeast-1,frontend,mobile-api,development,i-726136
+2026-01-24,EC2,116.0161,21.26,Hours,ap-southeast-1,frontend,platform,development,i-489993
+2026-01-24,Lambda,7.7498,36.69,Requests,ap-southeast-1,frontend,web-app,development,func-787329
+2026-01-24,Lambda,4.4603,65.26,Requests,eu-west-1,ml,analytics,staging,func-558494
+2026-01-24,Lambda,15.3253,43.13,Requests,ap-southeast-1,backend,mobile-api,staging,func-197623
+2026-01-24,Lambda,10.0867,10.45,Requests,eu-west-1,frontend,mobile-api,development,func-346390
+2026-01-24,Lambda,13.2702,69.19,Requests,eu-west-1,data,ml-pipeline,development,func-730223
+2026-01-24,S3,41.2395,70.35,GB-Month,us-west-2,ml,ml-pipeline,development,res-382964
+2026-01-24,S3,41.192,3.37,GB-Month,ap-southeast-1,ml,platform,development,res-150942
+2026-01-24,S3,40.6998,65.81,GB-Month,eu-west-1,ml,web-app,staging,res-460546
+2026-01-24,S3,30.4951,10.67,GB-Month,ap-southeast-1,backend,ml-pipeline,staging,res-463811
+2026-01-24,RDS,95.6939,92.39,Hours,eu-west-1,infra,platform,production,db-317941
+2026-01-24,RDS,132.7473,26.87,Hours,eu-west-1,frontend,ml-pipeline,development,db-797031
+2026-01-24,RDS,87.1904,27.03,Hours,us-east-1,backend,platform,development,db-641632
+2026-01-24,RDS,72.2154,50.15,Hours,ap-southeast-1,ml,platform,staging,db-274615
+2026-01-24,RDS,131.7307,23.36,Hours,eu-west-1,backend,platform,development,db-855268
+2026-01-24,DynamoDB,23.5246,91.97,WCU-Hours,eu-west-1,data,web-app,development,res-629867
+2026-01-24,DynamoDB,62.2852,60.93,WCU-Hours,eu-west-1,frontend,mobile-api,staging,res-869047
+2026-01-24,DynamoDB,31.9284,46.56,WCU-Hours,us-east-1,infra,ml-pipeline,production,res-972483
+2026-01-24,CloudWatch,6.8775,67.29,Metrics,us-east-1,infra,ml-pipeline,staging,res-397041
+2026-01-24,CloudWatch,8.9931,56.03,Metrics,us-west-2,infra,ml-pipeline,development,res-501383
+2026-01-24,CloudWatch,8.7396,53.3,Metrics,ap-southeast-1,infra,platform,production,res-685174
+2026-01-24,CloudWatch,1.025,74.19,Metrics,ap-southeast-1,frontend,ml-pipeline,development,res-994692
+2026-01-24,CloudWatch,7.0031,39.66,Metrics,us-east-1,ml,ml-pipeline,production,res-155102
+2026-01-24,CloudFront,23.5106,51.54,GB,us-west-2,frontend,analytics,development,res-287813
+2026-01-24,CloudFront,28.2473,74.5,GB,us-west-2,infra,mobile-api,production,res-211299
+2026-01-24,CloudFront,26.6341,19.67,GB,us-west-2,frontend,web-app,staging,res-283212
+2026-01-24,CloudFront,8.3449,22.91,GB,us-west-2,data,web-app,staging,res-645994
+2026-01-24,EBS,39.7105,26.26,GB-Month,ap-southeast-1,ml,analytics,staging,res-868534
+2026-01-24,EBS,17.6797,3.06,GB-Month,us-east-1,ml,web-app,staging,res-968653
+2026-01-24,EBS,37.4195,82.05,GB-Month,us-east-1,backend,analytics,production,res-155877
+2026-01-24,EBS,31.7624,44.12,GB-Month,us-east-1,frontend,platform,production,res-110528
+2026-01-24,EBS,37.865,58.67,GB-Month,ap-southeast-1,infra,platform,production,res-584636
+2026-01-24,EKS,170.8327,71.77,Hours,eu-west-1,infra,web-app,staging,cluster-322545
+2026-01-24,EKS,187.0489,9.56,Hours,ap-southeast-1,data,analytics,staging,cluster-643272
+2026-01-24,EKS,101.5256,14.14,Hours,us-west-2,infra,web-app,development,cluster-395566
+2026-01-24,ElastiCache,67.0937,26.49,Hours,ap-southeast-1,ml,platform,development,cache-256197
+2026-01-24,ElastiCache,65.4709,87.97,Hours,us-west-2,data,ml-pipeline,development,cache-912105
+2026-01-24,ElastiCache,58.6508,44.25,Hours,us-west-2,data,mobile-api,staging,cache-640907
+2026-01-24,Route53,1.6485,4.74,Queries,ap-southeast-1,frontend,ml-pipeline,development,res-367562
+2026-01-24,Route53,2.8094,79.67,Queries,ap-southeast-1,backend,ml-pipeline,production,res-273019
+2026-01-24,Route53,5.5831,91.9,Queries,us-east-1,infra,analytics,development,res-559326
+2026-01-24,Route53,1.7056,91.36,Queries,eu-west-1,infra,analytics,production,res-951895
+2026-01-24,Route53,5.9041,41.28,Queries,us-east-1,data,web-app,development,res-252837
+2026-01-24,SNS,3.8941,34.85,Requests,us-east-1,frontend,web-app,staging,res-836170
+2026-01-24,SNS,2.5718,64.16,Requests,ap-southeast-1,infra,ml-pipeline,staging,res-820277
+2026-01-24,SNS,1.6307,50.4,Requests,us-west-2,ml,ml-pipeline,development,res-126611
+2026-01-24,SNS,1.1883,83.05,Requests,us-west-2,infra,analytics,staging,res-155843
+2026-01-24,SQS,2.4818,16.46,Requests,eu-west-1,frontend,ml-pipeline,production,res-843870
+2026-01-24,SQS,5.2684,9.82,Requests,us-east-1,infra,mobile-api,staging,res-903282
+2026-01-24,SQS,4.0847,44.94,Requests,us-west-2,ml,web-app,staging,res-399861
+2026-01-24,SQS,5.4919,30.08,Requests,ap-southeast-1,backend,mobile-api,staging,res-189204
+2026-01-24,API Gateway,5.3783,62.28,Requests,us-west-2,frontend,ml-pipeline,staging,res-201612
+2026-01-24,API Gateway,19.7429,82.82,Requests,ap-southeast-1,backend,web-app,production,res-127731
+2026-01-24,API Gateway,18.6746,20.25,Requests,ap-southeast-1,frontend,platform,staging,res-670266
+2026-01-24,Secrets Manager,6.9077,88.05,Secrets,us-east-1,ml,platform,development,res-945109
+2026-01-24,Secrets Manager,4.0922,70.25,Secrets,us-west-2,infra,mobile-api,staging,res-462756
+2026-01-24,Secrets Manager,7.6523,99.85,Secrets,ap-southeast-1,data,ml-pipeline,staging,res-617222
+2026-01-24,Secrets Manager,4.4419,11.94,Secrets,us-west-2,infra,web-app,staging,res-348729
+2026-01-24,Secrets Manager,4.3274,71.01,Secrets,ap-southeast-1,frontend,mobile-api,production,res-320712

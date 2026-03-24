@@ -1,260 +1,165 @@
-# SpendLens 💰
+# SpendLens
 
-**Cloud cost visibility and optimization engine**
+AWS cost aggregation and recommendation engine for multi-team organizations.
 
-SpendLens helps teams understand and optimize their cloud spending by ingesting AWS billing data, aggregating costs, and generating actionable optimization recommendations.
+Ingests AWS billing CSVs (monthly or on-demand), aggregates costs by service/team/environment, and generates 4 types of cost optimization recommendations: idle resource detection, storage class optimization, instance right-sizing, and reserved instance candidates.
 
----
+## Evidence
 
-## 🚀 Quick Start
+**CSV Ingestion & Parsing** — Python batch worker parses both CUR (Cost and Usage Report) and simplified billing CSV formats. Supports AWS standard columns (date, service, region) plus custom tags (team, project, environment, resource_id).
 
-**New to SpendLens?** Start here: **[QUICKSTART.md](QUICKSTART.md)**
+(`worker/csv_parser.py`)
 
----
+**Cost Aggregation** — Daily and monthly cost rollups grouped by:
+- Service (EC2, S3, RDS, Lambda, etc.)
+- Team (via tag)
+- Environment (production, staging, dev, via tag)
+- Region (optional)
 
-## 📚 Documentation
+Computed aggregations stored in Supabase PostgreSQL.
 
-- **[QUICKSTART.md](QUICKSTART.md)** - 5-minute setup guide
-- **[BACKEND_README.md](BACKEND_README.md)** - Comprehensive backend documentation
-- **[three_projects_plan.pdf](three_projects_plan.pdf)** - Original project specification
+(`worker/aggregator.py`)
 
----
+**Recommendation Engine** — Analyzes aggregated spend and generates 4 recommendation types:
+1. **Idle Resources** — Services with zero usage hours over lookback window
+2. **Storage Optimization** — S3 storage classes + EBS volume consolidation
+3. **Right-Sizing** — High-cost services with low utilization (compute instances, RDS)
+4. **Reserved Instances** — Steady workloads eligible for RI purchases (cost/benefit analysis)
 
-## 🏗️ Architecture
+Each recommendation includes: estimated monthly savings, implementation effort, confidence score.
 
-### Frontend
-- **Framework**: React + TypeScript + Vite
-- **UI**: Tailwind CSS + shadcn-ui components
-- **Features**: 
-  - Real-time cost dashboards
-  - Interactive charts and visualizations
-  - Budget alerts management
-  - What-if cost simulator
-  - AI-powered recommendation prioritization
+(`worker/recommendation_engine.py`)
 
-### Backend
-- **Database**: Supabase (PostgreSQL with Row Level Security)
-- **Edge Functions**: Deno-based serverless functions
-  - AI recommendation prioritization
-  - Budget alert notifications (via Resend)
-- **Batch Worker**: Python-based CSV processor
-  - CSV parsing and normalization
-  - Cost aggregation (daily/monthly)
-  - Recommendation engine
+**Multi-Tenant Isolation** — Supabase PostgreSQL with Row-Level Security (RLS) policies. Each user sees only their organization's costs and recommendations.
 
-### Data Flow
-```
-AWS Billing CSV → Python Worker → Supabase → React Dashboard
-                       ↓
-                  Recommendations
-```
+(`supabase/migrations/` — RLS policies on costs, recommendations, budgets tables)
 
----
+**Budget Alerts** — Set per-service/per-team/per-environment cost thresholds. Alerts via email (Resend integration) when budget exceeded.
 
-## 🛠️ Tech Stack
+(`supabase/functions/send-budget-alert.ts`)
 
-### Frontend
-- React 18
-- TypeScript
-- Vite
-- Tailwind CSS
-- shadcn-ui
-- Recharts (data visualization)
+**Dashboard** — React 18 + Recharts visualization:
+- Daily/monthly cost trends by service
+- Service-level cost breakdown
+- Top-cost services ranking
+- Budget consumption progress
+- Recommendation list with implementation guidance
 
-### Backend
-- Supabase (PostgreSQL + Auth + Edge Functions)
-- Python 3.9+ (batch processing)
-- pandas (data aggregation)
-- psycopg2 (database connectivity)
+(`src/pages/DashboardPage.tsx`, `src/components/CostTrendChart.tsx`)
 
-### Infrastructure
-- Vercel/Netlify (frontend hosting)
-- Supabase (managed PostgreSQL)
-- GitHub Actions (optional batch scheduling)
+**What-If Simulator** — Model cost changes from configuration updates (storage class changes, instance downsizing, retention policy adjustments). Projects estimated savings.
 
----
+(`src/pages/SimulatorPage.tsx`)
 
-## 💡 Key Features
+**Stack** — React 18, Vite, Supabase (PostgreSQL + Auth + Edge Functions), Python 3.9+ (pandas, psycopg2), Tailwind CSS, shadcn-ui, Recharts.
 
-### Cost Analysis
-- **Daily/Monthly aggregations** grouped by service, team, and environment
-- **Service-level breakdowns** with trend analysis
-- **Tag-based filtering** for multi-team organizations
+## How It Works
 
-### Recommendations
-4 types of cost optimization recommendations:
+1. **Export AWS billing CSV** → Download from AWS Cost Management or use Cost and Usage Reports (CUR)
+2. **Load into SpendLens** → Run Python worker: `python3 batch_aggregator.py billing.csv --org-id ORG_ID`
+3. **Worker processes** → Parser normalizes CSV → Aggregator computes daily/monthly rollups → Recommendation engine generates suggestions
+4. **Data persists to Supabase** → All team members see aggregated costs + recommendations via dashboard
+5. **User sets budgets** → Define per-service or per-team thresholds → Alerts trigger if exceeded
+6. **Optimize** → Review recommendations → Use simulator to model changes → Update cloud infra
 
-1. **🔴 Idle Resources** - Detect and eliminate underutilized resources
-2. **💾 Storage Optimization** - S3 storage class and EBS volume optimization
-3. **📏 Right-Sizing** - Instance sizing recommendations for high-cost services
-4. **💰 Reserved Instances** - Identify steady workloads for RI purchases
+## Getting Started
 
-### Budget Management
-- Set thresholds per service/team/environment
-- Email alerts when budgets are exceeded
-- Visual tracking of budget consumption
-
-### What-If Simulator
-- Model cost changes from configuration changes
-- Compare retention policies, instance sizes, storage classes
-- Projected savings estimates
-
----
-
-## 📁 Project Structure
-
-```
-SpendLens/
-├── src/                    # React frontend
-│   ├── components/         # UI components
-│   ├── pages/              # Page components
-│   ├── hooks/              # Custom React hooks
-│   └── integrations/       # Supabase client
-├── supabase/
-│   ├── migrations/         # Database schema
-│   └── functions/          # Edge functions
-├── worker/                 # Python batch processor
-│   ├── batch_aggregator.py # Main orchestrator
-│   ├── csv_parser.py       # CSV parsing
-│   ├── aggregator.py       # Cost aggregation
-│   ├── recommendation_engine.py
-│   ├── database.py         # DB utilities
-│   └── tests/              # Unit tests
-└── scripts/
-    ├── generate_sample_billing.py
-    └── load_sample_data.sh
-```
-
----
-
-## 🚦 Getting Started
+### Prerequisites
+- Supabase account (PostgreSQL database)
+- AWS billing CSV (export from AWS Cost Management or CUR)
+- Python 3.9+ (local worker processing)
 
 ### Frontend Setup
-
 ```bash
-# Install dependencies
 npm install
-
-# Start development server
-npm run dev
+npm run dev  # http://localhost:5173
 ```
 
 ### Backend Setup
-
-See **[QUICKSTART.md](QUICKSTART.md)** for detailed instructions.
-
-Quick version:
 ```bash
-# Install Python dependencies
 cd worker
-pip3 install -r requirements.txt
-
-# Configure database
+pip install -r requirements.txt
 cp .env.example .env
-# Edit .env with your Supabase credentials
-
-# Load sample data
-cd ..
-./scripts/load_sample_data.sh <your-org-id>
+# Edit .env with Supabase connection string
 ```
 
----
-
-## 📊 Sample Data
-
-Generate realistic AWS billing data for testing:
-
+### Load Sample Data
 ```bash
+# Generate 30 days of synthetic billing data
 python3 scripts/generate_sample_billing.py --days 30 --output billing.csv
+
+# Process with worker
+python3 batch_aggregator.py billing.csv --org-id demo-org
+
+# Open dashboard: http://localhost:5173
 ```
 
-This creates a CSV with:
-- 15 AWS services (EC2, S3, RDS, Lambda, etc.)
-- Realistic cost ranges
-- Team/project/environment tags
-- Resource IDs
-
----
-
-## 🧪 Testing
-
-### Frontend Tests
+### Custom CSV Processing
 ```bash
+python3 batch_aggregator.py /path/to/your/billing.csv --org-id your-org-id
+```
+
+## CSV Format
+
+Parser supports two formats:
+
+**Simplified** (recommended for testing):
+```
+date,service,cost,usage,unit,region,team,project,environment,resource_id
+2024-01-15,EC2,125.50,100,Hours,us-east-1,backend,web-app,production,i-123456
+2024-01-15,S3,45.20,500,GB-Month,us-west-2,data,analytics,production,
+```
+
+**AWS CUR** (standard format):
+- Automatically detected and normalized by parser
+- Supports all CUR columns + custom tags
+
+## Testing
+```bash
+# Frontend
 npm run test
-```
 
-### Backend Tests
-```bash
+# Backend
 cd worker
 python3 -m pytest tests/
 ```
 
----
-
-## 📈 Production Deployment
+## Deployment
 
 ### Frontend
-Deploy to Vercel or Netlify:
-- Connect GitHub repository
-- Set environment variables
-- Auto-deploy on push
-
-### Backend Worker
-Schedule batch processing:
-
-**Option 1: GitHub Actions** (Free)
-```yaml
-on:
-  schedule:
-    - cron: '0 2 * * *'  # Daily at 2 AM
+```bash
+npm run build
+# Deploy to Vercel, Netlify, or any static host
 ```
 
-**Option 2: Cron** (Server)
-```cron
-0 2 * * * cd /path/to/worker && python3 batch_aggregator.py billing.csv --org-id ORG_ID
+### Worker
+- **GitHub Actions** — Schedule CSV processing via Actions workflow
+- **Cron** — `0 2 * * * python3 batch_aggregator.py /billing/latest.csv --org-id ORG_ID`
+- **Docker** — Build and deploy worker as container with scheduled triggers
+
+## Architecture
+
+```
+AWS Billing CSV
+      ↓
+Python Worker Pipeline
+  ├─ csv_parser.py   → Normalize CSV
+  ├─ aggregator.py   → Daily/monthly rollups
+  └─ recommendation_engine.py → Generate 4 recommendation types
+      ↓
+Supabase PostgreSQL (RLS-protected)
+      ↓
+React Dashboard
+  ├─ Cost trends (Recharts)
+  ├─ Service breakdown
+  ├─ Budget alerts
+  └─ What-if simulator
 ```
 
----
+## Security
+- **Row-Level Security** — All tables (costs, recommendations, budgets) protected by RLS policies
+- **Multi-tenant isolation** — Users see only their organization's data
+- **No secrets in git** — `.env` file gitignored, credentials in Supabase Secrets Manager
 
-## 🔒 Security
-
-- **Row Level Security (RLS)**: All database tables protected
-- **Multi-tenant isolation**: Users only see their organization's data
-- **JWT authentication**: Supabase handles auth
-- **API key scoping**: Edge functions use scoped access
-
----
-
-## 📝 License
-
-This project is part of a portfolio demonstration.
-
----
-
-## 🤝 Contributing
-
-This is a portfolio project. For questions or feedback, please open an issue.
-
----
-
-## 🎯 Project Goals
-
-Built to demonstrate:
-- Full-stack development (React + Python + PostgreSQL)
-- System design (event-driven, batch processing)
-- Data engineering (CSV ingestion, aggregation)
-- Business acumen (cost optimization, ROI calculations)
-- Production-ready code (testing, documentation, error handling)
-
----
-
-## 📚 Learn More
-
-- [Supabase Documentation](https://supabase.com/docs)
-- [React Documentation](https://react.dev)
-- [Tailwind CSS](https://tailwindcss.com)
-- [AWS Cost and Usage Reports](https://docs.aws.amazon.com/cur/latest/userguide/what-is-cur.html)
-
----
-
-**Ready to optimize your cloud costs?** Start with **[QUICKSTART.md](QUICKSTART.md)** 🚀
+## License
+MIT
